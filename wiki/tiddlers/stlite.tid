@@ -1,0 +1,10 @@
+created: 20221111203618018
+modified: 20221111203704618
+tags: Python [[web dev]]
+title: stlite
+type: text/vnd.tiddlywiki
+
+<<<
+stlite is a port of Streamlit to Wasm, powered by Pyodide, that runs completely on web browsers.
+<<<
+https://edit.share.stlite.net/

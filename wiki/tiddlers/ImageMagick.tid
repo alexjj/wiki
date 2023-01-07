@@ -1,0 +1,18 @@
+created: 20210823201156038
+creator: alexjj
+modified: 20210823201224265
+modifier: alexjj
+tags: Software Photography
+title: ImageMagick
+type: text/vnd.tiddlywiki
+
+An incredible tool...
+
+Find all jpg (and JPG) files in folder and subfolder and reduce quality to 80%:
+
+`find . -iname '*.jpg' -execdir mogrify -quality 80 {} \;
+`
+
+Convert contents of folder:
+
+`mogrify -quality 80 *.jpg`

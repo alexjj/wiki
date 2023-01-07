@@ -1,0 +1,13 @@
+created: 20211110101715305
+creator: alexjj
+modified: 20211209122059904
+modifier: alexjj
+tags: note-taking
+title: Zettlekasten
+type: text/vnd.tiddlywiki
+
+Based upon a German individual who kept a notes system that proved to be very productive. Not sure I need to produce anything but I want to improve myself. If I need inspiration of what I could make there's [[this|https://zettelkasten.sorenbjornstad.com/]].
+
+He makes a good looking tiddlywiki and cli for managing one: https://github.com/sobjornstad/tzk
+
+<iframe width="894" height="503" src="https://www.youtube.com/embed/9X_T-DVie8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,0 +1,44 @@
+created: 20210912195613399
+creator: alexjj
+modified: 20220428213748520
+modifier: alexjj
+tags: Software blogging
+title: Hugo Themes
+type: text/vnd.tiddlywiki
+
+Here's a list of ones I like, either as nice for blogs or just fun looking:
+
+* [[PaperCss|https://papercss-hugo-theme.netlify.app/]]
+** Main thing is the papercss font. Sort of drawing/handwriting look
+* [[Vitae|https://themes.gohugo.io/themes/hugo-vitae/]]
+** simple, maybe the dates are a bit //too// big?
+* [[Tanka|https://themes.gohugo.io/themes/hugo-tanka/]]
+** Minimal, regular blog. I like the code rendering and uses Utterances for comments (which is simple to setup and maintain but maybe not handy for readers, although given I've had about 3 comments ever in 6+ years I shouldn't worry too much...althuogh maybe people were put off by github 😅)
+* [[Paperesque|https://themes.gohugo.io/themes/paperesque/]]
+** I like the side notes and the central column style. The tags page is meh. Has magically image resizing but unless I can bake this into fortresty then I'll probably forget the shortcode. However, a favourite so far.
+* [[Neofeed|https://themes.gohugo.io/themes/v2/]]
+** Looks awesome, and full of indieweb stuff. More like a personal micro.blog replacement (or maybe theme for that?) not sure it's great for longer posts.
+* [[PaperMod|https://github.com/adityatelange/hugo-PaperMod]]
+** Nothing special looking but feature rich. Not entirely sure I like the capsule post list on the first page.
+* [[Github style|https://themes.gohugo.io/themes/github-style/]]
+** A clever design that looks exactly like github
+* [[Ink Free|https://themes.gohugo.io/themes/ink-free/]]
+** Clean, minimal blog. I like the date style.
+** Similar to Vitae above
+* [[Devise|https://themes.gohugo.io/themes/devise/]]
+** Very minimal
+* [[Hugo-theme-console|https://themes.gohugo.io/themes/hugo-theme-console/]]
+** A linux console theme but quite well done
+* [[Origin|https://themes.gohugo.io/themes/origin-hugo-theme/]]
+** heavy shadows, nice look. not sure about he menu.
+
+Others still to look at:
+
+* https://themes.gohugo.io/themes/hugo-theme-notrack/
+* https://hugoloveit.com/
+
+
+Notable mentions to:
+
+* [[The longest readme/instructions page - yet still looks jank.|https://themes.gohugo.io/themes/hugo-theme-w3css-basic/]]
+* [[Good book site|https://themes.gohugo.io/themes/kitab/]]

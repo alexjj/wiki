@@ -1,0 +1,16 @@
+created: 20210808094912103
+modified: 20210808095450953
+tags: 
+title: $:/plugins/kiasu/RandomTiddlerButton/readme
+type: text/vnd.tiddlywiki
+
+RandomTiddlerButton simply adds a random tiddler button to TiddlyWiki's page toolbar.
+
+You can override the filter behaviour at [[$:/core/ui/Actions/RandomSelection]]. It currently opens one random non-system tiddler when clicked (i.e. ``[!is[system]random[1]]``).
+
+Requires [[Tobibeer's random plugin|https://tobibeer.github.io/tw5-plugins/#random]] to work.
+
+For more information:
+
+* [[Live instance/documentation|https://sonephetr2.github.io/RandomTiddlerButton/]].
+* [[GitHub|https://github.com/SonephetR2/TW5RandomTiddlerButton]].

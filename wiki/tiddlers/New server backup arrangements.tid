@@ -1,0 +1,13 @@
+created: 20221125110416546
+modified: 20221125111720581
+tags: Hardware
+title: New server backup arrangements
+type: text/vnd.tiddlywiki
+
+New server will be master. Will backup to old on weekly basis.
+
+Web apps backup - could be to new server? or stay on old? Might be handy to have on new, and probably not much space needed. Things like dokuwiki, ghost, bitwarden etc.
+
+Weekly turning on of old server and then jobs running.
+
+One thing that would be good to figure out is backup for onedrive/icloud/dropbox stuff onto the server. Perhaps running a client on my windows desktop to sync it back would be the best thing. syncthing or something like that?

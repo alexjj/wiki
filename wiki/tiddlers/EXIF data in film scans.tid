@@ -1,0 +1,33 @@
+created: 20211107061647652
+creator: alexjj
+modified: 20211107152112599
+modifier: alexjj
+tags: Photography Software
+title: EXIF data in film scans
+type: text/vnd.tiddlywiki
+
+Want to add as much info to film scans that I can. I don’t record aperture or shutter speed when I take pictures so that’ll have to go missing but would be good to have:
+
+* Camera make
+* Camera model
+* Lens make
+* Lens model
+* Focal length
+* ISO
+* Date taken
+* Film Stock
+
+exiftool is the obvious choice.
+
+Overwrite a folder of images:<br>
+`exiftool -m -Make=Leica -Model=M2 -Copyright='Alex Johnstone' -Artist="Alex Johnstone" -ISO=100 -FocalLength=35 -LensManufacturer=Voigtlander -LensModel='35mm f/1.4 II Nokton-Classic MC' -DateTimeOriginal='2021:09:11 12:00:00' -UserComment="Kosmos" -overwrite_original .`
+
+* ~ExposureProgram = 1 is manual
+* ~UserComment for film stock?
+* ~DateTimeOriginal when photo was taken. Needs everything for EXIF.
+* ~AllDates tag is a shortcut which represents the 3 common metadata date/time tags: ~DateTimeOriginal, ~CreateDate and ~ModifyDate.
+* Artist for author?
+
+[[Also this tool|http://analogexif.sourceforge.net/help/mainwindow.php]]
+
+If I was really keen I could make my own Exif series for film and even edit [[PhotoFloat]] to show it. That would be cool, especially if I do home developing. Have a digital or film flag and then adjust the info.

@@ -1,0 +1,27 @@
+created: 20211113210254574
+creator: alexjj
+modified: 20211113211652668
+modifier: alexjj
+tags: Software
+title: Interesting note apps
+type: text/vnd.tiddlywiki
+
+Not sure I have use for them but I liked them:
+
+* [[Clone of notepad.cc|https://github.com/pereorga/minimalist-web-notepad]]
+** Just page you can write in, if you remember the URL you can edit it
+* Notes n' todos [[Demo|https://lpss.dk/nnt-playground/book1/]], [[Source|https://github.com/larspontoppidan/notesntodos]]
+** More of a personal one vs. public
+** Use nginx htpasswd to secure
+* [[Joplin|https://joplinapp.org/]]
+** Self-hosted storage and apps on all devices. Like Bear or Apple Notes but self hosted.
+* Writing. [[Source|https://github.com/josephernest/writing]], [[Demo|https://josephernest.github.io/writing/]]
+** Write and preview markdown. 
+** Saves to .md or .pdf. Seems quick. 
+* VS Code in the broswer. [[Source|https://github.com/cdr/code-server]]
+** Good tool for iPad development on remote server
+* [[Jingo wiki|https://github.com/claudioc/jingo]]
+** node.js wiki, uses git as backend, auth via OAith (e.g. github) 
+* Outline. [[Source|https://github.com/outline/outline]]. [[Hosted version|https://www.getoutline.com/]].
+** Not an outliner
+** Seems better for documentation.

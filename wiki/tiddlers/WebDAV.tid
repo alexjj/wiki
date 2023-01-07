@@ -1,0 +1,59 @@
+created: 20211226224027650
+creator: alexjj
+modified: 20211226230405008
+modifier: alexjj
+tags: Software
+title: WebDAV
+type: text/vnd.tiddlywiki
+
+Nginx config `/etc/nginx/conf.d/webdav.conf`
+
+```
+server {
+    listen 80;
+    listen [::]:80;
+
+    server_name <URL>;
+
+
+    
+    location / {
+    	
+	root /home/alex/dav;
+    	auth_basic "Restricted Content";
+    	auth_basic_user_file    /etc/nginx/.htpasswd;
+
+    	dav_methods     PUT DELETE MKCOL COPY MOVE;
+    	dav_ext_methods PROPFIND OPTIONS;
+    
+    	dav_access      user:rw group:rw all:r;
+	    autoindex on;
+
+    	client_body_temp_path   /tmp/nginx/client-bodies;
+    	client_max_body_size    0;
+    	create_full_put_path    on;
+    }
+    
+    location ~ \.(_.*|DS_Store|Spotlight-V100|TemporaryItems|Trashes|hidden|localized)$ {
+    	access_log  off;
+    	error_log   off;
+
+    	if ($request_method = PUT) {
+        	return 403;
+    	}
+    		return 404;
+    }
+
+    location ~ \.metadata_never_index$ {
+    	return 200 "Don't index this drive, Finder!";
+    }
+
+}
+```
+
+Create htpasswd file:
+
+```bash
+sudo sh -c "echo -n 'alex:' >> /etc/nginx/.htpasswd"
+sudo sh -c "openssl passwd -apr1 >> /etc/nginx/.htpasswd"
+```

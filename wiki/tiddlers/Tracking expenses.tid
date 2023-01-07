@@ -1,0 +1,131 @@
+created: 20210809140252247
+creator: alexjj
+modified: 20210811072556453
+modifier: alexjj
+tags: Money
+title: Tracking expenses
+type: text/vnd.tiddlywiki
+
+!! Background
+
+For a long time I did nothing. Then around late 2014 I decided I should track my expenses. I was reading a lot more about personal finances and planning for the future etc. and the first step was understanding what we were spending now, both to make sure it was under control but also to estimate future expenses.
+
+I started with YNAB, bought it in a Steam sale for £5. Was my first insights into it and, once I got used to its system, I quite liked it. It really brought to my attention where money was going. I entered everything manually and that made me read and see everything we spent. I think I did automated the credit card (most transactions) after a while. Although I didn't like the messiness of the default transaction names from importing directly.
+
+After a while I found I didn’t like my initial setup of account structure, I think I maybe redid it a couple of times. I also didn’t like how I couldn’t track taxes or mortgage interest without doing things differently. Plus having to manage two currencies in two YNAB files was a pain. I started searching for other methods that could do everything all together and came across ledger, and then beancount. I think I used ledger for a while but didn’t like how it processed everything in order of it written. As I was including separate accounts it would go past to present over each account. This doesn’t matter for doing reports within ledger but for plotting graphs it made the data all weird. I don’t remember the exact details but after finding and reading the hundreds of pages of documentation of beancount I decided I liked it much better. It is a lot more rigorous and everything has to be declared. 
+
+I used beancount for a quite a while, maybe 2 years?, and loved it even more when fava came along. It just made it so much more enjoyable to use. I pretty much kept doing everything by hand as I found it beneficial. I did make a script to automate generating the syntax for each transaction, then all I had to do was change the category.
+
+One time the gap between the reconciling became very long and I also didn’t like my categories. It mostly fell to the wayside and I stopped updating it. I found that it wasn’t very good for doing longer term planning. It was a good input but that was it. I then spent a while transplanting all the data into a Google sheets, as this is what I used for FIRE planning. That was okay but quickly became tricky and error prone. I decided to abandon it.
+
+After a period of doing nothing, I picked up Money Dashboard to automatically collect and categorise my transactions. They make use of Open Banking API so it’s secure and the app is free. I.e. the sell your data to make money or have partner offers or something. This automation is nice. I have a few of my own categories which I change things to and it mostly remembers them. It also makes it easy to reassign transactions by opening the app and changing it. This helps keeps it up to date. Each month I then copy down the totals of each category into my google sheets. This is really all I’m interested in, and then it allows me to see what we spend over the year and how much I should be saving. The automation part does mean I’m not closely aware with what we’re spending. I see all the transactions and recategorise some but my brain doesn’t engage with them, I just gloss over them. I look at the tables of totals and wonder what it was we bought. The categories I have don’t match up very well with the annual budget I’ve done, so that makes things harder to reconcile. I don’t want to change the money dashboard now as part way through the year. If I keep using it I’ll change it for the start of 2022.
+
+I use Google sheets to track other things such as: 
+
+* Taxes
+* Mortgage interest, payments and forecast for amount owed
+* Investments
+* Budget and annual expenses summary
+* Pension
+
+I find it better suited than ledger-likes for these.  I have thought about doing a month write up of expenses to try and get that mental engagement with what we’ve spent so I have a better feel for it but so far haven’t done anything. I might use this to do that. Although maybe that’s too personal and should be part of [[Private]].
+
+!! What do I want
+
+The automated transaction is not working for me. I don’t pay attention and I don’t know what is going on. However, there’s also the approach that tracking expenses is easy - just don’t buy anything. That’s fine for discretionary items and crap I buy, that I probably don’t need (like another domain name or camera!). However, for bills and things for the kids I want to see how this trends over time so I can better estimate for the future. So a plain text accounting program seems like the approach I should take. 
+
+The things that get in the way is if I start tracking taxes and mortgage interest as expenses. They are expenses but they distract from what I’m trying to achieve and whilst it’s good to have everything altogether, I find it annoying. Yes, I can filter them out but why add them in if I’m always filtering them out. I like having mortgage interest in a spreadsheet to reconcile against my forecast and taxes in it to compared against the calculated amount for the year. Yes I can track those things with ledger-likes and still do the same but I don’t want to. Mostly I want to look at the default reports or website and see the answers immediately. It’s purpose is expense tracking of things we buy and pay for post-tax and with the intent of seeing how much money we need long term from the perspective of our bank account.
+
+I’m thinking of using [[hledger]] instead of beancount that I previously used. Why?
+
+* Can have spaces in account names
+* I like the look of the web and ui interface - fava is nice so not quite an advantage although hledger-ui over ssh is appealing as then not a website I’m looking at from work.
+* the csv import seems good, although that breaks my manually entry method thoughts. The bean-import was too complicated for me to figure out.
+* hledger-add is a nice straight forward way to add transactions. This seems to be a good compromise between automated importing and writing it all by hand. I have to look down each transaction and add it in, but the script does the grunt work for me. At least that’s what I think.
+* A change of software is like a change of scene. Things are still the same but the difference makes me feel motivated.
+
+So it’s decided…now I just need to figure out how I’m going to arrange things and manage it. 
+
+!! The setup
+
+To make use of hledger-add in a way that I think is most useful is to have separate journal files for each account. So current, savings, credit cards, all as individual journals and then the master journal including them all. That way I can switch between them and add transactions which go to the bottom. 
+
+Issues might be:
+
+* Transfer transactions - where do they sit? I think from the sending account.
+* consistency of account names - I wonder if the autocomplete can handle the different files or more can I remember them all. Probably once I’ve gone back to 1/1/2021 then there’ll be enough that it’ll work. 
+* Too many transactions in one file? 
+** A few people seem to want to split by year so that reports and things don’t take long to load. Although I can’t see how it takes a long time to load. But also as they’re only interested in one year. With UK tax year being April to April I don’t want to split by year (although I realise that I’m omitting tracking taxes but I still get interest income which I’ll track)
+
+I think these are all surmountable issues, at least from my current position.
+
+I’m going to start from the beginning of 2021. It’s 8 months of transactions to go back and do, which is a bit of a pain and I might not be able to remember them. I do have money dashboard downloads to use so should be mostly fine. Stuff like Amazon is always a pain as I never remember what it is even when categorising a few days later, or my wife bought stuff and I’m not entirely sure what it was - gifts vs. shopping vs. household essentials is usually the challenge. But whatever…roll with the punches.
+
+!!! Accounts
+
+Aim to keep it as simple as possible. This means fewer levels and fewer categories. Maybe using tags although not sure that’s reliable. Tags like `annuals` might be good, e.g. car insurance and servicing etc.? Or `Uniques`? Things like home improvements or stuff that’s less frequent than annually. E.g. flooring loft, new bike, new car… I like that idea actually. Good to filter it on/off to see baseline spend plus unexpected things. 
+
+I wonder about using emojis 🦄 as tags. That might be quite fun.  
+
+* 🦄 - uniques
+* 📅 - annuals
+* …? Hobbies? 💻 vs 📷?
+
+come back to that.
+
+!!!! Income
+
+Income-wise it’s going to be :
+
+* Salary after tax and dedications, i.e. net to my bank account
+** Maybe bonus has a separate item
+* Bank account interest
+** `Income:Interest`. The payee will include the bank name and for taxes I don’t care where it comes from, just the total.
+** Gifts. Again, the payee will say who from. Sometimes this is tricky with money owed if it’s a whole bunch of stuff all together, but minor.
+
+Work expenses will just get charged back to the expense item. Probably Misc., which will be covered below.
+
+!!!! Expenses
+
+I want these to mirror how I’ve budgeted and to be useful at a glance to see what’s changed. I think that might mean I want more categories than before - which is perhaps against my objective. I suppose making use of more layers is probably the way, and then just the reporting can limit it.
+
+Things that don’t change should be grouped and things that do shouldn’t be. E.g. mortgage, council tax don't change year on year. I want to keep mortgage separate and eventually this will be gone.
+
+* Mortgage
+* Bills
+** Utilities
+** Internet
+** Mobile
+** Insurance
+** Council Tax
+** Property Fees
+** Maintenance
+** Cleaner
+** TV License
+* Food
+** Groceries
+** Eating Out
+* Transport
+** Fuel
+** Servicing (inc. MOT)
+** Repairs
+** Insurance
+* Activities
+* Shopping
+* Gifts
+* Kids
+* Hobbies (this is just me buying stuff but avoiding calling it Alex 😅)
+* Holidays
+* Health (or maybe Personal and then other random stuff can go in it)
+* Subs (Not sure about this one but I want to keep an eye on them all, don’t think I need sub-accounts though)
+* Zisc - miscellaneous but spelt with a Z to put it to the bottom of the list. Be nice to avoid this.
+
+Money I put into savings accounts - should that be expenses or transfers? Probably transfers and then 💷 tag for savings?
+
+!!! Reports
+
+Generally just want a monthly summary of all accounts, income statement I think it’s called. Shows total income vs. total expenses, can have it at certain layers. Mostly the reports are commands so once I figure out what I want I can script it. Hledger can also output to html, so can get it to generate a page to view online if I want, which also might be easiest for copy and pasting into google sheets. I’m sure that could be scripted too but it’s just one copy/paste a month so probably not worth it.
+
+!!! Get on with it
+
+Okay well I think that’s everything. Now all I need to do is start and back fill this year’s data! 

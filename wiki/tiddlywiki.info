@@ -1,0 +1,12 @@
+{
+    "plugins": [
+        "tiddlywiki/filesystem",
+        "tiddlywiki/highlight",
+        "tiddlywiki/tiddlyweb"
+    ],
+    "themes": [
+        "tiddlywiki/centralised",
+        "tiddlywiki/snowwhite",
+        "tiddlywiki/vanilla"
+    ]
+}

@@ -1,0 +1,11 @@
+abstract: Navigate to a random tiddler
+created: 20210725102925324
+modified: 20210808074924225
+tags: $:/tags/Actions
+title: $:/core/ui/Actions/RandomSelection
+
+\define navigateTo(link)
+<$action-navigate $to="$link$" />
+\end
+
+<$macrocall $name="navigateTo" link={{{ [!is[system]random[1]] }}} />

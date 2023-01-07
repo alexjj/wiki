@@ -1,0 +1,27 @@
+created: 20230104070815814
+creator: alex
+modified: 20230106171523742
+modifier: alex
+tags: Meta
+title: Generating static site
+type: text/vnd.tiddlywiki
+
+Notes on building a static site from a node.js version.
+
+Preferred way turned out to use a [[script|Building static sites from nodejs version]]. 
+
+Use the build command to make a single file from the index build:
+
+```
+tiddlywiki ~/dev/wiki --output <your target dir> --build index
+```
+
+If no build target is specified then all are built.
+
+!!! Reference
+
+* [[Render command|https://tiddlywiki.com/#RenderCommand]]
+* [[Tiddlywiki.files|https://tiddlywiki.com/static/tiddlywiki.files%2520Files.html]]
+* [[TW Github scripts|https://github.com/Jermolene/TiddlyWiki5/tree/master/bin]]
+* [[Jack's guide|https://baty.net/2021/writing-everything-in-tiddlywiki]]
+* See also: [[Convert single file TW to node.js]] for the reverse

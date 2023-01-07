@@ -1,0 +1,7 @@
+created: 20221010205158084
+modified: 20221010205244172
+tags: Python Programming Hardware
+title: Circuit python
+type: text/vnd.tiddlywiki
+
+To run on things like [[this|https://www.adafruit.com/product/5000]]: the Adafruit ESP32-S2 Feather.

@@ -1,0 +1,20 @@
+created: 20211106130355371
+creator: alexjj
+modified: 20220117204308386
+modifier: alexjj
+tags: Software
+title: PhotoFloat
+type: text/vnd.tiddlywiki
+
+A nice static gen photo site generator. Creates one page of multiple galleries.
+
+This guy seems to have kept a version of it more up to date than the original author. https://github.com/joachimtingvold/photofloat
+
+[[Merged his updates with my repo.|https://github.com/alexjj/photofloat]]
+
+Run it
+
+```bash
+$ cd ../scanner
+$ ./main.py ../web/albums ../web/cache
+```

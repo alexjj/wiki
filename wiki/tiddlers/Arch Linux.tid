@@ -1,0 +1,107 @@
+created: 20210823195948362
+creator: alexjj
+modified: 20220514133217078
+modifier: alexjj
+tags: Software
+title: Arch Linux
+type: text/vnd.tiddlywiki
+
+!! Installation Notes
+
+''[[READ THE WIKI THOUGH!|https://wiki.archlinux.org/]]''
+
+!!! Encrypted SSD and UEFI
+
+!!!! Partition
+
+Using `gdisk` make 550MB EFI partition, code EF00, and rest single partition.
+
+`mkfs.vfat -F32 /dev/sda1`
+
+!!!! Wipe the drive
+
+<code>cryptsetup open --type plain -d /dev/urandom /dev/sda2 to_be_wiped
+dd if=/dev/zero of=/dev/mapper/to_be_wiped status=progress
+cryptsetup close to_be_wiped
+</code>
+
+!!!! Setup the encryption of the system
+
+[[Wiki|https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system#LVM_on_LUKS]]
+
+<code>cryptsetup luksFormat /dev/sda2
+cryptsetup luksOpen /dev/sda2 luks
+</code>
+
+!!!! Create encrypted partitions
+
+<code>pvcreate /dev/mapper/luks
+vgcreate vg0 /dev/mapper/luks
+lvcreate -L 8G vg0 -n swap
+lvcreate -l +100%FREE vg0 -n root
+</code>
+
+!!!! Create filesystems on encrypted partitions
+
+<code>mkfs.ext4 /dev/mapper/vg0/root
+mkswap /dev/mapper/vg0/swap
+</code>
+
+!!!! Mount the new system
+
+<code>mount /dev/mapper/vg0/root /mnt
+swapon /dev/mapper/vg0/swap
+mkdir /mnt/boot
+mount /dev/sda1 /mnt/boot
+</code>
+
+!!!! Install packages
+
+<code>pacstrap /mnt base base-devel linux linux-firmware vim lvm2 tmux git intel-ucode
+genfstab -U /mnt >> /mnt/etc/fstab
+</code>
+Change relatime on all non-boot partitions to noatime (reduces wear if using an SSD)
+
+`arch-chroot /mnt`
+
+!!!! Bootloader
+
+`bootctl install`
+
+`cat /boot/efi/loader/loader.conf`
+
+```
+default  arch
+timeout  4
+editor   0
+```
+
+!!!!! Get UUIDs into the file
+
+`blkid -s PARTUUID -o value /dev/sda2 > /boot/loader/entries/arch.conf`
+
+!!!!! Edit to look like:
+`cat /boot/efi/loader/entries/arch.conf`
+
+```
+title          Arch Linux
+linux          /vmlinuz-linux
+initrd         /intel-ucode.img
+initrd         /initramfs-linux.img
+options cryptdevice=PARTUUID=<UUID>:luks resume=/dev/mapper/vg0-swap root=/dev/mapper/vg0-root quiet rw
+```
+
+edit `/etc/mkinitcpio.conf`
+
+```
+HOOKS="base udev autodetect modconf block keymap encrypt lvm2 resume filesystems keyboard fsck"
+```
+
+`mkinicpio -p linux`
+
+!!!! Misc
+
+  * Set locale
+  * passwd
+  * Add user
+  * Reboot!

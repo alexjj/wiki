@@ -1,0 +1,8 @@
+caption: Insert Image
+created: 20220617211548580
+modified: 20220617212041017
+tags: $:/tags/TextEditor/Snippet
+title: Insert Image
+type: text/vnd.tiddlywiki
+
+<<image-basic "tiddler" width:"100%" align:"center" caption:"" tooltip:"" alt:"">>

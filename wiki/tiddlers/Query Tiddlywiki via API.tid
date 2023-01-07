@@ -1,0 +1,25 @@
+created: 20220429204734993
+creator: alexjj
+modified: 20230106171358332
+modifier: alex
+tags: Meta
+title: Query Tiddlywiki via API
+type: text/vnd.tiddlywiki
+
+If I want to retrieve a JSON of all the tiddlers of a certain filter I need to:
+
+# Make the filter tiddler to enable it
+# Get the right URL
+
+```
+title: $:/config/Server/ExternalFilters/[tag[Journal]!sort[created]]
+text: yes
+```
+
+e.g. all journal tiddlers as JSON
+
+URL: `https://im.fondoftea.com/recipes/default/tiddlers.json?filter=[tag[Journal]!sort[created]]&exclude=type,creator,tags,modifier,modified,bag`
+
+Seems exclude doesn't work on all fields but without it the text is not included.
+
+[[Documentation.|https://tiddlywiki.com/#WebServer%20API%3A%20Get%20All%20Tiddlers]]

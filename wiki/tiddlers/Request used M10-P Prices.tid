@@ -1,0 +1,75 @@
+created: 20220311120426668
+creator: alexjj
+modified: 20220311120917739
+modifier: alexjj
+tags: Python
+title: Request used M10-P Prices
+type: text/vnd.tiddlywiki
+
+```python
+import requests
+
+cookies = {
+    'CFID': '5681748',
+    'CFTOKEN': '4867cd568eb2e8ea-ED9D05DF-A59D-FBCE-9753B49EBA44CCE3',
+    'COUNTRYID': '50',
+    'CFGLOBALS': 'urltoken%3DCFID%23%3D5681748%26CFTOKEN%23%3D4867cd568eb2e8ea%2DED9D05DF%2DA59D%2DFBCE%2D9753B49EBA44CCE3%26jsessionid%23%3D36D1A1E7B51C0E5F4457FD04AD4FAC59%2Ecfusion%23lastvisit%3D%7Bts%20%272022%2D03%2D11%2011%3A27%3A25%27%7D%23hitcount%3D2730%23timecreated%3D%7Bts%20%272020%2D08%2D22%2015%3A01%3A48%27%7D%23cftoken%3D4867cd568eb2e8ea%2DED9D05DF%2DA59D%2DFBCE%2D9753B49EBA44CCE3%23cfid%3D5681748%23',
+    'JSESSIONID': '36D1A1E7B51C0E5F4457FD04AD4FAC59.cfusion',
+    'BRAND': 'all',
+    'RETAILER': '0',
+}
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0',
+    'Accept': 'application/json, text/javascript, */*; q=0.01',
+    'Accept-Language': 'en-GB,en;q=0.5',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'X-Requested-With': 'XMLHttpRequest',
+    'Connection': 'keep-alive',
+    'Referer': 'https://usedlens.co.uk/?search=leica%20m10-p&retailer=0&brand=all',
+    'Sec-Fetch-Dest': 'empty',
+    'Sec-Fetch-Mode': 'cors',
+    'Sec-Fetch-Site': 'same-origin',
+    'TE': 'trailers',
+}
+
+params = (
+    ('method', 'dataTable'),
+    ('draw', '10'),
+    ('columns[0][data]', 'productname'),
+    ('columns[0][name]', ''),
+    ('columns[0][searchable]', 'true'),
+    ('columns[0][orderable]', 'true'),
+    ('columns[0][search][value]', ''),
+    ('columns[0][search][regex]', 'false'),
+    ('columns[1][data]', 'price'),
+    ('columns[1][name]', ''),
+    ('columns[1][searchable]', 'false'),
+    ('columns[1][orderable]', 'true'),
+    ('columns[1][search][value]', ''),
+    ('columns[1][search][regex]', 'false'),
+    ('columns[2][data]', 'retailersite'),
+    ('columns[2][name]', ''),
+    ('columns[2][searchable]', 'false'),
+    ('columns[2][orderable]', 'false'),
+    ('columns[2][search][value]', ''),
+    ('columns[2][search][regex]', 'false'),
+    ('order[0][column]', '1'),
+    ('order[0][dir]', 'asc'),
+    ('start', '0'),
+    ('length', '10'),
+    ('search[value]', 'leica M10-P'),
+    ('search[regex]', 'false'),
+    ('retailers', '17,57,25,30,66,19,23,51,36,50,21,15,46,52,56,2,63,3,45,4,39,24,55,60,5,64,6,7,8,16,9,27,61,13,47,54,18,10,59,62,34,31,68,26,38,53,29,12,67,28,40,20,14,43,22,42'),
+    ('pricemin', ''),
+    ('pricemax', ''),
+    ('producttype', 'all'),
+    ('brandname', 'all'),
+    ('shownew', '0'),
+    ('_', '1646998021544'),
+)
+
+r = requests.get('https://usedlens.co.uk/data.cfc', headers=headers, params=params, cookies=cookies)
+r.json()
+
+```

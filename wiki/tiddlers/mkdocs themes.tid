@@ -1,0 +1,12 @@
+created: 20221205135104005
+modified: 20221205135535853
+tags: [[web dev]]
+title: mkdocs themes
+type: text/vnd.tiddlywiki
+
+* https://squidfunk.github.io/mkdocs-material/
+* https://gristlabs.github.io/mkdocs-windmill/#
+
+!! Plugins
+
+* https://github.com/timvink/mkdocs-charts-plugin

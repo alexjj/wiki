@@ -1,0 +1,36 @@
+created: 20221112194040707
+modified: 20221205214454237
+tags: Radio
+title: Foundation Course Videos
+type: text/vnd.tiddlywiki
+
+# https://youtu.be/NAuH2OAvrwE
+# https://youtu.be/ejK93VslG2w
+# https://youtu.be/ZVU_c8zTKls
+# https://youtu.be/wQMYniKgO3c
+# https://youtu.be/6CbsGvMXUMI
+# https://youtu.be/FLBgl9vahHk
+# https://youtu.be/NgWqkbm2zIw
+# https://youtu.be/zbkQcisK1Bg
+# https://youtu.be/JZSjXxw9giM
+# [[Quick revision guide|https://youtu.be/6g8L2dDWqD8]]
+
+
+!! Expected things to recall
+
+* Mains frequency: 50 Hz
+* Human hearing: 20 Hz to 15 kHz
+* Audio communication range 300 Mhz to 3000 Hz
+* HF - 3 MHz - 30 MHz
+* VHF - 30 MHz - 300 MHz
+* UHF - 300 MHz - 3000 MHz
+** Most affected by weather
+** VHF and UHF don't propagate much beyond line of sight
+* LSB is under 10 Mhz
+* EIRP (W) = 1.64 x ERP (W)
+* ionosphere 70-400km
+* Repeats recieve 0.6 MHz less than they transmit
+* RST
+** Readibility 1-5 (5 best)
+** Strength 1-9 (9 best)
+** Tone 1-9 (9 best)

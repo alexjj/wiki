@@ -1,0 +1,19 @@
+caption: {{$:/core/images/randomselection}} {{$:/language/Buttons/RandomSelection/Caption}}
+created: 20210725102642198
+description: {{$:/language/Buttons/RandomSelection/Hint}}
+modified: 20210808094557580
+tags: $:/tags/PageControls
+title: $:/core/ui/Buttons/RandomSelection
+
+\whitespace trim
+\define randomselectionButton()
+<$button tooltip={{$:/language/Buttons/RandomSelection/Hint}} aria-label={{$:/language/Buttons/RandomSelection/Caption}} class=<<tv-config-toolbar-class>> actions={{$:/core/ui/Actions/RandomSelection}}>
+<$list filter="[<tv-config-toolbar-icons>match[yes]]">
+{{$:/core/images/randomselection.svg}}
+</$list>
+<$list filter="[<tv-config-toolbar-text>match[yes]]">
+<span class="tc-btn-text"><$text text={{$:/language/Buttons/RandomSelection/Caption}}/></span>
+</$list>
+</$button>
+\end
+<<randomselectionButton>>

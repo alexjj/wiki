@@ -1,0 +1,23 @@
+created: 20220111170439012
+creator: alexjj
+modified: 20220111170507123
+modifier: alexjj
+tags: Software
+title: VS Code Snippets
+type: text/vnd.tiddlywiki
+
+Daily notes front matter snippet
+
+```json
+	"front matter": {
+		"prefix": "newday",
+		"body": [
+		  "---",
+		  "title: $CURRENT_DAY_NAME, $CURRENT_DATE${1|th,st,rd} $CURRENT_MONTH_NAME, $CURRENT_YEAR",
+		  "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+		  "tags: []",
+		  "---",
+		  "$0"
+		],
+		"description": "Inserts daily post front matter"
+```

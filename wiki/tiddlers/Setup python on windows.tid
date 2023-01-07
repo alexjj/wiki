@@ -1,0 +1,22 @@
+created: 20210811204457744
+creator: alexjj
+language: python
+modified: 20210811204514177
+modifier: alexjj
+tags: Software
+title: Setup python on windows
+type: text/vnd.tiddlywiki
+
+# Install from Windows Store
+## Type python in terminal
+# Install Terminal from Windows Store
+# Make virtual env and install stuff
+## `python -m venv my-venv`
+## Allow powershell scripts:
+### `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+## `.\my-venv\Scripts\Activate.ps1`
+## ` python.exe -m pip install --upgrade pip`
+## ` pip install <packages>`
+# Install VS Code and python
+
+Done.

@@ -1,0 +1,64 @@
+created: 20210829073242147
+creator: alexjj
+language: python
+modified: 20210914192456079
+modifier: alexjj
+tags: Software
+title: Backup GitHub repos
+type: text/vnd.tiddlywiki
+
+This clones all repos. Not sure if clone will pull updates or if needs adjustment to pull instead. 
+
+```python
+#!/bin/env python
+
+import requests
+from subprocess import getoutput
+import shutil
+
+github_user = "alexjj"
+github_token = "__personal_access_token"
+github_org = "your_org"
+target = "."
+
+res = requests.get("https://api.github.com/orgs/{}/repos".format(github_org), auth=(github_user, github_token))
+
+for repo in res.json():
+	print(repo['name'])
+	try:
+	    shutil.rmtree("{}/{}".format(target, repo["name"]))
+	except OSError as e:
+	    print(e)
+
+	print(getoutput("git clone {} {}/{}".format(
+		repo["clone_url"].replace("https://", "https://{}@".format(
+			github_token
+		)),
+		target,
+		repo["name"]
+	)))
+
+```
+
+Another option in bash:
+
+```bash
+
+function doBackup {
+    URL=$1
+    REPO=$(echo $URL | sed -e 's#^.*/##g' -e 's#.git$##')
+
+    if [ -d $TARGET_REPOS/$REPO ]; then
+        cd $TARGET_REPOS/$REPO
+        git pull --all >/dev/null
+    else
+        echo "cloning $REPO"
+        cd $TARGET_REPOS
+        git clone $URL >/dev/null
+    fi
+}
+curl -s 'https://api.github.com/users/alexjj/repos?type=owner&per_page=500' \
+    | grep -Eo '"git_url": "[^"]+"' \
+    | sed -e 's#"git_url": ##' -e 's#"##g' \
+    | while read url; do doBackup $url; done
+```

@@ -1,0 +1,28 @@
+created: 20211114122423171
+creator: alexjj
+modified: 20211114122748275
+modifier: alexjj
+tags: Life
+title: ProgrammersNotebook
+type: text/vnd.tiddlywiki
+
+[[From the first wiki.|http://wiki.c2.com/?ProgrammersNotebook]]
+
+
+!!! Best Practices
+
+* Start slowly; some log is better than no log. (AnyXisBetterThanNone)
+* Don't postpone writing something down. Somebody else will come along, and you'll forget your bright idea.
+* Put a date on every entry.
+* Number the pages so that you can easily reference them.
+* Use a consistent format so that you can easily go back and find something.
+* Use a horizontal separator line and a project name to separate individual subjects (e.g., music, theorem proving, or language research).
+* Use secondary headings that include the date and the subject (for example: "980425, Ideas on extending Java with laziness").
+* Different kinds of entries, each with a special symbol in the margin: remarks, questions, definitions, to do items, MetaRemarks.
+* After every entry, leave at least a single empty line. This can be used for last-minute additions, the answer to a question, or a forward reference to more thoughts on the same subject.
+* Make it readable for yourself and others.
+* Log meetings with dates, attendees, topics and results.
+* ''Keep a separate ToDoList, or put it in a special place. Do not scatter ToDoItems throughout your notebook.''
+* LetYourLogsBecomeYourPlans
+
+Org-mode is obviously mentioned a great number of times.

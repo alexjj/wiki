@@ -1,0 +1,48 @@
+created: 20221125104505023
+modified: 20221125110231144
+tags: Hardware
+title: New server storage arrangement
+type: text/vnd.tiddlywiki
+
+Migrating to the new server, from zfs array to 2x 4TB SSDs. I don't want to merge the SSDs as without redundancy then if one fails everything is gone. So I'm just going to have two drives mounted. Makes things a bit of a hassle. So trying to work out the best arrangement of files.
+
+!!! Existing:
+
+```
+NAME                        USED  AVAIL     REFER  MOUNTPOINT
+data                       4.34T  6.07T     7.23M  /data
+data/ben                    803G  6.07T      221K  /data/ben
+data/books                 57.4G  6.07T     57.4G  /data/books
+data/computer               146G  6.07T      146G  /data/computer
+data/docs                  7.49G  6.07T     7.49G  /data/docs
+data/downloads              826M  6.07T      826M  /data/downloads
+data/games                 85.2G  6.07T     85.2G  /data/games
+data/movies                1.70T  6.07T     1.70T  /data/movies
+data/music                 36.9G  6.07T     36.9G  /data/music
+data/photos                 622G  6.07T      546G  /data/photos
+data/tv                     826G  6.07T      826G  /data/tv
+data/victoria              25.2G  6.07T     25.2G  /data/victoria
+data/videos                98.9G  6.07T     98.9G  /data/videos
+```
+
+* ben is friend's backup and that can stay on the old server.
+* computer is mostly docker container data which is moving to the OS drive NVME.
+* Photos are also moving to the nvme - although might keep on SSD for ease of samba share (or both for maximum backup 😅)
+
+!!! New Setup
+
+* SSD 1 - `data`
+** books
+** computer
+** docs
+** games
+** music
+** photos
+** victoria
+** videos
+* SSD 2 - `media`
+** tv - 826gb
+** movies - 1.7 tb
+** downloads - temp storage
+
+Seems okay so far. SSD 2 is about 2.5 TB out of 3.6 TB actual. Keeps things neat. SSD 1 has a lot of space but that's fine. Think I'm going to keep music on #1 as that's mostly just backup of CDs and never gets played, but maybe useful to be accessed via samba share. It's not that big so maybe could go either place. 

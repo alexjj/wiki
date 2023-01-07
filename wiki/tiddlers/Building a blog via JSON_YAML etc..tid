@@ -1,0 +1,102 @@
+created: 20220114161959795
+creator: alexjj
+modified: 20220114163354929
+modifier: alexjj
+tags: blogging [[web dev]]
+title: Building a blog via JSON/YAML etc.
+type: text/vnd.tiddlywiki
+
+The culmination of a couple of hours of fiddling around...
+
+Use JSON sites:
+
+* https://pmk65.github.io/jedemov2/dist/demo.html
+** {{json editor direct link}}
+* https://www.jsonschema.net/home
+* https://json-editor.github.io/json-editor/
+
+[[My generated schema|https://gist.github.com/alexjj/39bd45b9f809e39d616b0383e18d9d01]]
+
+
+Example possible output
+
+```json
+{
+    "title": "mah blerg",
+    "description": "this and that",
+    "github": "alexjj",
+    "baseurl": "https://google.com",
+    "posts": [{
+        "date": "2022-01-14",
+        "entries": [{
+                "title": "optional title",
+                "tags": ["tag 1", "tag2"],
+                "content": "This is the actual content",
+                "image": "my-picture.jpg",
+                "image caption": "My lovely picture"
+            },
+            {
+                "title": "",
+                "tags": ["tag 1", "tag2"],
+                "content": "Another post for today",
+                "image": "my-picture2.jpg",
+                "image caption": "My second picture"
+            }
+        ]
+    }]
+}
+```
+
+YAML equivalent:
+
+```yaml
+---
+title: mah blerg
+description: this and that
+github: alexjj
+baseurl: https://google.com
+posts:
+- date: '2022-01-14'
+  entries:
+  - title: optional title
+    tags:
+    - tag 1
+    - tag2
+    content: This is the actual content
+    image: my-picture.jpg
+    image caption: My lovely picture
+  - title: ''
+    tags:
+    - tag 1
+    - tag2
+    content: Another post for today
+    image: my-picture2.jpg
+    image caption: My second picture
+```
+
+TOML equivalent
+
+```toml
+title = "mah blerg"
+description = "this and that"
+github = "alexjj"
+baseurl = "https://google.com"
+
+[[posts]]
+date = 2022-01-14
+
+  [[posts.entries]]
+  title = "optional title"
+  tags = [ "tag 1", "tag2" ]
+  content = "This is the actual content"
+  image = "my-picture.jpg"
+  "image caption" = "My lovely picture"
+
+  [[posts.entries]]
+  title = ""
+  tags = [ "tag 1", "tag2" ]
+  content = "Another post for today"
+  image = "my-picture2.jpg"
+  "image caption" = "My second picture"
+
+```

@@ -1,0 +1,11 @@
+created: 20211114213010754
+creator: alexjj
+modified: 20220306140834972
+modifier: alexjj
+tags: blogging
+title: Recipe Plugin
+type: text/vnd.tiddlywiki
+
+If I want to use TW for recipes. There's [[this plugin|https://odinjorna.github.io/recipe-plugin/]].
+
+Possibly I could just create it myself from fields etc.

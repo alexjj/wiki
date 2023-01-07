@@ -1,0 +1,13 @@
+created: 20221104214833258
+modified: 20221104215117396
+tags: Software
+title: Oracle Cloud VPS iptables
+type: text/vnd.tiddlywiki
+
+Get html working:
+
+```bash
+sudo iptables -I input 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
+sudo iptables -I input 6 -m state --state NEW -p tcp --dport 443 -j ACCEPT
+sudo netfilter-persistent save
+```

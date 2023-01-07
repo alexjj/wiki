@@ -1,0 +1,17 @@
+color: #c0c0c0
+created: 20211209140424844
+creator: alexjj
+icon: $:/core/images/quote
+modified: 20230106211957630
+modifier: alex
+tags: TableOfContents
+title: Quotations
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Quotations]]">
+
+<$link><<currentTiddler>> </$link>
+
+{{!!text}}
+
+</$list>

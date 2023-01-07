@@ -1,0 +1,57 @@
+created: 20210811071021141
+creator: alexjj
+modified: 20211216151113046
+modifier: alexjj
+tags: Money
+title: hledger
+type: text/vnd.tiddlywiki
+
+A plain text accounting tool. Background and motivation in [[Tracking expenses]].
+
+!!! Setup
+
+Each account has a .journal file, and the main file, money.journal, uses `include` for each file. I have also defined all the accounts, with `account` directive at top of main file, so I can use `—strict` mode to check for typos in accounts. Although need to remember to include that flag.
+
+!!! Updating
+
+Use interactive `add` with multiple journals and balance assertions need to ignore them:
+
+`hledger add -I -f bank.journal`
+
+!!! Reports
+
+Add `-o file.html` to write it to html. Likewise with `.csv`.
+
+!!!! Monthly summary
+
+Creates a table for income and expenses, but only top level, monthly, sorted by largest to smallest amount over the whole year, including total and average columns.
+
+`hledger is -MATS -2 -b thisyear`
+
+-b or begin, useful for once I get into next year, unless I decide to move out old year’s but not sure I want to bother with that.
+
+!!!! Expenses report only
+
+Similar to income statement but just expenses and with an average column:
+
+`hledger bal expenses -MAS`
+
+!!!! Expenses split
+
+Gives percentage of spend (for expenses with positive amounts)
+
+`hledger bal expenses -S% amt:'>0'`
+
+!!! Investigation using hledger-ui
+
+After studying the totals for the month, what if I want to find out what I spent it on? `hledger-ui` seems to be the best for that. The web version doesn’t have feature parity it seems.
+
+After opening it:
+
+* `Shift + ↓` until it toggles month view.
+** `Shift + ↔` to move between months
+* `H` to toggle changes
+* `T` to make tree view, so easier to read
+* `+/-` to change depth
+
+Now it’ll list total for each category and use arrows to move up and down then press right to view transaction. Left returns to tree view. 

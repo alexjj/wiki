@@ -1,0 +1,11 @@
+created: 20210907211612197
+creator: alex
+modified: 20210907211626658
+modifier: alex
+tags: 
+title: Convert single file TW to node.js
+type: text/vnd.tiddlywiki
+
+```
+tiddlywiki --load path/to/single/file.html --savewikifolder path/to/output/folder
+```

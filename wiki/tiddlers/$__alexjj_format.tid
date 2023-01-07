@@ -1,0 +1,13 @@
+created: 20220617205222156
+modified: 20220617210929591
+tags: meta $:/tags/Stylesheet
+title: $:/alexjj/format
+type: text/vnd.tiddlywiki
+
+[data-tiddler-title="Welcome"] div.tc-subtitle {
+	display: none;
+}
+
+[data-tiddler-title="Blog"] div.tc-subtitle {
+	display: none;
+}

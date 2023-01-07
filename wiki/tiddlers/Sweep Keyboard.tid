@@ -1,0 +1,39 @@
+created: 20220320203318813
+creator: alexjj
+modified: 20220508210757923
+modifier: alexjj
+tags: Hardware
+title: Sweep Keyboard
+type: text/vnd.tiddlywiki
+
+<img src="https://camo.githubusercontent.com/e012ae766ec483a027a25d606e4f6bbc6a4cece30774c9a0e65d78967c444d73/68747470733a2f2f692e696d6775722e636f6d2f54436a6b7175522e6a7067" >
+
+
+* https://www.cuddlykeyboards.com/
+* https://github.com/pierrechevalier83/ferris
+** [[Differences|https://github.com/pierrechevalier83/ferris/tree/main/0.2]]
+* https://github.com/davidphilipbarr/Sweep
+* https://www.youtube.com/watch?v=fBPu7AyDtkM
+
+!! Stores
+
+* https://mechboards.co.uk/
+* https://splitkb.com/
+* https://loopylooms.com/
+
+!! Components
+
+* Nice!nano for wireless
+* 34 Kailh Choc Switches (I used blue linear)
+* 34 MBK Choc Keycaps
+* Mill Max socket pins
+* Mill Max low profile sockets (or normal height sockets if you want to use Nice!nano controllers with a battery)
+* 2x Elite-C Controllers
+* 2x TRRS Connectors
+* [[Battery|https://www.ebay.com/itm/194001009975]]
+
+
+
+!! Potential layouts
+
+<img src="https://i.imgur.com/j6Illg2.png">

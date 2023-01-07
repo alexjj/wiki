@@ -1,0 +1,11 @@
+created: 20220217134655889
+creator: alexjj
+modified: 20220306140916861
+modifier: alexjj
+tags: Software
+title: Web authentication
+type: text/vnd.tiddlywiki
+
+https://tiddlywiki.com/#WebServer%20Authorization
+
+`tiddlywiki mywikifolder --listen username=alexjj password=pass "readers=(anon)" writers=alexjj`

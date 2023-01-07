@@ -1,0 +1,11 @@
+created: 20211128235915376
+creator: alexjj
+modified: 20211128235933344
+modifier: alexjj
+tags: Software
+title: Rsync
+type: text/vnd.tiddlywiki
+
+fast copy:
+
+`rsync -aHAXxvP`

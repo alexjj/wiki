@@ -1,0 +1,28 @@
+created: 20220303064057473
+creator: alexjj
+modified: 20220404135920689
+modifier: alexjj
+tags: Cryptocurrency Games
+title: Dark Forest
+type: text/vnd.tiddlywiki
+
+Game site: https://zkga.me/
+
+This is a blockchain backed game that sounds like that online space territory game I used to play back in 2000s. I haven’t figured out how to play, probably need to watch a series of YouTube videos. However I like the sound of it due to (a) it’s complexity (b) open source code so you can see how the mechanics work (c) it’s not play to earn or pay to win, purely for fun. 
+
+* [[Overview article|https://mirror.xyz/omarmezenner.eth/gFCfCVwTfUU91SDXeROEaDQe4984nbFBIgv9QSY0r1U]]
+* [[Wiki|https://dfwiki.net/wiki/Main_Page]]
+* [[Plugins|https://github.com/darkforest-eth/plugins]]
+* [[Standalone fog of war miner|https://github.com/projectsophon/darkforest-rs/tree/main/mimc-fast]]
+* [[Various guides|https://buidl.mirror.xyz/bYLDk4J2xy46GNqUrTIce1YgiclQIe8DRbNp9PDYk90]]
+* [[Awesome repo|https://github.com/snowtigersoft/awesome-darkforest]]
+
+Guilds
+
+* [[df dao|https://mobile.twitter.com/d_fdao]]
+* [[OrdenGG|https://mobile.twitter.com/orden_gg]]
+
+Plugins
+
+* [[Get paid for broadcasts|https://play2earn.projectsophon.com/]]
+* [[Scratch for df|https://github.com/nahkd123/df-plugins]]

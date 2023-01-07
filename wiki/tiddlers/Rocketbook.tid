@@ -1,0 +1,40 @@
+created: 20211104200429214
+creator: alexjj
+modified: 20211104223918343
+modifier: alexjj
+tags: Hardware
+title: Rocketbook
+type: text/vnd.tiddlywiki
+
+[[Website|https://getrocketbook.co.uk/]]
+
+A reusable notebook that you scan in with the app and then wipe off and start again. Need to watch some videos on it and see what people say. Pretty cheap though £20-£40 for a notebook. Have to use Pilot Frixion pens/highlighters.
+
+Good summary:
+
+<iframe width="2543" height="450" src="https://www.youtube.com/embed/HuwZ15jbJJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+!!! Tips/tricks:
+
+* Use `## Page title ##` on it for it automatically name the files.
+** Turn on smart titles
+* Don't use the frixtion eraser
+* Make own templates with fine tip permanent marker
+* Assign icon to each template
+* Use printed writing vs. cursive for OCR
+* Fine tip water brush to erase mistakes
+* Scan and erase regularly (< 30 days)
+* Spray bottle and wiping in one driection for cleaning and another cloth for drying. Rinse cloth after use.
+* Can scan the pages in different order
+* Try out the free templates to print from the app
+* 0.5 mm pen is good balance on thickness and drying time.
+** Takes about 10-12 seconds
+* Use multiple upload icons for the same cloud storage but different folder, then use the `##` titling to file
+** e.g. Projects, Weekly highlights as the folders then `## 2021-W12-04-12 ##` or `Super awesome project`
+* The mini/tiny rocketbook thing for repeatable questions with sharpie titles
+* [[Someone's script|https://github.com/MathiasSven/rocketbook-github]] to take emails and commit to github
+
+!!! Issues
+
+* Pen ink is slow to dry
+* BE careful when cleaning

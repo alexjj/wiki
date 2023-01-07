@@ -1,0 +1,7 @@
+created: 20221208222746998
+modified: 20221208222819101
+tags: Photography
+title: Check M9 sensor
+type: text/vnd.tiddlywiki
+
+You can check if its installed via the Debug Menu,  the Sensor ID should be CCDID 15 or 16.  To Enter the Debug Menu : 1. Turn on your camera. 2. By using the buttons on the back of the camera,  this sequence will enter factory service mode: Delete >  Up (2x) > Down (4x)  > Left (3x) > Right (3x) >  Info. 

@@ -1,0 +1,13 @@
+created: 20221227194325075
+modified: 20221227194400272
+tags: Software Python DataScience
+title: Python Graph Gallery
+type: text/vnd.tiddlywiki
+
+
+<<<
+Welcome to the Python Graph Gallery, a collection of hundreds of charts made with Python. Charts are organized in about 40 sections and always come with their associated reproducible code. They are mostly made with Matplotlib and Seaborn but other library like Plotly are sometimes used. 
+<<<
+
+
+https://www.python-graph-gallery.com/

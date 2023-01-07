@@ -1,0 +1,20 @@
+created: 20220108225318184
+creator: alexjj
+modified: 20220429195635948
+modifier: alexjj
+tags: blogging Software
+title: Hugo
+type: text/vnd.tiddlywiki
+
+My other notes:
+
+* [[Hugo Themes]]
+* [[Adding webmentions to Hugo blog]]
+
+Useful references:
+
+* [[Advanced template tips|https://www.stackbit.com/blog/advanced-hugo-templates/]]
+* [[Blog with lots of Hugo content|https://www.regisphilibert.com/blog/]]
+* [[A Hugo workflow example|https://vninja.net/2020/02/12/my-hugo-workflow/]]
+* [[Ox-Hugo tutorial|https://www.kengrimes.com/ox-hugo-tutorial/]]
+* [[Add search to blog|https://victoria.dev/blog/add-search-to-hugo-static-sites-with-lunr/]]

@@ -1,0 +1,17 @@
+created: 20221022221300927
+modified: 20221022221647831
+tags: Games
+title: Minecraft Bedrock Server commands
+type: text/vnd.tiddlywiki
+
+```
+docker attach mc
+```
+
+Use commands, e.g. 
+
+```
+allowlist add <GamerTag>
+```
+
+Detach with C-p, C-q

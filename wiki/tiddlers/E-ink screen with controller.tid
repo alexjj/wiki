@@ -1,0 +1,9 @@
+created: 20221013215930092
+modified: 20221013220035896
+tags: Hardware
+title: E-ink screen with controller
+type: text/vnd.tiddlywiki
+
+[[This looks nice.|https://www.crowdsupply.com/soldered/inkplate-6color#products]]
+
+I already have a colour e-ink screen which requires connecting to rpi but that's a hassle. This is nice that it has a little controller already built in and the case etc.

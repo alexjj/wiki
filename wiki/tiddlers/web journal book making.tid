@@ -1,0 +1,15 @@
+created: 20220525140130643
+creator: alexjj
+modified: 20220525140510550
+modifier: alexjj
+tags: blogging Project
+title: web journal book making
+type: text/vnd.tiddlywiki
+
+I'd like to make my web journal site into a book. Here are some random things I've found which could be useful. 
+
+References:
+
+* https://github.com/StefanoCecere/markdown_pandoc_book_template
+* https://github.com/CloudCannon/author-jekyll-template
+

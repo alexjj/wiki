@@ -1,0 +1,41 @@
+created: 20220508142822864
+creator: alexjj
+modified: 20220508154913308
+modifier: alexjj
+tags: Software blogging
+title: 1Writer Front matter action
+type: text/vnd.tiddlywiki
+
+Ordinal date
+
+
+```javascript
+const nth = function(d) {
+    if (d > 3 && d < 21) return 'th';
+    switch (d % 10) {
+        case 1:  return "st";
+        case 2:  return "nd";
+        case 3:  return "rd";
+        default: return "th";
+    }
+};
+
+const dateObj = new Date();
+const date = dateObj.getDate();
+const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][dateObj.getMonth()];
+const day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][dateObj.getDay()];
+const year = dateObj.getFullYear();
+
+const dateString = day+', '+date+nth(date)+' '+month+', '+year;
+
+
+
+const fmdate = dateObj.toJSON().slice(0,10);
+const datetime = "date: " + fmdate;
+const title = "title: "+dateString;
+
+// set front matter
+var frontMatter = "---\n" + title + "\n" + datetime + "\n---\n";
+
+editor.replaceTextInRange(0, 0, frontMatter);
+```

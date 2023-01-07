@@ -1,0 +1,26 @@
+created: 20220115200645366
+creator: alexjj
+modified: 20220115215703905
+modifier: alexjj
+tags: Hardware Project
+title: Inky Impression
+type: text/vnd.tiddlywiki
+
+Got one of these for christmas:
+
+[img[Inky.jpg]]
+
+
+[[Official code repo.|https://github.com/pimoroni/inky]]
+
+
+Seeing what others have done to give me some ideas:
+
+* [[Photo frame|https://forums.pimoroni.com/t/inky-impression-eink-built-in-a-picture-frame-automatic-resizing-of-pictures-with-code-example/15750]]
+** [[Github|https://github.com/fapeg/eink_picture_frame/]]
+* [[Weather Station|https://github.com/vwillcox/Inky-Impression-Weather-Station]]
+* [[Case files|https://github.com/scripsi/inky-impression-case]]
+* [[Tomato timer|https://mclare.blog/posts/tinky-care]]
+* [[Picture calendar|https://github.com/kotamorishi/inky-calendar]]
+* [[Picture uploader webUI|https://github.com/aortez/inky-soup]]
+* [[Another calendar|https://github.com/aceisace/Inkycal]]

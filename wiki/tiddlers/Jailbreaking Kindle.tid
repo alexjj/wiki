@@ -1,0 +1,31 @@
+created: 20211031214120543
+creator: alexjj
+modified: 20211031221014302
+modifier: alexjj
+tags: Hardware
+title: Jailbreaking Kindle
+type: text/vnd.tiddlywiki
+
+I have PW2 model, running 5.12.2.1.1. Don't think it'll get new firmware from amazon so maybe don't need to worry about autoupdating?
+
+Links:
+
+* [[Master thread|https://www.mobileread.com/forums/showthread.php?t=320564]]
+* [[All the files|https://www.mobileread.com/forums/showthread.php?t=225030]]
+
+Steps:
+
+# Download jailbreak files and copy to kindle
+# Open url in browser
+# Copy jb hotfix to kindle
+# Run update on kindle
+# Install kual mrpi by copying the files to kindle
+# Copy the KUAL coplate bin file to mrpackages folder
+# Enter `;log mrpi` into the search bar on the homescreen
+
+All done!
+
+Now install other stuff:
+
+* [[KOReader|https://github.com/koreader/koreader/]]
+** Download PW2 file and extract it all to the root

@@ -1,0 +1,46 @@
+created: 20210815160123005
+creator: alexjj
+modified: 20210819193414425
+modifier: alexjj
+tags: Photography
+title: Photo Management
+type: text/vnd.tiddlywiki
+
+Looking back at what I’ve done and why is useful to me, so I’ll start there. I’ve had a photo gallery website of various forms for about the past 8-9 years. Entirely driven by our kids and wanting to share photos with friends and family but not use facebook or other social media sites. It also expanded a little when friends wanted to see pictures. The problem is, I don’t know how many people actually look at it…if any. I don’t have any tracking and so I don’t know. The audience is very small to start with - family - but I think a lot of them are used to the push notifications of facebook et al. And so don’t think to go to a website to see, particularly when they don’t know when I’ve added a new album. Perhaps it’s about 2-4 people. I could add tracking but I’m too lazy.
+
+Actually, with hosted Piwigo it comes with tracking and it says…126,000 pages views this year! Without diving into them, looks to be quite a lot of spam or bots or whatever. Maybe the domain name attracts a lot or maybe they just trawl the net. It still doesn’t change the fact that it’s intended for about 8 people. 
+
+I used to use photo float for the website. It’s a static site generator written in python2 and I do think makes for a really good website. I liked the design in many ways, and other than python2 there’s nothing wrong with it. I used it for about 5 years but then wanted a method that didn’t rely on using the computer and server and various commands. I also accidentally broken the site and the generator and couldn’t figure out what I did. Either way I decided I wanted something I could manage from anywhere and upload photos without all the commands (admittedly I could’ve automated it some more). I settled on a hosted Piwigo instance. I’d trialed it a few times and even hosted my own. I liked the hosted one as it was easy to use, they offer unlimited photo space and the price is reasonable. Plus it goes to support the devs and that helps keep the software going. I still like the look of photo float but I think I have Piwigo how I like it. It has a bit too much stuff - tags, categories, menus, etc. - than my liking but I’ve got rid of most of it. I was going to go back in time and upload older photos but haven’t done it yet. I like the nested albums for organisation. The iOS app is nice too. It’s probably the easy option that I should just stick with.
+
+I suppose that’s the public view of it, there’s also the private photo management. That is, the photos that are on my computer which are only available on our home network. All the photos are on the server, running zfs for integrity and backed up to my friend’s server in his house. About 500GB in all. They’re organised by year then subfolders, which in the past few years I’ve put as YYYY-MM-DD Event name, but previously it was just Event name. All the photos live under those folders. When I shot RAW I’d keep a folder of raws and a folder of the edited/final JPEGs. I used to have more time and I’d shot everything raw then edit in lightroom. Nowadays I don’t have time for that and try to just use the photos straight from the camera. With fujifilm, and all the colour settings you can do in camera this works pretty well. I’ve mostly got a few settings that I like to shoot with. Occasionally I’d like to crop or tweak the odd photo, particularly if I’m going to print it, but otherwise I just leave them be.
+
+Over the past year I’ve also been taking photos with film. These I get developed and scanned and then put in their own folder called film and a subfolder with the approx. date, film stock and camera used. I don’t add any metadata to the photos. I also then keep the negatives in a folder where I write on the front the month-year and camera used.
+
+Finally, I have Amazon photos unlimited with our prime subscription that everything uploads to. Not sure if I really like it, but I tell myself it’s a free backup method. If we had a fire stick device then it makes it nice to look at on the TV. Currently we don’t have a good method for that….if that matters. Plex does offer photo albums, which I used to have linked to my photo float albums. I think my sister in law liked seeing them that way and they’d watch TV from our plex, but no-one else did.
+
+Oh I remembered that my wife makes “annual” photo books. 
+
+Mobile photos aren’t part of it. I consider them throw away pictures. My wife keeps hers on the computer by transferring periodically and some end up in the photo books or for people’s birthday cards but I never use mine anywhere outside of the Apple Photostream.
+
+In fact, that is probably the best way of sharing photos. It’s private, and pushes straight to everyone’s phone or device. Which is great for the Great-Grannies and pretty much anyone as they don’t need to go looking for it. I’ve even considered binning my website and just using that. It’s rate limiting - at least that’s how it feels to me - I’m not going to be posting 20 photos on there, maybe 5-6 max. However, maybe that’s okay. One thing I like about film is the finite nature of them. 24-36 exposures, so you pick and chose the shots carefully and then when you get them back it’s a nice number to look through. 
+
+Some more finally…, I’ve recently got a colour printer that prints photos pretty nicely. I’ve bought some 4x6 and 5x7 paper and made quite a few prints that I’ve posted to people. I do really like this. I write a little letter, print off 4-5 photos and post it to them. Sometimes I use my typewriter other times just pen and paper. I really like the physical nature of it and the recipients really like it too. With so much digital and endless streams of things, have a small discrete item to hold in your hands is so refreshing. They’re mostly for my parents and they appreciate them. It’s also reminder of the past they’ve lived most and, particularly, for my mum, is a nice ‘event’ in the day. Getting mail and some photos. I’m not precious about the photos, they can frame them, stick them on the fridge, file them or even bin them. Most photos they see online are once and gone anyway. I do want to do this more often. One issue I’ve found is remembering if I’ve printed them or not, so I think some system to track this without maintaining a separate folder of pictures would be good.
+
+!! The plan
+
+Okay so that’s where I’ve been, but what are the problems?
+
+* Finding good photos from the bunch
+* knowing what has and hasn’t been printed
+* searching by faces or other metadata
+* managing and adding metadata
+* streaming uploading to web albums? 
+** not sure about this one. It’s not too bad right now.
+
+I think the biggest one is organisation in private. I use the web albums as a method of filtering the good photos, so without the web albums I don’t know what the good photos are. Maybe I just need to install photoprism on the server or maybe digikam on the desktop? Let them scan and just see. Photoprism seems like a good idea as then accessible anywhere but perhaps not as feature rich as digikam. Although digikam is maybe too complicated? Might be nice to login and show people photos anywhere? Or even just use my ipad? I suppose installing it and having a look is the first step.
+
+Probably only faces is what I want to add/automate. Other metadata isn’t really that important to me. I usually know where stuff is from the folder name. Film it might be good to add date captured, film type and camera, but for now it’s in the folder name.
+
+Web site? I should just keep my site for now. It’s minimal effort to manage and 39 EUR a year(?), so not much. I should try the java app to bulk upload some of the Bakersfield photos. It’s a good domain that I don’t want to give up. 
+
+I’ve wondered about joining a photo club here. Primarily for film development and maybe even printing. Too much hassle though and I’m lazy.

@@ -1,0 +1,44 @@
+created: 20221228143639020
+creator: alex
+modified: 20230105214008043
+modifier: alex
+tags: Meta
+title: New wiki things
+type: text/vnd.tiddlywiki
+
+
+
+!! Stuff I want to do with this site:
+
+* Personal journal
+** Daily summary liners in the fields
+** Weekly summary pages
+** Monthly summary pages
+** Annual summaries
+* Personal finance
+** Goals
+** Monthly expense summary and narrative
+** Tracking against goals
+** Annual summaries
+** Look ahead 
+* People
+** info about them
+** interactions 
+** presents bought and received
+
+!! Essential parts
+
+[[Ref|http://webseitz.fluxent.com/wiki/FirstPagesToCreateInYourPrivateWikiNotebook]]
+
+* Journal
+* Meaningful life roadmap
+* Most important tasks (MITs)
+* Weekly log
+* Weekly reivew
+* Daily Review
+
+!! Plugins
+
+* [[Charts|https://ooktech.com/TiddlyWiki/BarChart/]]
+* [[Official D3 plugin|https://tiddlywiki.com/plugins/tiddlywiki/d3/]]
+* [[Field selector dropdown|https://fieldvalueselector.tiddlyhost.com/]]

@@ -1,0 +1,34 @@
+created: 20210905195605246
+creator: alexjj
+modified: 20220306140801839
+modifier: alexjj
+tags: blogging
+title: Blogging
+type: text/vnd.tiddlywiki
+
+2021-09-07
+
+Thought I'd try this timestamping within a tiddler...although I suppose I should make the separate tiddlers and combine? Anyway that's unnecessary. Also reminds me that I like the forum post nature whereby you add new posts over time and you can see how things change. 
+
+Yesterday, I was thinking I should just use micro.blog and be done with all this nonsense. It is pretty easy, images are managed for me, and the website is plain but effective. Which is the look I'm going for. I'm not sure about using another service though, and being reliant on it.
+
+What I have started thinking about is using tiddlywiki as the blog. Either just on this site or perhaps switching to node.js version, tag items as blog and then generating a static site from those tags tiddlers. I'd also generate this site from everything (else?) and have it hosted statically. This then brings back the ability to have private information that gets screened out. Other than still needing to compress images manually, it is appealing. I might mess about with it and see how it goes. For me it brings everything together into one website.
+
+
+---
+
+2021-09-05
+
+I do like writing about things, and have very much enjoyed this website, which is quite possibly the most I added and kept adding to a single site since my very first dokuwiki back in 2014 until 2019 when the update broke and I decided that was the end.
+
+A lot of stuff has been buzzing in my head and it's getting too late for this. A related but fixable thing is that the free Oracle VPSs seem a bit slow (there's a surprise), and that's impacting some of the hosted/more advanced services like Discourse or Wordpress. Either I need to wipe and start again or it's just bad, because Discourse uses 740MB RAM on boot, and seems after a day it's eaten into 600MB of swap...
+
+The biggest thing I miss from this site that those monsterous programs offer...auto image handling. I just upload my out of camera photo and they compress it and do everything. This site, along with static gen sites, is that I need to do that myself. It just adds another step that I'm too lazy to do. This site I have to compress the image, go to github, upload the image, make a new image tiddler and then paste in the url. I suppose there's flickr or imgur or micro.blog that I can just upload and then hotlink to...I still need to make a tiddler for it on here. I also like how they have plugins or handle galleries of multiple images. It's just much nicer. I'm sure there's probably a gallery for Tiddlywiki.
+
+So if I want convenience I either host and pay for hosted service or host myself (and pay for that) or I stick with tiddlywiki and go through the image ordeal each time I want to add something. I might add a Blog tag, then make the storyriver have the latest post or a list of them all. Then there's comments...
+
+—-
+
+2021-09-14
+
+Some time has past and I did enjoy using forestry.io but just have minimal interest or motivation to configure my own Hugo site with theme and comments and forestry. Unfortunately I don’t like the starter kit ones they have. I did see an image upload plugin for tiddlywiki that might be enough and with some tags and little bit of organisation on the homepage story river or menu bar etc. I can just use that.

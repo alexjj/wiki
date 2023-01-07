@@ -1,0 +1,28 @@
+caption: 🦄 Menu
+created: 20230105214021505
+creator: alex
+list-before: $:/core/ui/SideBar/Open
+modified: 20230106210743243
+modifier: alex
+tags: Meta $:/tags/SideBar
+title: $:/alexjj/MenuTab
+type: text/vnd.tiddlywiki
+
+!!! About
+
+"""
+🤷🏼‍♂️  [[About|alex]] Alex
+✉️ <a href="mailto:alex@alexjj.com">Email</a> me!
+"""
+
+!!! Elsewhere
+
+"""
+🐙  [[GitHub|https://github.com/alexjj]]
+📘 [[Blog|https://alexjj.com]]
+
+"""
+
+!!! Contents
+
+{{TOC}}

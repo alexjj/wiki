@@ -1,0 +1,9 @@
+created: 20210918074053985
+creator: alexjj
+modified: 20210918074200733
+modifier: alexjj
+tags: Software
+title: Email server
+type: text/vnd.tiddlywiki
+
+[[This|https://maddy.email/]]pp looks to be a lightweight email server in docker. 

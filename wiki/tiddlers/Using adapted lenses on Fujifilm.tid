@@ -1,0 +1,25 @@
+created: 20220628202135859
+modified: 20220628203035143
+tags: Photography
+title: Using adapted lenses on Fujifilm
+type: text/vnd.tiddlywiki
+
+!!! Settings
+
+* Wrench: Shoot without lens to On
+* Camera: Mount adapter settings to add custom focal length which gets added to EXIF
+
+
+!!! Shooting
+* Magnified view: Press in back wheel to zoom in and move point with joystick. Scroll wheel to change two levels of zoom.
+** Display options should let you do a picture in picture view
+* AF/MF setting: MF assist
+** Digital split image
+*** Focusing lens and aligning stripes - good with clear lines and shapes. Great with magnified view
+** Digital microprism (X-T3 only)
+*** Try to align all the squares until all in focus.
+** Focus peaking
+*** Highlights the edges with sharp contrast that are in focus. Not always great if no edges.
+*** Can use colours - maybe white or red (particularly in B&W).
+*** Low - highlights less edges - very high confidence in focus
+*** High - shows more edges in focus. Good for quick shots and wider aperature, but shallow DoF then maybe harder.

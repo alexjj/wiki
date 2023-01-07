@@ -1,0 +1,16 @@
+created: 20221103205155168
+modified: 20221103210714140
+tags: Hardware
+title: TerraMaster NAS
+type: text/vnd.tiddlywiki
+
+Seems like a good NAS that's basically a computer you can install any OS on. Also has 5th bay that's just hidden which can have the SSD.
+
+Possible models:
+
+* Terramaster F4-423
+** Newer, x265 on the cpu
+* TerraMaster F4-421
+** Older, hidden HDMI
+
+[[Someone installing FreeNAS|https://joelduncan.io/freenas-on-terramaster-f2-221/]]

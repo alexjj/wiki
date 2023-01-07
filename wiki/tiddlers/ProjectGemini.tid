@@ -1,0 +1,91 @@
+created: 20210806212615195
+creator: alexjj
+modified: 20210810070718905
+modifier: alexjj
+tags: Software
+title: ProjectGemini
+type: text/vnd.tiddlywiki
+
+Visit my gemlog `gemini://gem.alexjj.com`
+
+
+* Main site: https://gemini.circumlunar.space/docs/faq.html
+* `ssh kiosk@gemini.circumlunar.space`
+* Software list: https://gemini.circumlunar.space/software/
+** [[Lagrange|https://github.com/skyjake/lagrange]] is a nice GUI for it.
+** Setup own server: https://github.com/mbrubeck/agate
+
+!! Setup server
+
+* Folder for server and folder for source
+* `wget` latest release from [[agate|https://github.com/mbrubeck/agate]]
+* `gunzip` it and rename it
+* setup service: `/etc/systemd/system/agate.service`
+
+```
+[Unit]
+Description=agate
+After=network.target
+
+[Service]
+User=alex
+Type=simple
+ExecStart=/home/alex/gemini/srv/agate --certs /home/alex/gemini/.certificates --content /home/alex/gemini/source/ --hostname gem.alexjj.com --lang en-GB
+
+[Install]
+WantedBy=default.target
+```
+
+* Start/enable it `sudo systemctl start agate.service`
+
+!! Syntax
+
+`index.gmi`
+
+!!! Headers
+
+```
+# H1
+## H2
+### H3
+```
+
+!!! Lists
+
+```
+* one
+* two
+* three
+```
+No sublists
+
+!!! Blockquotes
+
+```
+> Just one line like this. Nothing more
+```
+
+!!! Code blocks
+
+```
+ ```
+ The usual three backticks 
+ ```
+```
+
+!!! Links
+
+```
+=> https://example.com    A cool website
+=> gopher://example.com   An even cooler gopherhole
+=> gemini://example.com   A supremely cool Gemini capsule
+=> sftp://example.com
+```
+
+!!! Sites of interest:
+
+* `gemini://gemlog.baty.net`
+* [[Awesome Gemini|https://github.com/kr1sp1n/awesome-gemini]]
+
+
+

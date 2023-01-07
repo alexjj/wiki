@@ -1,0 +1,20 @@
+created: 20221224201519150
+modified: 20221224201556738
+tags: Project raspberrypi
+title: FlightAware PiAware ADS-B Ground Station
+type: text/vnd.tiddlywiki
+
+
+
+<<<
+
+
+
+You can now build and run your own ADS-B ground station that can be installed anywhere and receive real-time data directly from airplanes on your computer.
+
+Your ground station can run FlightAware's PiAware software to track flights within 100-300 miles (line of sight, range depending on antenna installation) and will automatically feed data to FlightAware. You can track flights directly off your PiAware device or via FlightAware.com.
+
+<<<
+
+
+https://uk.flightaware.com/adsb/piaware/build

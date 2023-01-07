@@ -1,0 +1,20 @@
+created: 20220504121845547
+creator: alexjj
+modified: 20220504122428400
+modifier: alexjj
+tags: Software Photography
+title: Static Photo Galleries
+type: text/vnd.tiddlywiki
+
+* [[PhotoFloat]]
+* [[Fussel|https://github.com/cbenning/fussel]]
+* [[Nanogallery|https://nanogallery2.nanostudio.org/]]
+* [[Thumbsup|https://thumbsup.github.io/]]
+* [[FGallery|https://www.thregr.org/~wavexx/software/fgallery/]]
+* [[Lazygal|https://github.com/niol/lazygal]]
+
+
+Related:
+
+* [[For Hugo|https://www.liwen.id.au/heg/#gallery-usage]]
+* [[For jekyll|https://github.com/ggreer/jekyll-gallery-generator]]

@@ -1,0 +1,172 @@
+created: 20210823200509336
+creator: alexjj
+modified: 20210823201141004
+modifier: alexjj
+tags: Software
+title: ikiwiki
+type: text/vnd.tiddlywiki
+
+Self described as:
+
+<<<
+A flexible static site generator with some dynamic features.
+<<<
+
+
+* [[Main Page|https://ikiwiki.info/]]
+* [[Good ikiwiki build in docker|https://github.com/jmtd/opinionated-ikiwiki/]]
+
+!! Installation Process
+
+On Debian:
+
+1.1 Install ikiwiki
+
+`sudo apt install ikiwiki`
+
+1.2 create a separate user for ikiwiki
+
+`sudo addgroup --system ikiwiki`
+
+`sudo adduser ikiwiki --system --ingroup ikiwiki --shell /bin/bash`
+
+OR
+`sudo adduser --gecos "ikiwiki user" --disabled-password ikiwiki`
+
+and then log in using ikiwiki user:
+
+`sudo --login --user ikiwiki`
+
+1.3 initial setup
+
+if you want to use ikiwiki as a blog:
+
+`ikiwiki --setup /etc/ikiwiki/auto-blog.setup`
+
+or if you want to use ikiwiki as a wiki:
+
+`ikiwiki --setup /etc/ikiwiki/auto.setup`
+
+and then answer the questions:
+
+```
+$ What will the wiki be named? my blog
+$ What revision control system to use? git
+$ What wiki user (or openid) will be admin? crazycat
+$ Choose a password:
+```
+
+and after finishing this step, edit the setup file.
+
+`vim ~/myblog.setup`
+
+and change the following variables:
+
+```
+# base url to the wiki
+url: https://ikiwiki.example.org
+
+# url to the ikiwiki.cgi
+cgiurl: https://ikiwiki.example.org/ikiwiki.cgi
+```
+and run the setup again:
+
+`ikiwiki --setup ~/myblog.setup`
+
+and exit the ikiwiki user, because we don't need it anymore
+
+`exit`
+
+2. Let's Encrypt
+2.1 install certbot
+
+[[Check site for latest method|https://certbot.eff.org/]]
+
+3. Nginx
+3.1 Install Nginx
+
+`sudo apt install nginx`
+
+3.2 Install fcgiwrap
+
+We need fcgiwrap to enable comments and also edit the website using the web interface
+
+`sudo apt install fcgiwrap`
+
+3.3 create the server block file
+
+`sudo vim /etc/nginx/sites-available/ikiwiki.example.org`
+
+and use the following content in it:
+
+```
+server {
+       listen 443 ssl;
+       listen [::]:443 ssl;
+
+       server_name ikiwiki.example.org;
+       ssl_certificate /etc/letsencrypt/live/ikiwiki.example.org/fullchain.pem;
+       ssl_certificate_key /etc/letsencrypt/live/ikiwiki.example.org/privkey.pem;
+
+       root /home/ikiwiki/public_html/myblog/;
+       index index.html;
+
+       location / {
+               try_files $uri $uri/ =404;
+       }
+
+       location ~ .cgi {
+               # Note: You should disable gzip for SSL traffic.
+               # See: https://bugs.debian.org/773332
+               gzip off;
+               fastcgi_pass unix:/var/run/fcgiwrap.socket;
+               include /etc/nginx/fastcgi_params;
+       }
+}
+
+# Redirect HTTP requests to HTTPS
+server {  
+    listen 80;
+    server_name ikiwiki.example.org;
+    return 301 https://$host$request_uri;
+}
+
+```
+and then enable the subdomain:
+
+`sudo ln -s /etc/nginx/sites-available/ikiwiki.example.org /etc/nginx/sites-enabled/`
+
+and finally restart nginx:
+
+`sudo service nginx restart`
+
+!! Auto backup to a remote git repo
+
+e.g. github
+
+
+
+Trying to get ikiwiki to automatically backup to Github (or any other) git repo upon each commit.
+
+So far:
+
+  * Create ssh keys
+  * Add keys to github
+  * Create ~/.ssh/config:
+
+```
+     host github.com
+     HostName github.com
+     IdentityFile ~/.ssh/id_rsa
+     User git
+```
+  *  go to the source dir (one without .git in the name, plus it's non-empty)
+  *  Add mirror as remote: `git remote add --mirror=push github the-url`
+  *  `git push github` - this did work.
+  *  Add a post-receive hook ??
+    ** Have to make sure the hook has executable permissions (chmod +x)
+    ** Trying: `git --git-dir=/home/alex/srcdir push --quiet github &`
+    ** No idea. Can just do a cron job to push it with git push github...
+
+
+

@@ -1,0 +1,10 @@
+created: 20220620200154923
+modified: 20220620200305667
+tags: Tools Programming
+title: JSON
+type: text/vnd.tiddlywiki
+
+A few useful JSON tools:
+
+* [[JSON Vision|https://jsonvisio.com/editor]] - a visual viewer
+* [[Validate JSON online|https://jsonlint.com/]]

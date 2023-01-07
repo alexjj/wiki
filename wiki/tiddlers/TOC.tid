@@ -1,0 +1,13 @@
+created: 20230106205657844
+creator: alex
+modified: 20230106205657844
+modifier: alex
+tags: 
+title: TOC
+type: text/vnd.tiddlywiki
+
+<div class="tc-table-of-contents">
+
+<<toc-selective-expandable 'TableOfContents'>>
+
+</div>

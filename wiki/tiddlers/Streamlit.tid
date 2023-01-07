@@ -1,0 +1,15 @@
+created: 20221103152105340
+modified: 20221103152202960
+tags: Python [[web dev]]
+title: Streamlit
+type: text/vnd.tiddlywiki
+
+
+<<<
+Streamlit turns data scripts into shareable web apps in minutes.
+All in pure Python. No front‑end experience required.
+<<<
+
+
+* https://streamlit.io/
+* [[Decent guide|https://streamlitpython.com/]]

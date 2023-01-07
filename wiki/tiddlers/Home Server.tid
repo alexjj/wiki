@@ -1,0 +1,21 @@
+created: 20210821124439818
+creator: alexjj
+modified: 20210821125430714
+modifier: alexjj
+tags: Hardware
+title: Home Server
+type: text/vnd.tiddlywiki
+
+Chassis is Lenovo TS140 I bought in about 2014. I upgraded it a little, current specs are:
+
+* Intel E3-1246v3 
+* 32 GB ECC RAM
+* 128GB SSD OS drive
+* 4x 8TB WD Red hard drives
+
+Runs Arch Linux with ZFS RAIDZ1 array for storage. For a while I had FreeBSD and even Debian but Arch is actually the easiest OS to maintain.
+
+All the services are via docker using a docker-compose.yml file. Plex, piwigo, photoprism, a file app, and bits and bobs I mess about with.
+
+I also like to SSH into it and use for hledger and other linux tools.
+
