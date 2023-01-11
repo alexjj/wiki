@@ -1,0 +1,5 @@
+description: MultiColumn StoryView
+module-type: storyview
+name: multi-column
+title: $:/plugins/BTC/tiddlywiki-multi-columns/modules/storyviews/multi-column.js
+type: application/javascript

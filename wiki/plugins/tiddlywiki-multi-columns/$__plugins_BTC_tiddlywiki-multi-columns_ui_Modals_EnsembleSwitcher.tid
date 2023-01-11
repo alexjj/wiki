@@ -1,0 +1,14 @@
+subtitle: Ensemble Switcher
+title: $:/plugins/BTC/tiddlywiki-multi-columns/ui/Modals/EnsembleSwitcher
+
+\whitespace trim
+
+<$list filter="[all[tiddlers+shadows]prefix[$:/Story/]]" variable="storyTiddler">
+
+<$let storyName={{{ [<storyTiddler>removeprefix[$:/Story/]] }}}>
+
+<$text text=<<storyName>>/><$text text=" "/><$button actions=<<btc-load-story-actions>>>Load</$button>
+
+</$let>
+
+</$list>

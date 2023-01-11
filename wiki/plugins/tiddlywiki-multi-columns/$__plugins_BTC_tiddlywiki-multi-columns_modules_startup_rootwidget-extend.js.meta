@@ -1,0 +1,3 @@
+module-type: startup
+title: $:/plugins/BTC/tiddlywiki-multi-columns/modules/startup/rootwidget-extend.js
+type: application/javascript

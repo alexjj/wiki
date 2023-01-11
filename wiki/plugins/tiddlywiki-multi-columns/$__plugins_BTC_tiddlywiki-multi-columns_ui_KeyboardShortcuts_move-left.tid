@@ -1,0 +1,47 @@
+key: ((move-left))
+tags: $:/tags/KeyboardShortcut
+title: $:/plugins/BTC/tiddlywiki-multi-columns/ui/KeyboardShortcuts/move-left
+
+\import $:/plugins/BTC/tiddlywiki-multi-columns/macros/Selectors $:/plugins/BTC/tiddlywiki-multi-columns/macros/Navigation
+
+\define current-tiddler-is-empty-message()
+<$action-listops $tiddler=<<previousStoryList>> $subfilter="+[insertbefore<focusedTiddler>,<firstPreviousStoryTiddler>]"/>
+<$action-setfield $tiddler=<<previousHistoryList>> current-tiddler=<<focusedTiddler>>/>
+\end
+
+\define not-follow-active-column-focus-selector()
+<$let currentTiddler={{{ [list<storyList>after<focusedTiddler>] ~[list<storyList>before<focusedTiddler>] }}} cssEscapedTitle={{{ [<currentTiddler>escapecss[]] }}}>
+<$list filter="[<currentTiddler>is[draft]]" variable="ignore">
+<<btc-focus-title-input>>
+</$list>
+</$let>
+\end
+
+\define actions()
+<$list filter="[<focusedTiddler>!is[blank]]" variable="ignore">
+<$list filter="[<storyList>!match[$:/StoryList]]" variable="ignore">
+<$action-setfield $tiddler={{{ [[$:/state/inserting/from-right/]addsuffix<focusedTiddler>] }}} text="yes"/>
+<$action-setfield $tiddler=<<historyList>> current-tiddler={{{ [list<storyList>after<focusedTiddler>] ~[list<storyList>before<focusedTiddler>] }}}/>
+<$action-listops $tiddler=<<storyList>> $subfilter="-[<focusedTiddler>]"/>
+<$list filter="[<previousHistoryList>get[current-tiddler]!match[]]" variable="ignore" emptyMessage=<<current-tiddler-is-empty-message>>>
+<$set name="previousStoryFocusedTiddler" value={{{ [<previousHistoryList>get[current-tiddler]] }}}>
+<$list filter="[<previousStoryList>contains<previousStoryFocusedTiddler>]" variable="ignore" emptyMessage=<<current-tiddler-is-empty-message>>>
+<$action-listops $tiddler=<<previousStoryList>> $subfilter="+[insertbefore<focusedTiddler>,<previousStoryFocusedTiddler>]"/>
+<$action-setfield $tiddler=<<previousHistoryList>> current-tiddler=<<focusedTiddler>>/>
+</$list>
+</$set>
+</$list>
+<$list filter="[{$:/config/story-river/follow-active-column}match[yes]]" variable="ignore" emptyMessage=<<not-follow-active-column-focus-selector>>>
+<$action-setfield $tiddler="$:/columns" active-column=<<previousStoryCounter>>/>
+<$let currentColumn=<<previousStoryCounter>> cssEscapedTitle={{{ [<focusedTiddler>escapecss[]] }}}>
+<<btc-scroll-to-tiddler>>
+<$list filter="[<focusedTiddler>is[draft]]" variable="ignore">
+<<btc-focus-title-input-deferred "1.5">>
+</$list>
+</$let>
+</$list>
+</$list>
+</$list>
+\end
+
+<$macrocall $name="btc-multi-column-keyboard-navigation" actions=<<actions>>/>

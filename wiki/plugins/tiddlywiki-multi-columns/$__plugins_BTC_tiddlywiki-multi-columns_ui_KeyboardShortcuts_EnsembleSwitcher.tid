@@ -1,0 +1,5 @@
+key: ((ensemble-switcher))
+tags: $:/tags/KeyboardShortcut
+title: $:/plugins/BTC/tiddlywiki-multi-columns/ui/KeyboardShortcuts/EnsembleSwitcher
+
+<$action-sendmessage $message="tm-modal" $param="$:/plugins/BTC/tiddlywiki-multi-columns/ui/Modals/EnsembleSwitcher"/>
