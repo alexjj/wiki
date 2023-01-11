@@ -1,0 +1,26 @@
+created: 20230111204228364
+creator: alex
+modified: 20230111204647067
+modifier: alex
+source: https://oneusefulthing.substack.com/p/how-to-use-chatgpt-to-boost-your
+tags: Writing Software
+title: How to... use ChatGPT to boost your writing
+type: text/vnd.tiddlywiki
+
+{{!!source}}
+
+Be very specific and add a lot of requests, e.g. 
+
+```markdown
+Write an essay on Organizational structure and design.
+Use a creative writing style that uses:
+- a strong opening
+- Use symbolism
+- Use foreshadowing with a twist at the end
+- an anecdote
+- use vivid imagery and descriptive language
+- powerful emotion
+- use metaphor, simile or analogy
+- ask questions to engage the reader and encourage them to think critically
+- output in markdown format with subheadings`
+```
