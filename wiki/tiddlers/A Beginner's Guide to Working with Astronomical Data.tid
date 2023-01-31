@@ -1,0 +1,16 @@
+created: 20230131125924353
+creator: alex
+modified: 20230131130000822
+modifier: alex
+tags: Astronomy Software
+title: A Beginner's Guide to Working with Astronomical Data
+type: text/vnd.tiddlywiki
+
+
+<<<
+This elementary review covers the basics of working with astronomical data, notably with images, spectra and higher-level (catalog) data. The basic concepts and tools are presented using both application software (DS9 and TOPCAT) and Python. The level of presentation is suitable for undergraduate students, but should also be accessible to advanced high school students.
+
+<<<
+
+
+https://arxiv.org/abs/1905.13189
