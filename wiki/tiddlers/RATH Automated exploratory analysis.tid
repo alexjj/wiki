@@ -1,0 +1,16 @@
+created: 20230216180124359
+creator: alex
+modified: 20230216180231312
+modifier: alex
+tags: DataScience Python
+title: RATH Automated exploratory analysis
+type: text/vnd.tiddlywiki
+
+
+<<<
+RATH is beyond an open-source alternative to Data Analysis and Visualization tools such as Tableau. It automates your Exploratory Data Analysis workflow with an Augmented Analytic engine by discovering patterns, insights, causals and presents those insights with powerful auto-generated multi-dimensional data visualization.
+
+<<<
+
+
+https://github.com/Kanaries/Rath
