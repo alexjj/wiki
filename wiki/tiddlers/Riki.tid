@@ -1,0 +1,11 @@
+created: 20230228200126632
+creator: alex
+modified: 20230228200204962
+modifier: alex
+tags: blogging Software
+title: Riki
+type: text/vnd.tiddlywiki
+
+Like [[ikiwiki]] but modern. A subset of ikiwiki built in rust
+
+https://gitlab.com/larswirzenius/riki/-/blob/main/riki.md
