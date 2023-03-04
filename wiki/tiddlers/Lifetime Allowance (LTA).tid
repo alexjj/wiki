@@ -1,0 +1,29 @@
+created: 20230304204415127
+creator: alex
+modified: 20230304210800983
+modifier: alex
+tags: Money Pension
+title: Lifetime Allowance (LTA)
+type: text/vnd.tiddlywiki
+
+
+A limit test applied to your pensions at various stages. Currently, £1.073 MM. Tested against these at 13 points in time.
+
+Three main points:
+# When you take money out
+# If you die before age 75
+# At 75
+
+LTA charge is 55% as lump sum, but if as income then 25% charge plus regular income tax on that.
+
+Defined benefit pension - Multiply the amount you get by 20, and add any lump sum.
+
+Defined contribution - the amount you crystallise is tested against LTA.
+
+e.g. if crystallise £1k over the LTA as income, then pay 25% (£250) as LTA charge, then tax rate. So if 40% income tax, then £300 tax, so total £550 charges (or 55% tax rate).
+
+DC can crystallise specific amounts to manage the LTA.
+
+!!! References
+
+*  [[The 13 crystallisation events|https://professionalparaplanner.co.uk/techzone/13-benefit-crystallisation-events-what-they-are-and-how-they-apply/]]
