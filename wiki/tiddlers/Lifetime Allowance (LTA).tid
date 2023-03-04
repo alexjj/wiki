@@ -1,6 +1,6 @@
 created: 20230304204415127
 creator: alex
-modified: 20230304210800983
+modified: 20230304230635519
 modifier: alex
 tags: Money Pension
 title: Lifetime Allowance (LTA)
@@ -10,6 +10,7 @@ type: text/vnd.tiddlywiki
 A limit test applied to your pensions at various stages. Currently, £1.073 MM. Tested against these at 13 points in time.
 
 Three main points:
+
 # When you take money out
 # If you die before age 75
 # At 75
