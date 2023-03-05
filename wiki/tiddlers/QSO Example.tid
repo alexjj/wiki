@@ -1,7 +1,26 @@
 created: 20221208224756639
-modified: 20221208224824332
+creator: alex
+modified: 20230305102453590
+modifier: alex
 tags: Radio
 title: QSO Example
 type: text/vnd.tiddlywiki
 
 https://youtu.be/s03p4IL8cTE?t=406
+
+Calling frequency on VHF: 145.500 MHz
+
+# CQ CQ CQ This is MM7RVP. (Repeat)
+# Wait for response
+# "their callsign" this is MM7RVP. Please wait while I find a frequency
+# Find a free channel by changing then listening for a min:
+# This is MM7RVP, is this frequency in use?
+# Wait to see if any responses. If not,
+# Back to 145.5 MHz, "their callsign", this is MM7RVP. Please change frequency two 145.xxx 
+# Switch back to the free channel
+# "their callsign", this is MM7RVP. Are you receiving?
+# Wait for confirmation
+# "their callsign" this is MM7RVP. My name is Alex. Your signal report is 9 & 5 (or whatever). How do you copy? <their callsign> This is MM7RVP
+# Chat.
+# When finishing:
+# "their callsign", this is MM7RVP. Thanks for the contact today. This is MM7RVP signing off
