@@ -1,6 +1,6 @@
 created: 20230307112333168
 creator: alex
-modified: 20230307114316436
+modified: 20230307165446943
 modifier: alex
 tags: Radio
 title: HF Antenna (10m / 28 MHz)
@@ -37,3 +37,7 @@ references:
 ** Measurements above
 * https://www.youtube.com/watch?v=9AqzxsKh66E
 ** This guy does slightly different distances
+*** 2470mm vs 2450mm for bottom half
+*** Former 110mm pipe, and 4 turns
+* https://vk2zoi.com/articles/half-wave-flower-pot/
+* https://rsgb.org/main/operating/band-plans/hf/28mhz/
