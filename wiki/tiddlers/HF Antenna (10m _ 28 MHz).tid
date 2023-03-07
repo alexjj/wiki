@@ -1,0 +1,39 @@
+created: 20230307112333168
+creator: alex
+modified: 20230307114316436
+modifier: alex
+tags: Radio
+title: HF Antenna (10m / 28 MHz)
+type: text/vnd.tiddlywiki
+
+1/2 wave vertical dipole
+
+```
+   |
+   |
+   |     2500mm of wire (dx 10?) or exposed coax
+   |
+   |
+   =    heatshrink
+   ║
+   ║     RG-58 (50Ω)  coax
+   ║     2450 mm
+   ║
+   ║
+   =    tape
+  ┌─┐    The choke (drill 6 mm hole)
+  │ │   50mm diameter/150mm height PVC pipe for forma
+  └─┘   Wrap 23/24 turns around the pipe (4.4 m of coax)
+   ║
+   ╚   to transciever ~ 5m?
+```
+
+About 
+
+
+references:
+
+* https://www.youtube.com/watch?v=B1k-ybRNBIE
+** Measurements above
+* https://www.youtube.com/watch?v=9AqzxsKh66E
+** This guy does slightly different distances
