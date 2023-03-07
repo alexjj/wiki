@@ -1,6 +1,6 @@
 created: 20230307112333168
 creator: alex
-modified: 20230307165446943
+modified: 20230307193400172
 modifier: alex
 tags: Radio
 title: HF Antenna (10m / 28 MHz)
@@ -28,7 +28,7 @@ type: text/vnd.tiddlywiki
    ╚   to transciever ~ 5m?
 ```
 
-About 
+28.3 MHz - 29.0 MHz is SSB
 
 
 references:
@@ -40,4 +40,5 @@ references:
 *** 2470mm vs 2450mm for bottom half
 *** Former 110mm pipe, and 4 turns
 * https://vk2zoi.com/articles/half-wave-flower-pot/
+* http://www.karinya.net/g3txq/chokes/
 * https://rsgb.org/main/operating/band-plans/hf/28mhz/
