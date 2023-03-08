@@ -1,0 +1,16 @@
+created: 20230308143317384
+creator: alex
+modified: 20230308143338817
+modifier: alex
+tags: Software
+title: Mathesar
+type: text/vnd.tiddlywiki
+
+
+
+<<<
+An intuitive UI for managing data, for users of all technical skill levels. Built on Postgres.
+<<<
+
+
+https://github.com/centerofci/mathesar
