@@ -1,0 +1,24 @@
+created: 20230308152947557
+creator: alex
+modified: 20230308153048277
+modifier: alex
+tags: Radio
+title: XBox 360 PSU mod
+type: text/vnd.tiddlywiki
+
+https://m0lte.uk/index.php/2017/09/17/12v-radio-psu-from-xbox-360-psu/
+
+
+<<<
+rated 14.2A at 12V.
+
+Turns out these are really easy to hack and work great as radio power supplies, so long as you don’t need more than 14A.
+
+Chop off the plug, connect the red and blue wire together, then solder the three yellow wires to the positive side of your chosen power connector [1], and the three black wires to the negative side of your connector.
+
+My big radio draws 15.6A transmitting 100W into a dummy load, which is above the rating on the label of the PSU, but it didn’t seem to mind! No heat detected even after quite a bit of testing – voltage dropped only to 11.93V. Safest to keep within the rating of course.
+
+[1] I use 30A Anderson Powerpoles for all my 12V connectors – including replacing all the non-standard connectors on all of my rigs. Sotabeams sells them for the best price I’ve been able to find in the UK.
+<<<
+
+
