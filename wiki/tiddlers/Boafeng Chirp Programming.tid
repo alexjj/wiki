@@ -1,0 +1,34 @@
+created: 20230312211930030
+creator: alex
+modified: 20230312215251600
+modifier: alex
+tags: Radio Transceiver
+title: Boafeng Chirp Programming
+type: text/vnd.tiddlywiki
+
+I used UV-5X radio
+
+!! Frequencies of interest
+
+!!! 2m
+
+* 2m CQ
+** 145.500 MHz FM
+* GB3GN Repeater (2m) Banchory
+** TX 145.7750
+** RX 145.1750
+** CTCSS: 67 Hz
+* GB3NG repeater (2m) Fraserburgh
+** TX 145.625
+** RX 145.025
+** CTCSS: 67 Hz
+* Lunch Net 1330
+** 145.550
+
+Other repeaters
+
+
+!!! 70 cm
+
+* 70 cm CQ
+** 433.500 MHz
