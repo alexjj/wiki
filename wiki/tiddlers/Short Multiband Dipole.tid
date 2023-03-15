@@ -1,0 +1,17 @@
+created: 20230315220004246
+creator: alex
+modified: 20230315220034097
+modifier: alex
+tags: Antenna
+title: Short Multiband Dipole
+type: text/vnd.tiddlywiki
+
+
+
+<<<
+
+A simple and effective multiband antenna array can be made by connecting a number of parallel dipoles, spaced a few inches apart, to a single low-impedance transmission line at a common feed point. But you may not have space for a full size dipole on each band of interest. So some of those dipoles may need loading, coils so that they fit in available space and resonate on a particular band of interest. An antenna like this will perform very well, at modest heights
+<<<
+
+
+https://www.k7mem.com/Ant_Short_Multi_Band_Dipole.html
