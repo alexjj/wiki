@@ -1,0 +1,34 @@
+created: 20230319195548840
+creator: alex
+modified: 20230319195941200
+modifier: alex
+tags: Antenna
+title: HF Antenna (20m / 14 MHz)
+type: text/vnd.tiddlywiki
+
+1/2 wave vertical dipole
+
+```
+   |
+   |
+   |     5.02m exposed coax
+   |
+   |
+   =    heatshrink
+   ║
+   ║     RG-58 (50Ω)  coax
+   ║     5 m
+   ║
+   ║
+   =    tape
+  ┌─┐    The choke (drill 6 mm hole)
+  │ │   
+  └─┘   15 turns on 110 mm pipe
+   ║
+   ╚   to transciever ~ 5m?
+```
+
+SSB segment from 14.3 MHz – 14.350 MHz (contest free section)
+
+
+https://www.youtube.com/watch?v=cQCQckP6t84
