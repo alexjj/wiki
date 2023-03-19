@@ -1,6 +1,6 @@
 created: 20230319195548840
 creator: alex
-modified: 20230319195941200
+modified: 20230319201944097
 modifier: alex
 tags: Antenna
 title: HF Antenna (20m / 14 MHz)
@@ -28,7 +28,9 @@ type: text/vnd.tiddlywiki
    ╚   to transciever ~ 5m?
 ```
 
-SSB segment from 14.3 MHz – 14.350 MHz (contest free section)
+SSB segment from 14.1-14.3 MHz SSB (but often contests). 14.3 MHz – 14.350 MHz (contest free section).
+
+Want a 11-12 m pole, to keep the choke off the ground (about 2m)
 
 
 https://www.youtube.com/watch?v=cQCQckP6t84
