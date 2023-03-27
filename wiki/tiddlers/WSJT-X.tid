@@ -1,5 +1,7 @@
 created: 20221227222335206
-modified: 20221227223448596
+creator: alex
+modified: 20230327193459393
+modifier: alex
 tags: Radio
 title: WSJT-X
 type: text/vnd.tiddlywiki
@@ -11,3 +13,4 @@ Popular digital mode is FT8
 References:
 
 * [[The Old Codger's Guide to JT65A and JT9|https://www.g3lrs.org.uk/training/guide-to-wsjt-x.html]]
+* [[FT8 Guide]]
