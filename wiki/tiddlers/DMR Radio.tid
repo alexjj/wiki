@@ -1,6 +1,6 @@
 created: 20230327185315554
 creator: alex
-modified: 20230327210210710
+modified: 20230328213051620
 modifier: alex
 tags: Radio
 title: DMR Radio
@@ -19,7 +19,13 @@ References
 * https://radioid.net
 * [[Best practice|http://www.dmr-uk.net/wp-content/uploads/2016/02/DMR_MARC_Best_Practice_Guide_Rev_BB.pdf]]
 
+
+Firmware options
+
+* https://opengd77.com/
+
 things to look up
 
 * [[droid star|https://github.com/nostar/DroidStar]]
 * highlands and islands talkgroup - 23558
+* https://w0chp.net/w0chp-pistar-dash/

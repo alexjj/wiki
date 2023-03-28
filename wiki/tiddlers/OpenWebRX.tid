@@ -1,0 +1,19 @@
+created: 20230328211518007
+creator: alex
+modified: 20230328211630486
+modifier: alex
+tags: SDR Radio
+title: OpenWebRX
+type: text/vnd.tiddlywiki
+
+
+
+<<<
+OpenWebRX is a multi-user SDR receiver that can be operated from any web browser without the need for any additional client software. It is the ideal solution to provide access to the HF spectrum at your location of choice to a wide audience. All you need is a computer, an SDR device and network access. 
+
+<<<
+
+ 
+
+* https://www.openwebrx.de/
+* https://github.com/jketterl/openwebrx/
