@@ -1,6 +1,6 @@
 created: 20230328210328931
 creator: alex
-modified: 20230328210545393
+modified: 20230329200745608
 modifier: alex
 tags: Radio
 title: ADS-B Aircraft tracking
@@ -9,3 +9,4 @@ type: text/vnd.tiddlywiki
 * Web interface: https://github.com/wiedehopf/tar1090
 * https://opensky-network.org/
 * https://www.adsbexchange.com/
+* [[setup blog guide|https://www.atco2.org/news/how-to-setup-your-sdr-for-clean-atc-audio]]
