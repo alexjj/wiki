@@ -939,11 +939,19 @@ Error message and password prompt
 
 <li>WSJT-X</li>
 
+<li>wsjt-x-g90-2</li>
+
+<li>wsjt-x-g90-q</li>
+
 <li>X-T2</li>
 
 <li>XBox 360 PSU mod</li>
 
 <li>xbox game pass</li>
+
+<li>Xiegu G90</li>
+
+<li>Xiegu G90 WSJT-X Config</li>
 
 <li>Zettlekasten</li>
 
@@ -1759,11 +1767,19 @@ Error message and password prompt
 
 {"title":"WSJT-X","created":"20221227222335206","creator":"alex","modified":"20230327193459393","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"Interface with radio via computer. Make QSOs without saying a word! Also can test how far you can be heard with [[Digimode Automatic Propagation Reporter]].\n\nPopular digital mode is FT8\n\nReferences:\n\n* [[The Old Codger's Guide to JT65A and JT9|https://www.g3lrs.org.uk/training/guide-to-wsjt-x.html]]\n* [[FT8 Guide]]","revision":"0","bag":"default"},
 
+{"title":"wsjt-x-g90-2","type":"image/png","created":"20230403204705008","creator":"alex","modified":"20230403204712195","modifier":"alex","_canonical_uri":"./images/wsjt-x-g90-2","revision":"2","bag":"default"},
+
+{"title":"wsjt-x-g90-q","type":"image/png","created":"20230403204431313","creator":"alex","modified":"20230403204437969","modifier":"alex","_canonical_uri":"./images/wsjt-x-g90-q","revision":"2","bag":"default"},
+
 {"title":"X-T2","created":"20220613075009702","creator":"alexjj","modified":"20220923203353215","modifier":"alexjj","tags":"Hardware Photography","type":"text/vnd.tiddlywiki","text":"Bought from talkphtography forum 5th December 2020 for £360 inc. shipping\n\nSold on eBay 28th August 2022 for £380 + shipping.","revision":"0","bag":"default"},
 
 {"title":"XBox 360 PSU mod","created":"20230308152947557","creator":"alex","modified":"20230308153048277","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"https://m0lte.uk/index.php/2017/09/17/12v-radio-psu-from-xbox-360-psu/\n\n\n\u003C\u003C\u003C\nrated 14.2A at 12V.\n\nTurns out these are really easy to hack and work great as radio power supplies, so long as you don’t need more than 14A.\n\nChop off the plug, connect the red and blue wire together, then solder the three yellow wires to the positive side of your chosen power connector [1], and the three black wires to the negative side of your connector.\n\nMy big radio draws 15.6A transmitting 100W into a dummy load, which is above the rating on the label of the PSU, but it didn’t seem to mind! No heat detected even after quite a bit of testing – voltage dropped only to 11.93V. Safest to keep within the rating of course.\n\n[1] I use 30A Anderson Powerpoles for all my 12V connectors – including replacing all the non-standard connectors on all of my rigs. Sotabeams sells them for the best price I’ve been able to find in the UK.\n\u003C\u003C\u003C\n\n\n","revision":"0","bag":"default"},
 
 {"title":"xbox game pass","created":"20221204165741691","modified":"20221204165812308","tags":"Games","type":"text/vnd.tiddlywiki","text":"How game pass can work across multiple xboxes\n\n\u003C\u003C\u003C\nYou get to set one xbox that is your home xbox (for each game pass subscriber). Anyone who plays on the home xbox can play any game pass game. Then in addition the game pass subscriber can play any game pass game on any xbox (plus things like cloud gaming). So you could buy game pass against your own xbox profile but then assign the kids xbox as your home xbox. They'll be able to play game pass games on it, and you'll still be able to play game pass games on your xbox. They won't be able to play game pass games on your xbox though, unless you're logged at the time.\n\u003C\u003C\u003C\n","revision":"0","bag":"default"},
+
+{"title":"Xiegu G90","created":"20230403203958051","creator":"alex","modified":"20230403205342341","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"Bought used from https://www.hamradiodeals.co.uk/ 3/4/23\n\n!! Data modes, e.g. FT8\n\nIf you have applied the 1.79b02 (Or newer) firmware update from Xiegu, you'll need to select \"U-D\" as the mode for FT8 so that data travels out the rear port.\n\n[[Xiegu G90 WSJT-X Config]]\n\n!! Firmware\n\nReports that 1.79b is \"horrendous\". Stick with 1.76/1.78.\n\n!! Controls\n\nFactory reset - hold function and turn on","revision":"0","bag":"default"},
+
+{"title":"Xiegu G90 WSJT-X Config","created":"20230403204404265","creator":"alex","modified":"20230403210355067","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"!! WSJT-X setup\n\n[img[wsjt-x-g90-q]]\n\n\nGridsquare: IO87\n\n[img[wsjt-x-g90-2]]\nDoes have G90 config but one guy didn't find it would work well.\n\nAnother person set fake it on.\n\nAudio tab, chose input and output of the audio device. Use mono or left.\n\nIf see the slider on left as red, then cut microphone input until stop being red. Turn audio output up as high as possible to get ALC to 95-100%, aim for 99% (?)\n\n\n!! G90 setup\n\n[[From this video.|https://youtu.be/3DxY1HecbhQ?t=879]]\n\n# Turn pre/ATT off\n# Make sure compression off. Press CMP\n# NB Off\n# AGC to AGC-- (off)\n# Press func button so it lights up\n## Filter low (F-L) - all the way down\n## Filter High (F-H)- all the way up\n## POW: Mic gain 10\n## POW: Input to Line\n# Long press Func button\n## 5. Aux in volume: 8\n## 6. Aux out volume 15\n# Push volume mode to set to headphones\n# Long press AGC to get RF gain - turn up until don't get the yellow arrow (maybe 70%)","revision":"0","bag":"default"},
 
 {"title":"Zettlekasten","created":"20211110101715305","creator":"alexjj","modified":"20211209122059904","modifier":"alexjj","tags":"note-taking","type":"text/vnd.tiddlywiki","text":"Based upon a German individual who kept a notes system that proved to be very productive. Not sure I need to produce anything but I want to improve myself. If I need inspiration of what I could make there's [[this|https://zettelkasten.sorenbjornstad.com/]].\n\nHe makes a good looking tiddlywiki and cli for managing one: https://github.com/sobjornstad/tzk\n\n\u003Ciframe width=\"894\" height=\"503\" src=\"https://www.youtube.com/embed/9X_T-DVie8o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen>\u003C/iframe>","revision":"0","bag":"default"}
 ]</script><div id="storeArea" style="display:none;"></div>

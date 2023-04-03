@@ -1,0 +1,23 @@
+created: 20230403203958051
+creator: alex
+modified: 20230403205342341
+modifier: alex
+tags: Radio
+title: Xiegu G90
+type: text/vnd.tiddlywiki
+
+Bought used from https://www.hamradiodeals.co.uk/ 3/4/23
+
+!! Data modes, e.g. FT8
+
+If you have applied the 1.79b02 (Or newer) firmware update from Xiegu, you'll need to select "U-D" as the mode for FT8 so that data travels out the rear port.
+
+[[Xiegu G90 WSJT-X Config]]
+
+!! Firmware
+
+Reports that 1.79b is "horrendous". Stick with 1.76/1.78.
+
+!! Controls
+
+Factory reset - hold function and turn on

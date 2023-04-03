@@ -1,0 +1,43 @@
+created: 20230403204404265
+creator: alex
+modified: 20230403210355067
+modifier: alex
+tags: Radio
+title: Xiegu G90 WSJT-X Config
+type: text/vnd.tiddlywiki
+
+!! WSJT-X setup
+
+[img[wsjt-x-g90-q]]
+
+
+Gridsquare: IO87
+
+[img[wsjt-x-g90-2]]
+Does have G90 config but one guy didn't find it would work well.
+
+Another person set fake it on.
+
+Audio tab, chose input and output of the audio device. Use mono or left.
+
+If see the slider on left as red, then cut microphone input until stop being red. Turn audio output up as high as possible to get ALC to 95-100%, aim for 99% (?)
+
+
+!! G90 setup
+
+[[From this video.|https://youtu.be/3DxY1HecbhQ?t=879]]
+
+# Turn pre/ATT off
+# Make sure compression off. Press CMP
+# NB Off
+# AGC to AGC-- (off)
+# Press func button so it lights up
+## Filter low (F-L) - all the way down
+## Filter High (F-H)- all the way up
+## POW: Mic gain 10
+## POW: Input to Line
+# Long press Func button
+## 5. Aux in volume: 8
+## 6. Aux out volume 15
+# Push volume mode to set to headphones
+# Long press AGC to get RF gain - turn up until don't get the yellow arrow (maybe 70%)
