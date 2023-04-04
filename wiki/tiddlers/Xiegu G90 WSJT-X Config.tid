@@ -1,6 +1,6 @@
 created: 20230403204404265
 creator: alex
-modified: 20230403210355067
+modified: 20230404190234927
 modifier: alex
 tags: Radio
 title: Xiegu G90 WSJT-X Config
@@ -8,13 +8,13 @@ type: text/vnd.tiddlywiki
 
 !! WSJT-X setup
 
-[img[wsjt-x-g90-q]]
+[img[wsjt-x-g90-q.png]]
 
 
 Gridsquare: IO87
 
-[img[wsjt-x-g90-2]]
-Does have G90 config but one guy didn't find it would work well.
+[img[wsjt-x-g90-2.png]]
+Does have G90 config but one guy didn't find it would work well. Another option is to install [[FLRig|https://sourceforge.net/projects/fldigi/files/flrig/]]. And iset it up link this [[video|https://www.youtube.com/watch?v=al99ItgnJ9U]]. 
 
 Another person set fake it on.
 
