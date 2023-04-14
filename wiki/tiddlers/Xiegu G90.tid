@@ -1,6 +1,6 @@
 created: 20230403203958051
 creator: alex
-modified: 20230403205342341
+modified: 20230414210140696
 modifier: alex
 tags: Radio
 title: Xiegu G90
@@ -21,3 +21,34 @@ Reports that 1.79b is "horrendous". Stick with 1.76/1.78.
 !! Controls
 
 Factory reset - hold function and turn on
+
+!! Recommended Settings
+
+From [[here|https://www.youtube.com/watch?v=N6yhfxFr0dM]]:
+
+* Press Func, and Power button for mic gain to 12
+* CMP (compression) on with mic gain at 10 to try and get output in the middle
+
+From [[here|https://www.youtube.com/watch?v=RUOmcF7ZZ0A]].
+
+* AGC-Auto (AGC button)
+* Attenuator on to A (ATT/Pre button)
+* FUNC, CMP, to adjust width
+* Hold AGC and turn RF gain down to 13, and turn AGC off.
+* then endless fiddling...!
+
+From reddit [[thread|https://www.reddit.com/r/amateurradio/comments/kakk5t/xiegu_g90_settings/]]:
+
+* AGC set to F
+* Mic gain 11
+* RF gain left alone at 60
+* Compression on
+* Bandwidth 2300 for SSB
+
+Various threads on https://xiegug90.groups.io/
+
+* Keep RF at 50 or less
+** even low as 30 on 40m to keep noise to about S2.
+* Preamp off for 80, 40, 20 (?) but maybe on for 15 and 10m
+
+ATU will remember for 100 kHz segments, and ATU is only active when enabled. You activate it first, then hold it to tune. 
