@@ -1,6 +1,6 @@
 created: 20230403204404265
 creator: alex
-modified: 20230404190234927
+modified: 20230420074838086
 modifier: alex
 tags: Radio
 title: Xiegu G90 WSJT-X Config
@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 
 !! WSJT-X setup
 
-[img[wsjt-x-g90-q.png]]
+[img[wsjtx-g90-1.png]]
 
 
 Gridsquare: IO87
@@ -20,9 +20,10 @@ Another person set fake it on.
 
 Audio tab, chose input and output of the audio device. Use mono or left.
 
-If see the slider on left as red, then cut microphone input until stop being red. Turn audio output up as high as possible to get ALC to 95-100%, aim for 99% (?)
+If see the slider on left as red, then cut microphone input until stop being red. Turn audio output up as high as possible to get ALC to 95-100%, aim for 99% (?) Adjust power slider on right side of WSJT-X as well for this.
 
-
+[img[wsjt-g90-colors.png]]
+[img[wsjtx-g90-waterfall.png]]
 !! G90 setup
 
 [[From this video.|https://youtu.be/3DxY1HecbhQ?t=879]]
@@ -41,3 +42,11 @@ If see the slider on left as red, then cut microphone input until stop being red
 ## 6. Aux out volume 15
 # Push volume mode to set to headphones
 # Long press AGC to get RF gain - turn up until don't get the yellow arrow (maybe 70%)
+
+!! other notes
+
+* Tick Hold TX Freq: That way you can switch from calling cq to answering CQ calls while staying on your preselected freq that you saw was clear.
+* Also if no one is answering you. Stop tx for a few cycles and see if anyone is tx a strong signal over you.
+* Tick Auto Seq to transmit the messages automatically
+* Split operations
+** Rig or fake it. Fake it was above if rig doesn't support it (does G90?)
