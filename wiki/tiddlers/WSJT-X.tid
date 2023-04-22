@@ -1,6 +1,6 @@
 created: 20221227222335206
 creator: alex
-modified: 20230327193459393
+modified: 20230422115748733
 modifier: alex
 tags: Radio
 title: WSJT-X
@@ -14,3 +14,11 @@ References:
 
 * [[The Old Codger's Guide to JT65A and JT9|https://www.g3lrs.org.uk/training/guide-to-wsjt-x.html]]
 * [[FT8 Guide]]
+
+
+!! Audio settings for bands:
+
+!!! 20m
+
+* Speakers - 19
+* Microphone 55
