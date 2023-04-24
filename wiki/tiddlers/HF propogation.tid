@@ -1,6 +1,6 @@
 created: 20230307194935979
 creator: alex
-modified: 20230307195222502
+modified: 20230424065335864
 modifier: alex
 tags: Radio
 title: HF propogation
@@ -9,3 +9,5 @@ type: text/vnd.tiddlywiki
 https://prop.kc2g.com/
 
 Look for Solar Flux Index (SFI) on http://hamqsl.com/solar.html. Higher numbers means more solar activity, higher means upper bands open up. 150 is good and over 200 is great.
+
+Calculator between locations and best time and frequency: https://www.voacap.com/hf/
