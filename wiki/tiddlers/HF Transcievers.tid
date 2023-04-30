@@ -1,21 +1,17 @@
 created: 20230307113321438
 creator: alex
-modified: 20230307121358771
+modified: 20230430214125068
 modifier: alex
 tags: Radio
 title: HF Transcievers
 type: text/vnd.tiddlywiki
 
-* https://moonrakeronline.com/xiegu-g90-portable-hf-sdr-transceiver
-* https://moonrakeronline.com/xiegu-x6100-ultra-portable-shortwave-transceiver-radio-deposit
-** built in battery
+100W ones:
 
-Other options to look into that I've seen people using:
-
-* ICOM IC-705
+* Yaesu FT DX10
+** yaesu fh-2 for remote control of saved messages
 * ICOM IC-7300
 * Yaesu FT-891
 * Yaesu FT-710 
 ** secondhand £500?
-* Yaesu FT DX10
 * Kenwood TS-590
