@@ -1,9 +1,19 @@
 created: 20230507100841001
 creator: alex
-modified: 20230507100856467
+modified: 20230507111000480
 modifier: alex
 tags: Radio
 title: Measure callsign weight for CW
 type: text/vnd.tiddlywiki
 
 https://fists.co.uk/measurecallsign.aspx
+
+[[Advice for callsigns|https://reflector.sota.org.uk/t/what-makes-a-good-cw-callsign/25651/3]]
+
+avoid:
+
+* ending in K or E
+* ending in BK
+* avoid T or E in it at all
+* avoid E, I, S, H, B, D, Z
+* avoid C, G, N
