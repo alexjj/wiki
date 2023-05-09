@@ -1,13 +1,18 @@
 created: 20230509103904226
 creator: alex
-modified: 20230509104136378
+modified: 20230509123438473
 modifier: alex
 tags: Antenna
 title: Vertical Radials
 type: text/vnd.tiddlywiki
 
-Total copper of 4 wavelengths. e.g. 16*5m for 20m band, or 32x 2.5m.
+* Total copper of 4 wavelengths. e.g. 16*5m for 20m band, or 32x 2.5m.
+* Compromises e.g. 90 degrees, do what you can do!
+** https://www.youtube.com/watch?v=5jyp-oi1XXg
 
-Compromises e.g. 90 degrees, do what you can do!
-
-https://www.youtube.com/watch?v=5jyp-oi1XXg
+* Raise it ~3m off the ground (min), only need a few radials.
+* Radial legs go down at 45 degrees (25-45°)
+* Need to trim the radial to get the right VSWR
+* Put two radials at 180° from each other
+** https://youtu.be/O-fPYRekePs?t=292
+** e.g. 1/4 wave on 20m, is 5 + 3m off the ground = 8 m total height
