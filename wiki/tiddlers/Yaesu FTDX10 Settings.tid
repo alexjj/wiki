@@ -1,0 +1,30 @@
+created: 20230514160635843
+creator: alex
+modified: 20230514161502777
+modifier: alex
+tags: Radio
+title: Yaesu FTDX10 Settings
+type: text/vnd.tiddlywiki
+
+* Radio Settings
+** Mode SSB
+*** TX BPF SEL: 300-2700 Hz
+* Operations setting
+** TX Audio
+*** PRMTRC EQ1: 300 Hz
+*** PRMTRC EQ1 bandwidth: 10
+*** PRMTRC EQ2 Freq: 1300 Hz
+*** PRMTRC EQ2 level: 10
+*** PRMTRC EQ2 bandwidth: 2
+*** PRMTRC EQ3 freq: 2400 Hz
+*** PRMTRC EQ3 level: 10
+*** PRMTRC EQ3 bandwidth: 1
+*** P PRMTRC EQ1 freq: 300 Hz
+*** P PRMTRC EQ1 Level: 10
+*** P PRMTRC EQ1 bandwidth: 2
+*** P PRMTRC EQ2 Freq: 1300 Hz
+*** P PRMTRC EQ2 level: 10
+*** P PRMTRC EQ2 bandwidth: 2
+*** P PRMTRC EQ3 Freq: 2400 Hz
+*** P PRMTRC EQ3 level: 10
+*** P PRMTRC EQ3 bandwidth: 1
