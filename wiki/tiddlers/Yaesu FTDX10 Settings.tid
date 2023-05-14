@@ -1,14 +1,19 @@
 created: 20230514160635843
 creator: alex
-modified: 20230514161502777
+modified: 20230514193738029
 modifier: alex
 tags: Radio
 title: Yaesu FTDX10 Settings
 type: text/vnd.tiddlywiki
 
+Press Func button, tap a menu, and then the knob adjusts that setting. e.g. RF Power.
+
 * Radio Settings
 ** Mode SSB
-*** TX BPF SEL: 300-2700 Hz
+*** TX BPF SEL: 300-2700 Hz (maybe 400-2600 for pile up)
+*** LCut Freq: 150 Hz
+*** HCut slope: 18dB/oct
+*** HCut freq: 2800 Hz if possible (helps vs. noise) (Or 2400Hz with 6dB role off)
 * Operations setting
 ** TX Audio
 *** PRMTRC EQ1: 300 Hz
@@ -28,3 +33,24 @@ type: text/vnd.tiddlywiki
 *** P PRMTRC EQ3 Freq: 2400 Hz
 *** P PRMTRC EQ3 level: 10
 *** P PRMTRC EQ3 bandwidth: 1
+* Mic gain on (35-45 ish)
+** Check ALC and COMP chart
+** Want to talk normally and see ALC chart gets to white:blue boundary, but just below
+* Proc level 15 (20 max, maybe 20 for pile up)
+** Check COMP meter - want to be at about 10 dB of compression
+* AMC level 50-65 (65 Max!). Start 60.
+
+Getting rid of noise:
+
+* ATT - 12 dB
+* IPO - IPO
+* RF Gain
+* Then DNR
+** Long press + multifunctional knob - higher the number the more agressive to remove noise
+** 1 is generally fine. 
+** If aggressive knocking out noise, then can go to Radio Settings, SSB, and increase the highs
+
+Selectivity:
+
+* Bandwidth on outer knob
+* Shift on knob
