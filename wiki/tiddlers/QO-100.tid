@@ -1,6 +1,6 @@
 created: 20230515081231302
 creator: alex
-modified: 20230515083352582
+modified: 20230515133048922
 modifier: alex
 tags: Radio Satellite
 title: QO-100
@@ -8,3 +8,5 @@ type: text/vnd.tiddlywiki
 
 * https://dxpatrol.pt/
 * Funcube Dongle Pro+ for downlink
+* https://dk1mi.radio/qo100-pluto-sdr/
+* https://www.instructables.com/Satellite-Ground-Station-for-the-QO-100-Eshail-2-G/
