@@ -483,6 +483,8 @@ Error message and password prompt
 
 <li>FT8 Guide</li>
 
+<li>FTDX10 FT8 setup</li>
+
 <li>Fuji 18mm f/2</li>
 
 <li>Fuji Film Simulation Recipe sites</li>
@@ -947,6 +949,8 @@ Error message and password prompt
 
 <li>Vertical Radials</li>
 
+<li>VHF/UHF Transceiver</li>
+
 <li>Voigtlander Lens Tiers</li>
 
 <li>VS Code Snippets</li>
@@ -1362,6 +1366,8 @@ Error message and password prompt
 {"title":"FT-991 vs FT-991A","created":"20230309231456913","creator":"alex","modified":"20230309233404523","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"[[Good video|https://www.youtube.com/watch?v=BSZRGI4-tsI]] demonstrating the differences. \n\n[[Beginners guide.|https://www.youtube.com/watch?v=atmZTNXUwg8]]","revision":"0","bag":"default"},
 
 {"title":"FT8 Guide","created":"20230320221515308","creator":"alex","modified":"20230320221525153","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"https://www.g4ifb.com/FT8_Hinson_tips_for_HF_DXers.pdf","revision":"0","bag":"default"},
+
+{"title":"FTDX10 FT8 setup","created":"20230517212059772","creator":"alex","modified":"20230517212314518","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"https://groups.io/g/ftdx-10/topic/set_up_for_ftdx_10_to_ft8/85172961?p=\n\n```\n1. Printer Cable USB https://www.amazon.com/AmazonBasics-Printer-Type-Cable-Male/dp/B00BCWALHM/ref=asc_df_B00BCWALHM/?tag=hyprod-20&linkCode=df0&hvadid=167126093426&hvpos=&hvnetw=g&hvrand=3387716008642466454&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9026792&hvtargid=pla-83922868406&psc=1\n\n2. You havev to down load the \n\nhttps://www.silabs.comdevelopers/usb-to-uart-bridge-vcp-drivers /\n\nThis makes your USB into a Comm port\n\nNote 1: Do NOT have the FTDX 10 connected, \n\nNote: 2: When you download this software it is two steps, one to extract and the second to actually implement the software to the computer\n\n3. Down load the WSJT https://physics.princeton.edu/pulsar/k1jt/wsjtx.html\n\nNote: If windows, scroll down the page to you see Installation packages for WSJT-X 2.4.0\n\nOnce you down load set the \nfollowing\n\nConnect the USB cable between the Labtop (USB Port) to the back end of the FTDX 10, (Using USB port, however, the \"Square one, or if you will printer style)\n\nFire up the WSJT program, once you do, it will come up not working,...Select configuration \n\nOnce this is done, go to File tab, and scroll down to settings\n\nTab on \"General\" Put in Calls, and My Grid\nTab on Radio\n\nSelect FTDX 10\nSerial Port (Select COmm 4, however, there will be two COmm ports if one does not work try the other one) The Silicon Lab ties up to ports, \nBaud rate 38400\nData Bits Default\nStop Bits Default\nHandshake Default\nPTT method CAT\nMode None \nSplit None\n\nTab on Audio\n\nInput Select Line (USB Audio Codec)\nOutput Select Speakers (USB Audio Codec)\n\nNow for the Radio settings\n\nHit Function key\n\nSelect Radio Setting\nSelect Mode PSK / DATA\nData Mode Source \"Rear\"\nRear Select USB\nData Level 50\nRPort Gain set to 10\nHCUT Freq \"OFF\"\nLCUT FReq \"OFF\"\nData Shift 0\nNow select Back to normal display..\n\nNext step, go to the front of the radio and Hit Mode on front panel and select Data U)\n\n\n```\n\nAlso \n\n```\nRPORT GAIN is increased to the 30-70 range.\nRig Operation = Fake It or Rig in WSJT-X.\n```","revision":"0","bag":"default"},
 
 {"title":"Fuji 18mm f/2","created":"20211017194746854","creator":"alexjj","modified":"20211017195045253","modifier":"alexjj","tags":"Photography","type":"text/vnd.tiddlywiki","text":"Pancake lens, part of the old set of Fuji lenses. So comes with nice metal, square hood (very important to making photos 😅) Thought I'd try this over a whole new camera ([[Ricoh GR]]/[[Ricoh GRiiix]]). \n\nHoping it's a hidden gem and I'll love it.","revision":"0","bag":"default"},
 
@@ -1826,6 +1832,8 @@ Error message and password prompt
 {"title":"Vertical Flowerpot HF Antenna (10m / 28 MHz)","created":"20230307112333168","creator":"alex","modified":"20230512151718019","modifier":"alex","tags":"10m Antenna","type":"text/vnd.tiddlywiki","text":"1/2 wave vertical dipole\n\n```\n   |\n   |\n   |     2500mm of wire (dx 10?) or exposed coax\n   |\n   |\n   =    heatshrink\n   ║\n   ║     RG-58 (50Ω)  coax\n   ║     2450 mm\n   ║\n   ║\n   =    tape\n  ┌─┐    The choke (drill 6 mm hole)\n  │ │   50mm diameter/150mm height PVC pipe for forma\n  └─┘   Wrap 23/24 turns around the pipe (4.4 m of coax)\n   ║\n   ╚   to transciever ~ 5m?\n```\n\n28.3 MHz - 29.0 MHz is SSB\n\n\nreferences:\n\n* https://www.youtube.com/watch?v=B1k-ybRNBIE\n** Measurements above\n* https://www.youtube.com/watch?v=9AqzxsKh66E\n** This guy does slightly different distances\n*** 2470mm vs 2450mm for bottom half\n*** Former 110mm pipe, and 4 turns\n* https://vk2zoi.com/articles/half-wave-flower-pot/\n* http://www.karinya.net/g3txq/chokes/\n* https://rsgb.org/main/operating/band-plans/hf/28mhz/","revision":"0","bag":"default"},
 
 {"title":"Vertical Radials","created":"20230509103904226","creator":"alex","modified":"20230509123438473","modifier":"alex","tags":"Antenna","type":"text/vnd.tiddlywiki","text":"* Total copper of 4 wavelengths. e.g. 16*5m for 20m band, or 32x 2.5m.\n* Compromises e.g. 90 degrees, do what you can do!\n** https://www.youtube.com/watch?v=5jyp-oi1XXg\n\n* Raise it ~3m off the ground (min), only need a few radials.\n* Radial legs go down at 45 degrees (25-45°)\n* Need to trim the radial to get the right VSWR\n* Put two radials at 180° from each other\n** https://youtu.be/O-fPYRekePs?t=292\n** e.g. 1/4 wave on 20m, is 5 + 3m off the ground = 8 m total height","revision":"0","bag":"default"},
+
+{"title":"VHF/UHF Transceiver","created":"20230517212403151","creator":"alex","modified":"20230517212424633","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"Kenwood TS-2000","revision":"0","bag":"default"},
 
 {"title":"Voigtlander Lens Tiers","created":"20211008191023655","creator":"alexjj","modified":"20211008193504898","modifier":"alexjj","tags":"Photography","type":"text/vnd.tiddlywiki","text":"From low to high:\n\n* Vaskar\n* Color-Skopar\n* Heliar\n* APO-Lanthar","revision":"0","bag":"default"},
 

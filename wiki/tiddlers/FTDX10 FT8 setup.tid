@@ -1,0 +1,80 @@
+created: 20230517212059772
+creator: alex
+modified: 20230517212314518
+modifier: alex
+tags: Radio
+title: FTDX10 FT8 setup
+type: text/vnd.tiddlywiki
+
+https://groups.io/g/ftdx-10/topic/set_up_for_ftdx_10_to_ft8/85172961?p=
+
+```
+1. Printer Cable USB https://www.amazon.com/AmazonBasics-Printer-Type-Cable-Male/dp/B00BCWALHM/ref=asc_df_B00BCWALHM/?tag=hyprod-20&linkCode=df0&hvadid=167126093426&hvpos=&hvnetw=g&hvrand=3387716008642466454&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9026792&hvtargid=pla-83922868406&psc=1
+
+2. You havev to down load the 
+
+https://www.silabs.comdevelopers/usb-to-uart-bridge-vcp-drivers /
+
+This makes your USB into a Comm port
+
+Note 1: Do NOT have the FTDX 10 connected, 
+
+Note: 2: When you download this software it is two steps, one to extract and the second to actually implement the software to the computer
+
+3. Down load the WSJT https://physics.princeton.edu/pulsar/k1jt/wsjtx.html
+
+Note: If windows, scroll down the page to you see Installation packages for WSJT-X 2.4.0
+
+Once you down load set the 
+following
+
+Connect the USB cable between the Labtop (USB Port) to the back end of the FTDX 10, (Using USB port, however, the "Square one, or if you will printer style)
+
+Fire up the WSJT program, once you do, it will come up not working,...Select configuration 
+
+Once this is done, go to File tab, and scroll down to settings
+
+Tab on "General" Put in Calls, and My Grid
+Tab on Radio
+
+Select FTDX 10
+Serial Port (Select COmm 4, however, there will be two COmm ports if one does not work try the other one) The Silicon Lab ties up to ports, 
+Baud rate 38400
+Data Bits Default
+Stop Bits Default
+Handshake Default
+PTT method CAT
+Mode None 
+Split None
+
+Tab on Audio
+
+Input Select Line (USB Audio Codec)
+Output Select Speakers (USB Audio Codec)
+
+Now for the Radio settings
+
+Hit Function key
+
+Select Radio Setting
+Select Mode PSK / DATA
+Data Mode Source "Rear"
+Rear Select USB
+Data Level 50
+RPort Gain set to 10
+HCUT Freq "OFF"
+LCUT FReq "OFF"
+Data Shift 0
+Now select Back to normal display..
+
+Next step, go to the front of the radio and Hit Mode on front panel and select Data U)
+
+
+```
+
+Also 
+
+```
+RPORT GAIN is increased to the 30-70 range.
+Rig Operation = Fake It or Rig in WSJT-X.
+```
