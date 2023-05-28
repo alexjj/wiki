@@ -1,6 +1,6 @@
 created: 20230515081231302
 creator: alex
-modified: 20230515145709174
+modified: 20230528181403274
 modifier: alex
 tags: Radio Satellite
 title: QO-100
@@ -11,3 +11,18 @@ type: text/vnd.tiddlywiki
 * https://dk1mi.radio/qo100-pluto-sdr/
 * https://www.instructables.com/Satellite-Ground-Station-for-the-QO-100-Eshail-2-G/
 * https://www.qrz.com/db/G7IYK
+* http://www.bravoao.co.uk/g4bao/Files/QO-100.pdf
+
+
+https://www.dishpointer.com/ Using 26E Arabsat
+```
+Dish Setup Data
+Elevation:  20.4°
+Azimuth (true):  147.4°
+Azimuth (magn.):  148.1°
+LNB Skew [?]:  -17.0°
+```
+
+Parts list:
+
+* http://www.sg-lab.com/AMP2400v3/amp2400_v3.html
