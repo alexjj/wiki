@@ -1,7 +1,7 @@
 created: 20211031170816442
 creator: alexjj
-modified: 20211031170850306
-modifier: alexjj
+modified: 20230530140403266
+modifier: alex
 tags: Life Software
 title: Anki
 type: text/vnd.tiddlywiki
@@ -9,3 +9,29 @@ type: text/vnd.tiddlywiki
 https://apps.ankiweb.net/
 
 Soren used this a lot in his grokking TW. 
+
+
+!! Guides and tips
+
+[[Tutorial video|https://www.youtube.com/watch?v=WmPx333n5UQ]]
+
+* Make multiple sub-decks to separate out content
+* Basic and reverse
+** Adds two cards with question and answer and then answer and question
+* Cloze
+** To memorise a long thing within a statement
+** e.g. in an inductor current [...hidden part...] voltage. Where hidden part is the answer.
+** Press three dots, and can choose multiple parts of statement which end up being multiple flash cards.
+*** Or put c1 for both and want to memorise both together
+* Image occlusion tool
+** [[A free-add on|https://ankiweb.net/shared/info/1374772155]].  
+*** Install with code `1374772155`
+** Load image
+** Want hide one or hide all
+* Use snipping tool of existing content, and paste into the anki card, even just basic one
+* Screenshot, click image inclusion and then it'll automatically import it
+* Use tags to set difficulty of a flash card. So can then focus on harder ones nearer the time
+** Create a filtered deck
+** tag: "hard"
+* Mental timer of 10 seconds to review question and answer, then click 1 minute or 10 minute.
+* Breakdown large flash card into smaller parts, even without making new cards by setting challenges myself.
