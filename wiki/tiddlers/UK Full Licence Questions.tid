@@ -1,23 +1,27 @@
 created: 20230531061131686
 creator: alex
-modified: 20230531061758994
+modified: 20230531090412875
 modifier: alex
 tags: Radio
 title: UK Full Licence Questions
 type: text/vnd.tiddlywiki
 
-* Transmitters and recievers - 12 
+* Transmitters and receivers - 12 
 * Technical aspects - 11 
 * EMC -10 
 * Licencing - 7 
+* Measurement - 5 
 * Safety - 4 
-* Measurement - 4 
-** Series multiplier resistors & Shunts & tolerances, calibration accuracy
-** RF power measurements  
-** Limitations of measuring equipment, SWR measurement, Oscilloscopes, Spectrum Analyser
-** Decibels
-** Components
 * Feeders and antennas - 4 
 * Propagation - 3 
 * Operating Practices - 2 
 
+
+
+!!! Measurement
+
+* Series multiplier resistors & Shunts & tolerances, calibration accuracy
+* RF power measurements
+* Limitations of measuring equipment, SWR measurement, Oscilloscopes, Spectrum Analyser
+* Decibels
+* Components
