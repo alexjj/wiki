@@ -1,6 +1,6 @@
 created: 20230515081231302
 creator: alex
-modified: 20230528181403274
+modified: 20230604194853384
 modifier: alex
 tags: Radio Satellite
 title: QO-100
@@ -12,9 +12,11 @@ type: text/vnd.tiddlywiki
 * https://www.instructables.com/Satellite-Ground-Station-for-the-QO-100-Eshail-2-G/
 * https://www.qrz.com/db/G7IYK
 * http://www.bravoao.co.uk/g4bao/Files/QO-100.pdf
+* [[french site about SSTV and QO-100|https://www-f5uii-net.translate.goog/en/transmit-datv-over-qo100-with-sdr-adalm-pluto-f5oeo-plutodvb/2/?_x_tr_sl=auto&_x_tr_tl=en-GB&_x_tr_hl=en-GB]]
 
 
 https://www.dishpointer.com/ Using 26E Arabsat
+
 ```
 Dish Setup Data
 Elevation:  20.4°
