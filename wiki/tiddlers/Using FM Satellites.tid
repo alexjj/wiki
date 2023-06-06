@@ -1,5 +1,7 @@
 created: 20221220224312364
-modified: 20221220224542447
+creator: alex
+modified: 20230606152201037
+modifier: alex
 tags: Radio
 title: Using FM Satellites
 type: text/vnd.tiddlywiki
@@ -8,3 +10,10 @@ Can use satellites that have built in FM repeaters.
 
 * [[Find Satellites here|http://amsat.org.ar/pass.htm#]]
 * [[Guide|https://amsat-uk.org/beginners/how-to-work-fm-satellites/]]
+
+Good full duplex transceivers:
+
+* 2x Yaesu FT-818
+* Kenwood TH-D72A
+* ICOM IC-9700
+* ICOM ID-5100A
