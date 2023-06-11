@@ -1,6 +1,6 @@
 created: 20230515081231302
 creator: alex
-modified: 20230610162154003
+modified: 20230611203533673
 modifier: alex
 tags: Radio Satellite
 title: QO-100
@@ -15,6 +15,7 @@ type: text/vnd.tiddlywiki
 * [[french site about SSTV and QO-100|https://www-f5uii-net.translate.goog/en/transmit-datv-over-qo100-with-sdr-adalm-pluto-f5oeo-plutodvb/2/?_x_tr_sl=auto&_x_tr_tl=en-GB&_x_tr_hl=en-GB]]
 * ice cone feed: https://www.qrz.com/db/DC8PAT
 ** https://nolle.engineering/ice-cone-feed/
+* https://github.com/happysat/Es-Hail-2-Oscar-100/blob/main/README.md
 
 
 https://www.dishpointer.com/ Using 26E Arabsat
@@ -41,3 +42,11 @@ SSB → Upconverter (with GPSDO) → RF Amp → TX Helix on dish.
 Uses existing rig and then upconverts it to 2.4 GHz. e.g. this [[video|https://www.youtube.com/watch?v=MhdAYKF6jcU]]
 
 * [[DXPatrol upconverter|https://dxpatrol.pt/produto/upconverter-mk4-for-qo-100/]] €135
+
+
+
+Recieve:
+
+* NooElec SDR
+* Screwfix waterproof external enclosuers £36
+* LMR-400-UF and connectors from Barenco
