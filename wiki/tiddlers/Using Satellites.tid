@@ -1,9 +1,9 @@
 created: 20221220224312364
 creator: alex
-modified: 20230606152201037
+modified: 20230611065820836
 modifier: alex
 tags: Radio
-title: Using FM Satellites
+title: Using Satellites
 type: text/vnd.tiddlywiki
 
 Can use satellites that have built in FM repeaters.
@@ -17,3 +17,9 @@ Good full duplex transceivers:
 * Kenwood TH-D72A
 * ICOM IC-9700
 * ICOM ID-5100A
+
+!!! Antenna rotators
+
+* https://www.tindie.com/products/johnnywu/the-antrunner-rotator/
+** [[Review|https://www.rtl-sdr.com/antrunner-testing-a-low-cost-satellite-antenna-rotator/]]
+* https://tysonpower.de/blog/diy-az-el-antenna-rotator-for-under-150
