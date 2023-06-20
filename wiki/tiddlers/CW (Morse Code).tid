@@ -1,6 +1,6 @@
 created: 20230330184644530
 creator: alex
-modified: 20230619211043917
+modified: 20230620055956203
 modifier: alex
 tags: Radio
 title: CW (Morse Code)
@@ -13,6 +13,8 @@ type: text/vnd.tiddlywiki
 * http://www.tasrt.ca/TASRT/index.html
 * https://lcwo.net/
 * https://pacolabs.com/iOS/MorseIt/
+* https://morsle.fun/help
+* https://vail.woozle.org/#
 
 Recommends 4x 15 minutes every day. Don't learn the dits and dahs, listen to the sound they make and learn that. The key is to learn to recognize a letter or number’s pattern, and
 then recognize words that use those letters
@@ -23,3 +25,10 @@ Learning hardward:
 
 * https://www.morserino.info/
 * https://hamradio.solutions/vband/
+* build something with Seeeduino XIAO [[e.g.|https://discord.com/channels/715554730323083274/716214220080939008/998276749408350238]]
+** with Palm Radio mini paddle
+
+Paddles
+
+* Fancy [[Begali keys|https://www.i2rtf.com/keys---paddles.html]]
+** e.g. pearl, simplex or simplex pro
