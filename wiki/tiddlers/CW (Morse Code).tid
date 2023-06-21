@@ -1,6 +1,6 @@
 created: 20230330184644530
 creator: alex
-modified: 20230620055956203
+modified: 20230621194115429
 modifier: alex
 tags: Radio
 title: CW (Morse Code)
@@ -27,6 +27,7 @@ Learning hardward:
 * https://hamradio.solutions/vband/
 * build something with Seeeduino XIAO [[e.g.|https://discord.com/channels/715554730323083274/716214220080939008/998276749408350238]]
 ** with Palm Radio mini paddle
+** https://github.com/nealey/vail-adapter/
 
 Paddles
 
