@@ -1,6 +1,6 @@
 created: 20230515081231302
 creator: alex
-modified: 20230611203533673
+modified: 20230623200452806
 modifier: alex
 tags: Radio Satellite
 title: QO-100
@@ -33,9 +33,9 @@ Parts list:
 * http://www.sg-lab.com/AMP2400v3/amp2400_v3.html
 
 
-!!! Build options for transmit:
+!! Build options for transmit:
 
-!!!! Upconverter
+!!! Upconverter
 
 SSB → Upconverter (with GPSDO) → RF Amp → TX Helix on dish.
 
@@ -45,8 +45,29 @@ Uses existing rig and then upconverts it to 2.4 GHz. e.g. this [[video|https://w
 
 
 
-Recieve:
+!!! Recieve:
 
 * NooElec SDR
 * Screwfix waterproof external enclosuers £36
 * LMR-400-UF and connectors from Barenco
+
+!! Full SDR
+
+
+* SDR
+** Adalm Pluto
+** Pluto+ SDR
+* Amplifier
+* Pre-amp
+** Analogue Devices CN0417 pre-amp
+* Power amp
+** EDUP EP-AB003 8W 2.4G repeater wifi booster
+** SG Labs 2.4GHz v3 power amplifier
+* GPS oscaillator
+** Mini Precision GPS Reference Clock from Leo Bodnar
+** 10cm long IPEX to SMA female cable
+
+
+!! Software
+
+https://www.sdr-radio.com/Console
