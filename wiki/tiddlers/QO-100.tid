@@ -1,6 +1,6 @@
 created: 20230515081231302
 creator: alex
-modified: 20230624200552754
+modified: 20230625205325651
 modifier: alex
 tags: Radio Satellite
 title: QO-100
@@ -77,6 +77,15 @@ Uses existing rig and then upconverts it to 2.4 GHz. e.g. this [[video|https://w
 !! Software
 
 https://www.sdr-radio.com/Console
+
+
+!! Power supply options
+
+* From garage/inside somewhere: Nevada PS-08
+* Find a decent 12V 5A brick PSU, e.g. xbox or PoE switch
+* Meanwell bricks
+** GSM60A12-P1J 	
+** [[GST60A12-P1J|https://uk.rs-online.com/web/p/ac-dc-adapters/8808408]]
 
 [img[qo-100.jpeg]]
 
