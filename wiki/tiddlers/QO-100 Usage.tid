@@ -1,0 +1,29 @@
+created: 20230626191548341
+creator: alex
+modified: 20230626195559096
+modifier: alex
+tags: Satellite
+title: QO-100 Usage
+type: text/vnd.tiddlywiki
+
+In SDR Console
+
+!! Rx
+
+* USB
+* Frequency shows up as 739 etc. as ~9750 MHz local oscillator in LNB
+** 739.750 - is where beacon should be (10489.750) (the middle of the two peaks)
+** Correct it in [[SDR console|https://www.youtube.com/watch?v=anJBWMDgdDI]] with converter function. 
+** Beacon [[tracking feature|https://www.youtube.com/watch?v=YEhhxzR-JGY]] due to drifting LNB
+*** Could stablise with GPS lock (leo bodnar)
+
+!! Tx
+
+* [[Video|https://www.youtube.com/watch?v=voXip0mtSjQ]]
+* Centre of PSK beacon on uplink is 2400.250 MHz
+* Sync RX mode and mode (to receive and transmit on same frequency)
+* Define converter RX is ~9750 and now Tx is 8.089.500 (if perfect Tx)
+** Transmit a tone to see where Tx ends up on the return
+** Measured frequency of transmit - what should be on - tone frequency (e.g. 2kHz)
+
+[img[AMSAT-QO-100-NB-Transponder-Bandplan.png]]
