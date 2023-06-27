@@ -1,6 +1,6 @@
 created: 20230621111301288
 creator: alex
-modified: 20230627210113397
+modified: 20230627211004037
 modifier: alex
 tags: Radio
 title: VHF/UHF Radio options
@@ -15,3 +15,4 @@ type: text/vnd.tiddlywiki
 Handhelds:
 
 * Yaesu VX-8DE (also does 6m)
+* Talkpod A36+
