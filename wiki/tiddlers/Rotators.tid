@@ -1,6 +1,6 @@
 created: 20230613205523257
 creator: alex
-modified: 20230627214157978
+modified: 20230628204753738
 modifier: alex
 tags: Antenna
 title: Rotators
@@ -9,3 +9,7 @@ type: text/vnd.tiddlywiki
 * [[Home build rotator for 70cm/2m|https://www.youtube.com/watch?v=QvWvsNbghxM]]
 * Expensive: Yaesu G-5500 rotator
 * hygain ar 500 rotator £200
+
+!! Software
+
+* https://gitlab.com/librespacefoundation/satnogs/g5500-ardushield
