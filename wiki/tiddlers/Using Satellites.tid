@@ -1,6 +1,6 @@
 created: 20221220224312364
 creator: alex
-modified: 20230611065820836
+modified: 20230722161340080
 modifier: alex
 tags: Radio
 title: Using Satellites
@@ -12,6 +12,8 @@ Can use satellites that have built in FM repeaters.
 * [[Guide|https://amsat-uk.org/beginners/how-to-work-fm-satellites/]]
 
 Good full duplex transceivers:
+
+[[Spreadsheet compiled|https://docs.google.com/file/d/1HjYjKfzu8EWjBDPyzquPX8MuUTardnts/edit?usp=docslist_api&filetype=msexcel]]
 
 * 2x Yaesu FT-818
 * Kenwood TH-D72A
