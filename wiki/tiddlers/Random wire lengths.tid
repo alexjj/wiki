@@ -1,0 +1,13 @@
+created: 20230725084823679
+creator: alex
+modified: 20230725084932905
+modifier: alex
+tags: Antenna
+title: Random wire lengths
+type: text/vnd.tiddlywiki
+
+Want to avoid multiples of actual wavelengths when making a random wire antenna as this will result in a very high impedance to the Tx. 
+
+Ideal lengths to use (in feet):
+
+29 35.5 41 58 71 84 107 119 148 203 347 407 423
