@@ -1,6 +1,6 @@
 created: 20230725084823679
 creator: alex
-modified: 20230725084932905
+modified: 20230726202514282
 modifier: alex
 tags: Antenna
 title: Random wire lengths
@@ -11,3 +11,19 @@ Want to avoid multiples of actual wavelengths when making a random wire antenna 
 Ideal lengths to use (in feet):
 
 29 35.5 41 58 71 84 107 119 148 203 347 407 423
+
+For use with 9:1 unun (eg LDG RU 9:1) for 160m to 10m, then the following lengths are best:
+
+* 53' and 124.5'
+
+Next best:
+
+* 59, 72, 88.5, 98.5, 146, 162, 175 ft
+
+always make it a bit longer then measure VSWR. 
+
+!!! Counterpoise
+
+Add a choke (1:1) just before the Tx so the coax can be used as counterpoise. 
+
+Attach counterpoise stud to a radial field of at least 8 wires minimum, each 10 -20 feet long. Again, more is better and will increase efficiency. 
