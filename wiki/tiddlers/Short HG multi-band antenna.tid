@@ -1,6 +1,6 @@
 created: 20230801220230997
 creator: alex
-modified: 20230801220645980
+modified: 20230801220910307
 modifier: alex
 tags: Antenna
 title: Short HG multi-band antenna
@@ -14,3 +14,5 @@ Vertical HF antenna. Coax with choke.
 * 2x 14'/4.3m radials
 
 Uses my carbon fibre pole.
+
+Works on 40m (with 49:1), 20m and 17m

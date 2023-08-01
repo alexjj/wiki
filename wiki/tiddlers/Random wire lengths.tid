@@ -1,6 +1,6 @@
 created: 20230725084823679
 creator: alex
-modified: 20230727062656597
+modified: 20230801222431695
 modifier: alex
 tags: Antenna
 title: Random wire lengths
@@ -22,10 +22,12 @@ Next best:
 
 always make it a bit longer then measure VSWR. 
 
+Several people recommend 84' (25.6m) plus 17' (5.2m) radial. 
+
 !!! Counterpoise
 
 Add a choke (1:1) just before the Tx so the coax can be used as counterpoise. 
 
-Attach counterpoise stud to a radial field of at least 8 wires minimum, each 10 -20 feet long. Again, more is better and will increase efficiency. 
+Attach counterpoise stud to a radial field of at least 8 wires minimum, each 10 -20 (~5m) feet long. Again, more is better and will increase efficiency. 
 
 [[DXSupply reference |http://dxsupply.com/produktfiler/Wire%20Lengths%20for%204%20and%209-1%20ununs.pdf]]
