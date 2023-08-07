@@ -1,6 +1,6 @@
 created: 20230725084823679
 creator: alex
-modified: 20230801222431695
+modified: 20230807220949124
 modifier: alex
 tags: Antenna
 title: Random wire lengths
@@ -12,7 +12,7 @@ Ideal lengths to use (in feet):
 
 29 35.5 41 58 71 84 107 119 148 203 347 407 423
 
-For use with 9:1 unun (eg LDG RU 9:1) for 160m to 10m, then the following lengths are best:
+For use with 9:1 unun for 160m to 10m, then the following lengths are best:
 
 * 53' and 124.5'
 
