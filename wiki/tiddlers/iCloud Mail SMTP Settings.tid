@@ -1,11 +1,13 @@
 created: 20230812063350058
 creator: alex
-modified: 20230812063439774
+modified: 20230812085506839
 modifier: alex
 tags: Software
 title: iCloud Mail SMTP Settings
 type: text/vnd.tiddlywiki
 
 * smtp.mail.me.com
-* port 587
-* STARTTLS
+** port 587
+** STARTTLS
+* imap.mail.me.com
+** 993
