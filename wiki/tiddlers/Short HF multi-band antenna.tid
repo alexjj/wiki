@@ -1,6 +1,6 @@
 created: 20230801220230997
 creator: alex
-modified: 20230804153623013
+modified: 20230818211539455
 modifier: alex
 tags: Antenna
 title: Short HF multi-band antenna
@@ -16,3 +16,10 @@ Vertical HF antenna. Coax with choke.
 Uses my carbon fibre pole.
 
 Works on 40m (with 49:1), 20m and 17m
+
+Another, from [[this video|https://www.youtube.com/watch?v=ivipFuCo-g0]]. Random wire to use with tuner, not optimal but tuneable. 
+
+* 5.5m radiator
+* 2x 4.25m radials, with radials connected together
+* 1:1 choke
+* Uses banana plug connections makes it easy
