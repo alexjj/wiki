@@ -1,0 +1,21 @@
+created: 20230820211432308
+creator: alex
+modified: 20230820211549890
+modifier: alex
+tags: Radio Satellite
+title: Kenwood TH-D72
+type: text/vnd.tiddlywiki
+
+* [[Guide to using|https://amsat-bb.amsat.narkive.com/37mxLg1l/more-about-the-th-d72a-for-satellites]]
+
+Info from G7UFO:
+
+```
+The TH-D72 will work cross-band full-duplex for satellites, but you must transmit from VFO B and receive on VFO A.
+
+If the active VFO is VFO A, you will not see "DUP" on the display to indicate full-duplex operation. If VFO B is active, and the frequencies in each VFO are not on the same band, then you can activate the DUP mode and see that on the display.
+
+If its a 2m uplink you'll not need to change the TX frequency, but will need to keep up on the 70cm downlink (and vice versa for others).
+
+The recommendation is to use a headset so you don' cause feedback when TX-ing (doesn't necessarily need to have a mic on it).
+```
