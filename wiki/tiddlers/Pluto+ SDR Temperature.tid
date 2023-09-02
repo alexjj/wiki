@@ -1,14 +1,16 @@
 created: 20230902094027342
 creator: alex
-modified: 20230902094202291
+modified: 20230902133853237
 modifier: alex
 tags: Radio
 title: Pluto+ SDR Temperature
 type: text/vnd.tiddlywiki
 
 * Pluto temp: `iio_attr -c ad9361-phy temp0 input` / 1000 = degC
-* xadc_raw=$(iio_attr ${uri} -c xadc temp0 raw)
-* xadc_offset=$(iio_attr ${uri} -c xadc temp0 offset)
-* xadc_scale=$(iio_attr ${uri} -c xadc temp0 scale)
-* xadc=$(awk "BEGIN {printf(\"%.1f\", (${xadc_raw} + ${xadc_offset}) * ${xadc_scale}/1000)}")
-* ☝️this is the zynq (FPGA)
+* FPGA temp:
+** xadc_raw=iio_attr -c xadc temp0 raw
+** xadc_offset=iio_attr -c xadc temp0 offset
+** xadc_scale=iio_attr -c xadc temp0 scale)
+** (xadc_raw + xadc_offset) * xadc_scale/1000
+
+From [[here|https://github.com/analogdevicesinc/plutosdr_scripts/blob/master/pluto_temp.sh]]
