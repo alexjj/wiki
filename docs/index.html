@@ -807,6 +807,8 @@ Error message and password prompt
 
 <li>Pixii</li>
 
+<li>Pluto+ SDR Temperature</li>
+
 <li>Potential tools for daily blog</li>
 
 <li>Power supplies</li>
@@ -1754,6 +1756,8 @@ Error message and password prompt
 {"title":"Pixel Art to CSS","created":"20220310195947807","creator":"alexjj","modified":"20230106205249523","modifier":"alex","tags":"Tools","type":"text/vnd.tiddlywiki","text":"https://www.pixelartcss.com/","revision":"0","bag":"default"},
 
 {"title":"Pixii","created":"20211221205701444","creator":"alexjj","modified":"20220403212524808","modifier":"alexjj","tags":"Photography","type":"text/vnd.tiddlywiki","text":"Alternative M mount rangefinder camera.\n\n* [[Main site|https://pixii.fr/new-pixii-camera]]\n* [[Review|https://www.35mmc.com/10/12/2021/pixii-review-new-upgrades-and-some-personal-experiences/]]\n* [[Youtube review|https://www.youtube.com/watch?v=hI9lspknmcM]]","revision":"0","bag":"default"},
+
+{"title":"Pluto+ SDR Temperature","created":"20230902094027342","creator":"alex","modified":"20230902094202291","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"* Pluto temp: `iio_attr -c ad9361-phy temp0 input` / 1000 = degC\n* xadc_raw=$(iio_attr ${uri} -c xadc temp0 raw)\n* xadc_offset=$(iio_attr ${uri} -c xadc temp0 offset)\n* xadc_scale=$(iio_attr ${uri} -c xadc temp0 scale)\n* xadc=$(awk \"BEGIN {printf(\\\"%.1f\\\", (${xadc_raw} + ${xadc_offset}) * ${xadc_scale}/1000)}\")\n* ☝️this is the zynq (FPGA)\n","revision":"0","bag":"default"},
 
 {"title":"Potential tools for daily blog","created":"20211225162051045","creator":"alexjj","modified":"20211225162225675","modifier":"alexjj","tags":"blogging Software","type":"text/vnd.tiddlywiki","text":"I’m not buying tinderbox. 😅\n\n* https://leoncvlt.github.io/imml/#guide\n* [[LeoEditor]]","revision":"0","bag":"default"},
 

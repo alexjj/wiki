@@ -1,0 +1,14 @@
+created: 20230902094027342
+creator: alex
+modified: 20230902094202291
+modifier: alex
+tags: Radio
+title: Pluto+ SDR Temperature
+type: text/vnd.tiddlywiki
+
+* Pluto temp: `iio_attr -c ad9361-phy temp0 input` / 1000 = degC
+* xadc_raw=$(iio_attr ${uri} -c xadc temp0 raw)
+* xadc_offset=$(iio_attr ${uri} -c xadc temp0 offset)
+* xadc_scale=$(iio_attr ${uri} -c xadc temp0 scale)
+* xadc=$(awk "BEGIN {printf(\"%.1f\", (${xadc_raw} + ${xadc_offset}) * ${xadc_scale}/1000)}")
+* ☝️this is the zynq (FPGA)
