@@ -1,0 +1,44 @@
+created: 20230918192434496
+creator: alex
+modified: 20230918205012284
+modifier: alex
+tags: Radio Battery
+title: Building 18650 battery packs
+type: text/vnd.tiddlywiki
+
+!!! Required items
+
+* 18650 cells
+** https://www.fogstar.co.uk/
+* Holders
+* Nickel strips
+* Heat shrink
+* Balanced charger cables
+
+
+
+!!! Guides:
+
+* 4S4P Lifepo gives 3.3*4=13.2V
+* [[How to make 2S, 3S, 4S battery|https://www.youtube.com/watch?v=YPK47xsH1II]]
+* [[Good video guide|https://www.youtube.com/watch?v=tKg-jIrr_JE]]
+* [[Reddit|https://www.reddit.com/r/18650masterrace/]]
+* [[Balanced wire guide|https://www.offshoreelectrics.com/lipo.php]]
+
+!!! Tools
+
+* Crimper for powerpoles (sotabeams)
+* Spotwelder
+** This [[one|https://www.keenlab.de/index.php/product/kweld-complete-kit/]] £210!
+** [[Reviews|https://cellsaviors.com/blog/best-spot-welders]]
+* Smart charger/discharger/tester
+** [[Youshiko YC5000|https://www.amazon.co.uk/Youshiko-YC5000-Professional-Intelligent-rechargeable/dp/B019CERQDI/]]
+** [[Newer version|https://www.amazon.co.uk/Youshiko-Version-Intelligent-battery-discharge/dp/B0B558S9Z1/]]
+
+!!! References
+
+* https://www.repackr.com/
+** Work out combinations of used batteries to get even distribution
+* [[Nice build|https://reflector.sota.org.uk/t/18650-batteries-and-charger/31440/4?u=gm5alx]]
+
+[img[battery-metal-strips.jpeg]]
