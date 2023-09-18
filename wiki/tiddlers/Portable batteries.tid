@@ -1,6 +1,6 @@
 created: 20230918084129852
 creator: alex
-modified: 20230918085222892
+modified: 20230918113924277
 modifier: alex
 tags: Radio
 title: Portable batteries
@@ -9,3 +9,7 @@ type: text/vnd.tiddlywiki
 https://groups.io/g/gqrp/message/51950
 
 Suggests ZIPPY Flightmax 4200mAh 4P 30C LiFePo4 Pack from [[www.hobbyking.co.uk|https://hobbyking.com/en_us/catalogsearch/result/?q=4200mAh%204P%2030C#q=4200mAh%204P%2030C&idx=hbk_live_magento_en_us_products&dFR%5Bcharger_chemistry%5D%5B0%5D=LiFE&dFR%5Bwarehouses%5D%5B0%5D=UK&dFR%5Bwarehouses_stock_data%5D%5B0%5D=UK%7C1&dFR%5Bwarehouses_stock_data%5D%5B1%5D=UK%7C2&dFR%5Bwarehouses_stock_data%5D%5B2%5D=UK%7C3&dFR%5Bwarehouses_stock_data%5D%5B3%5D=Global%7C1&dFR%5Bwarehouses_stock_data%5D%5B4%5D=Global%7C2&dFR%5Bwarehouses_stock_data%5D%5B5%5D=Global%7C3&is_v=1]], with 45A Powerpoles for the cables
+
+Use XT90 connectors, then powerpoles on the other side.
+
+[[Most recent thread in SOTA reflector about options.|https://reflector.sota.org.uk/t/lifepo4-choices/33170/]]
