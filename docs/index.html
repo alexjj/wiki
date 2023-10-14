@@ -889,6 +889,8 @@ Error message and password prompt
 
 <li>Remote SDR HF combo</li>
 
+<li>Repeater area calculator</li>
+
 <li>Request used M10-P Prices</li>
 
 <li>Ricoh GR</li>
@@ -949,7 +951,9 @@ Error message and password prompt
 
 <li>Sort Everything Out</li>
 
-<li>SOTA forums</li>
+<li>SOTA Apps</li>
+
+<li>SOTA Mate - app to ft8 message</li>
 
 <li>SOTA-style antenna ideas</li>
 
@@ -1865,6 +1869,8 @@ Error message and password prompt
 
 {"title":"Remote SDR HF combo","created":"20230709210928542","creator":"alex","modified":"20230709211101678","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"* Hardrock-50 amp\n* Hermes Lite 2 SDR\n* LDG Tuner","revision":"0","bag":"default"},
 
+{"title":"Repeater area calculator","created":"20231014124536789","creator":"alex","modified":"20231014124545982","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"https://www.ve2dbe.com/rmonline","revision":"0","bag":"default"},
+
 {"title":"Request used M10-P Prices","created":"20220311120426668","creator":"alexjj","modified":"20220311120917739","modifier":"alexjj","tags":"Python","type":"text/vnd.tiddlywiki","text":"```python\nimport requests\n\ncookies = {\n    'CFID': '5681748',\n    'CFTOKEN': '4867cd568eb2e8ea-ED9D05DF-A59D-FBCE-9753B49EBA44CCE3',\n    'COUNTRYID': '50',\n    'CFGLOBALS': 'urltoken%3DCFID%23%3D5681748%26CFTOKEN%23%3D4867cd568eb2e8ea%2DED9D05DF%2DA59D%2DFBCE%2D9753B49EBA44CCE3%26jsessionid%23%3D36D1A1E7B51C0E5F4457FD04AD4FAC59%2Ecfusion%23lastvisit%3D%7Bts%20%272022%2D03%2D11%2011%3A27%3A25%27%7D%23hitcount%3D2730%23timecreated%3D%7Bts%20%272020%2D08%2D22%2015%3A01%3A48%27%7D%23cftoken%3D4867cd568eb2e8ea%2DED9D05DF%2DA59D%2DFBCE%2D9753B49EBA44CCE3%23cfid%3D5681748%23',\n    'JSESSIONID': '36D1A1E7B51C0E5F4457FD04AD4FAC59.cfusion',\n    'BRAND': 'all',\n    'RETAILER': '0',\n}\n\nheaders = {\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0',\n    'Accept': 'application/json, text/javascript, */*; q=0.01',\n    'Accept-Language': 'en-GB,en;q=0.5',\n    'Accept-Encoding': 'gzip, deflate, br',\n    'X-Requested-With': 'XMLHttpRequest',\n    'Connection': 'keep-alive',\n    'Referer': 'https://usedlens.co.uk/?search=leica%20m10-p&retailer=0&brand=all',\n    'Sec-Fetch-Dest': 'empty',\n    'Sec-Fetch-Mode': 'cors',\n    'Sec-Fetch-Site': 'same-origin',\n    'TE': 'trailers',\n}\n\nparams = (\n    ('method', 'dataTable'),\n    ('draw', '10'),\n    ('columns[0][data]', 'productname'),\n    ('columns[0][name]', ''),\n    ('columns[0][searchable]', 'true'),\n    ('columns[0][orderable]', 'true'),\n    ('columns[0][search][value]', ''),\n    ('columns[0][search][regex]', 'false'),\n    ('columns[1][data]', 'price'),\n    ('columns[1][name]', ''),\n    ('columns[1][searchable]', 'false'),\n    ('columns[1][orderable]', 'true'),\n    ('columns[1][search][value]', ''),\n    ('columns[1][search][regex]', 'false'),\n    ('columns[2][data]', 'retailersite'),\n    ('columns[2][name]', ''),\n    ('columns[2][searchable]', 'false'),\n    ('columns[2][orderable]', 'false'),\n    ('columns[2][search][value]', ''),\n    ('columns[2][search][regex]', 'false'),\n    ('order[0][column]', '1'),\n    ('order[0][dir]', 'asc'),\n    ('start', '0'),\n    ('length', '10'),\n    ('search[value]', 'leica M10-P'),\n    ('search[regex]', 'false'),\n    ('retailers', '17,57,25,30,66,19,23,51,36,50,21,15,46,52,56,2,63,3,45,4,39,24,55,60,5,64,6,7,8,16,9,27,61,13,47,54,18,10,59,62,34,31,68,26,38,53,29,12,67,28,40,20,14,43,22,42'),\n    ('pricemin', ''),\n    ('pricemax', ''),\n    ('producttype', 'all'),\n    ('brandname', 'all'),\n    ('shownew', '0'),\n    ('_', '1646998021544'),\n)\n\nr = requests.get('https://usedlens.co.uk/data.cfc', headers=headers, params=params, cookies=cookies)\nr.json()\n\n```","revision":"0","bag":"default"},
 
 {"title":"Ricoh GR","created":"20210908220259441","creator":"alexjj","modified":"20210908221019125","modifier":"alexjj","tags":"Photography","type":"text/vnd.tiddlywiki","text":"Small, nice camera. Much more pocketable than X100 series.\n\nOh look...[[now I can choose 40mm eq...|http://news.ricoh-imaging.co.jp/rim_info2/2021/20210908_031102.html]] So now what...choose this one? tbh I was slightly worried about the 18mm lens on the GRIII when I've been using the 23mm for so long. This ~27mm one is probably better for me. Just it's £100 more than the GRIII...","revision":"0","bag":"default"},
@@ -1925,7 +1931,9 @@ Error message and password prompt
 
 {"title":"Sort Everything Out","created":"20211114171229828","creator":"alexjj","modified":"20211114232036571","modifier":"alexjj","tags":"Life","type":"text/vnd.tiddlywiki","text":"Today I’ve felt like everything has come to a head. The hours wasted on computers, the lack of doing anything productive, the endless fiddling with websites and I want to do something. I start going down paths thinking about this or that which are just small segments - e.g. using TW or dokuwiki, journaling on DayOne or something else. Going Linux/MacOS/Windows desktop/laptop/ipad. Getting a dumb phone, deleting apps. Reading books, playing computer games, etc. etc. etc. \n\nThese are all decisions which are continuously struggled with as there’s no decision criteria. What is/are the end goals? What do I want in life? And then which outcomes of these choices help with that? Perhaps optimistic to think that single choices can be made and then everything is done forever. Seems like some people can manage though. \n\nI’m not sure if this should be private or public. Perhaps a bit of both. I know public accountability will hold me to things - those habits I want to form or those I want to get rid of. I read Atomic Habits, but in bed on the kindle so I have no notes, I remember thinking “this is all obvious and I know this”. But now that I try and remember what to ''do'' I can’t exactly articulate those items.\n\nSo I should figure out the things I want to be first. Maybe privately and then I’ll see.\n\nI started it on the dokuwiki instance - as private. But I fiddled about too much first and now it's too late. 🙄","revision":"0","bag":"default"},
 
-{"title":"SOTA forums","created":"20230324154530997","creator":"alex","modified":"20230324154539311","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"https://reflector.sota.org.uk/","revision":"0","bag":"default"},
+{"title":"SOTA Apps","created":"20231014124639645","creator":"alex","modified":"20231014125151064","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"* https://sotl.as/\n* https://activation.zone/\n* [[Forum|https://reflector.sota.org.uk/]]\n* [[SOTA Watch|https://sotawatch.sota.org.uk/en/]]","revision":"0","bag":"default"},
+
+{"title":"SOTA Mate - app to ft8 message","created":"20231014124506790","creator":"alex","modified":"20231014124523578","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"https://sotamat.com/","revision":"0","bag":"default"},
 
 {"title":"SOTA-style antenna ideas","created":"20230511213958311","creator":"alex","modified":"20230511214337019","modifier":"alex","tags":"Antenna","type":"text/vnd.tiddlywiki","text":"* https://hb9czf.wordpress.com/sota/my-sota-antenna/\n* https://reflector.sota.org.uk/t/lightweight-vertical-antennas/12616/2","revision":"0","bag":"default"},
 
