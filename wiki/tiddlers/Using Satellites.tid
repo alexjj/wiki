@@ -1,6 +1,6 @@
 created: 20221220224312364
 creator: alex
-modified: 20231002213245819
+modified: 20231015200835325
 modifier: alex
 tags: Radio
 title: Using Satellites
@@ -31,3 +31,4 @@ Good full duplex transceivers:
 
 * [[2m antenna polarisation switch|https://www.minikits.com.au/EME219-2M-X-POL-SWITCH]]
 * [[70cm version|https://www.minikits.com.au/EME219-70CM-X-POL-SWITCH]]
+* [[SAT Rotator controller box|http://www.csntechnologies.net/sat]]
