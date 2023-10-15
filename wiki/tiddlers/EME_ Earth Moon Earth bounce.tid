@@ -1,21 +1,27 @@
 created: 20230624082016791
 creator: alex
-modified: 20230910214416176
+modified: 20231015053441235
 modifier: alex
 tags: Radio
 title: EME: Earth Moon Earth bounce
 type: text/vnd.tiddlywiki
 
-Links:
+!!! Links:
 
 * [[3 part series|https://www.hamradio.me/operating-tips/eme-on-a-budget-part-1.html]]
 * https://mmmonvhf.de/eme.php
 * https://www.livecq.eu/default.asp
 * https://www.chris.org/cgi-bin/jt65emeA
 
-Example 2m build:
+!!! Example 2m build:
 
 * Antenna: [[Innovate 2m V/H yagi|https://www.innovantennas.com/en/shop-page/317/1/vhf-uhf-ham-radio-antennas/144mhz-low-noise-lfa-yagis/18el-9h-9v-144mhz-xpol-map65-yagiInnovAntennas%20shop.html]]
 * TS-2000 etc.
 * 2m amp 400W
 * rotator
+
+!!! Reference material on Archive.org
+
+* [[144 MHz EME newsletter|https://archive.org/details/144eme?sort=-date]]
+* [[EME Conference|https://archive.org/details/eme_conference]]
+* [[432 MHz and Above EME Newsletter|https://archive.org/details/432eme?sort=-date]]
