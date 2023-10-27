@@ -1,6 +1,6 @@
 created: 20230820211432308
 creator: alex
-modified: 20230820211549890
+modified: 20231027214735662
 modifier: alex
 tags: Radio Satellite
 title: Kenwood TH-D72
@@ -19,3 +19,7 @@ If its a 2m uplink you'll not need to change the TX frequency, but will need to 
 
 The recommendation is to use a headset so you don' cause feedback when TX-ing (doesn't necessarily need to have a mic on it).
 ```
+
+* [[Using Digipeater|https://www.youtube.com/watch?v=-HYzOye2Vuk]]
+* [[Working ISS via APRS|https://www.youtube.com/watch?v=uGf3aDHRwIc]]
+
