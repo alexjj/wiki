@@ -1,6 +1,6 @@
 created: 20230820211432308
 creator: alex
-modified: 20231027224933966
+modified: 20231028065313267
 modifier: alex
 tags: Radio Satellite
 title: Kenwood TH-D72
@@ -25,6 +25,19 @@ From another site:
 ```
 First enable both the A and B bands by pressing DUAL (0 key). While the B band is selected enable full duplex using F -> DUP (0 key as well). DUP should be displayed at the top of the LCD screen. The Kenwood TH-D72A won't store cross-band split memories. I use the VFO instead. I store one memory each for the downlink and uplink (labeled "SO-50 DN" and "SO-50 UP" respectively) and transfer the downlink to the A band and the uplink to the B band using the F -> VFO key sequence. To adjust for doppler on SO-50 I have to switch from the B band (uplink/tx side) to the A band and then adjust the frequency, and then switch back to the A band to TX again. With the Fox birds (AO-85, AO-91, AO-92) you mostly only have to compensate for doppler on the uplink so you don't have to flip around from one band to the other as much. Alternatively you could program all the doppler corrected frequencies in memory and just use memories, but you still won't be able to do split operation and at least for SO-50 you'll have to switch back and forth between bands through the pass.
 ```
+
+
+In summary
+
+```
+ Use VFO B for TX
+ VFO A for RX (it has better sensitivity)
+ balanced audio all the way to VFO A
+ open squelch for VFO A 
+ 5W transmit
+```
+
+Get a SMC-34 mic which has three programmable buttons and volume knob. Can set the buttons to A/B on remote button 1, DOWN on button 2, and UP on button 3
 
 * [[Basic APRS setup|https://www.youtube.com/watch?v=r4IuACLGTqs]]
 * [[Using Digipeater|https://www.youtube.com/watch?v=-HYzOye2Vuk]]
