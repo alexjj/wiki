@@ -1,0 +1,20 @@
+created: 20231028201827722
+creator: alex
+modified: 20231028202228346
+modifier: alex
+tags: Hardware
+title: O2 Joggler
+type: text/vnd.tiddlywiki
+
+* https://www.jogglerwiki.com/wiki/Main_Page
+* https://birdslikewires.net/debian-for-openframe
+
+
+Commands on first install
+
+```
+sudo of-expand
+sudo apt update
+sudo apt --reinstall install libpam-modules-bin passwd
+passwd
+```
