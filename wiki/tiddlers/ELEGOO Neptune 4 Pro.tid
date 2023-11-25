@@ -1,6 +1,6 @@
 created: 20231119224910965
 creator: alex
-modified: 20231125181506991
+modified: 20231125213032557
 modifier: alex
 tags: [[3D Printing]]
 title: ELEGOO Neptune 4 Pro
@@ -11,3 +11,16 @@ type: text/vnd.tiddlywiki
 ** Also details different nozzles for carbon fiber printing
 
 One guy likes to use Skirt, 3 line count for build plate adhesion. (don't know why).
+
+Default password:
+mks; makerbase
+
+
+!!! Webcam setup
+
+* SSH into the printer
+* sudo systemctl enable webcamd
+* sudo systemctl start webcamd
+* Go onto the printers webinterface
+* Go into settings and then Cameras
+* Select the "Default" camera and activate it
