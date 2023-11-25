@@ -1,6 +1,6 @@
 created: 20231119224910965
 creator: alex
-modified: 20231121223617006
+modified: 20231125181506991
 modifier: alex
 tags: [[3D Printing]]
 title: ELEGOO Neptune 4 Pro
@@ -9,3 +9,5 @@ type: text/vnd.tiddlywiki
 * [[Build and setup video|https://www.youtube.com/watch?v=3d3QnE2xzBw]]
 * [[Long term review|https://www.youtube.com/watch?v=z3fNB5PNJCQ]]
 ** Also details different nozzles for carbon fiber printing
+
+One guy likes to use Skirt, 3 line count for build plate adhesion. (don't know why).
