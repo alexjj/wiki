@@ -1,0 +1,10 @@
+created: 20231125135650954
+creator: alex
+modified: 20231125135808514
+modifier: alex
+tags: Radio Satellite
+title: QO-100 Biased Tee troubleshooting
+type: text/vnd.tiddlywiki
+
+* Put a 100nF Capacitor plus a 100uF capacitor (both parallel) to the DC input of the bias-t
+* Or a LC low pass filter to bias-t. 
