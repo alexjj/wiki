@@ -1,0 +1,14 @@
+created: 20231229201441545
+creator: alex
+modified: 20231229201508816
+modifier: alex
+tags: Software
+title: FreeFileSync
+type: text/vnd.tiddlywiki
+
+https://freefilesync.org/
+
+
+<<<
+FreeFileSync is a folder comparison and synchronization software that creates and manages backup copies of all your important files. Instead of copying every file every time, FreeFileSync determines the differences between a source and a target folder and transfers only the minimum amount of data needed. FreeFileSync is Open Source software, available for Windows, macOS, and Linux.
+<<<
