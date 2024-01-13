@@ -1,6 +1,6 @@
 created: 20231207205240160
 creator: alex
-modified: 20231207205315840
+modified: 20240113214305681
 modifier: alex
 tags: Hardware Project
 title: Micro.bit Wall-E robot
@@ -8,3 +8,5 @@ type: text/vnd.tiddlywiki
 
 * https://www.thingiverse.com/thing:5929691
 * https://www.thingiverse.com/thing:3456871/comments
+
+[img[walle-starter-code.png]]
