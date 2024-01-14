@@ -1,6 +1,6 @@
 created: 20231207205240160
 creator: alex
-modified: 20240113220940513
+modified: 20240114092528370
 modifier: alex
 tags: Hardware Project
 title: Micro.bit Wall-E robot
@@ -11,3 +11,13 @@ type: text/vnd.tiddlywiki
 
 [img[walle-starter-code.png]]
 [[Ultrasonic sensor guide with bird bot|https://littlebirdelectronics.com.au/guides/186/ultrasonic-distance-sensor-with-micro-bit]]
+
+!!! 360 dergee servo
+
+From [[here|https://kitronik.co.uk/blogs/resources/control-a-360-degree-servo-with-a-bbc-microbit]], to control:
+
+* set to 0 for full speed one way
+* set to 180 for full speed other way
+* set to 90 to stop
+* between 0-90 is slower speed, likewise with 180-90
+* like a V chart
