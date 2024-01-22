@@ -1,0 +1,9 @@
+created: 20240122203600776
+creator: alex
+modified: 20240122203614213
+modifier: alex
+tags: Windows
+title: Set PATH in Windows
+type: text/vnd.tiddlywiki
+
+`setx PATH "%PATH%;C:\opt\bin\"`
