@@ -1,0 +1,14 @@
+author: alex
+created: 20190126131837858
+creator: jack
+modified: 20240125211620322
+modifier: alex
+tags: Meta
+title: Random Quote
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Quotations]random[]]">
+
+{{!!text}}
+
+</$list>
