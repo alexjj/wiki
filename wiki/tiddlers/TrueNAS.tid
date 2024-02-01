@@ -1,0 +1,12 @@
+created: 20240201131729363
+creator: alex
+modified: 20240201132033349
+modifier: alex
+tags: Software Hardware
+title: TrueNAS
+type: text/vnd.tiddlywiki
+
+TrueNAS scale is linux and probably the future focus of it.
+
+* [[Truechart catalog|https://truecharts.org/]] - more configured docker containers for the app menu
+<iframe width="1920" height="450" src="https://www.youtube.com/embed/SkKysLSrg3w" title="Setting Up TrueNas Scale from Fresh Install" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
