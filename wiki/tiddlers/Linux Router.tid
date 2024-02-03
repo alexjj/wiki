@@ -1,0 +1,13 @@
+created: 20240203103640824
+creator: alex
+modified: 20240203110532314
+modifier: alex
+tags: Software Hardware
+title: Linux Router
+type: text/vnd.tiddlywiki
+
+Software:
+
+* networkmanager
+* nmcli
+* nftables
