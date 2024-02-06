@@ -1,0 +1,20 @@
+created: 20240206201617683
+creator: alex
+modified: 20240206203132501
+modifier: alex
+tags: Hardware
+title: 10G Network options
+type: text/vnd.tiddlywiki
+
+Qnap QSW-2104-2T-A Switch
+
+* 2x 10G and 4x 2.5G
+* All RJ45 plugs
+* £166 on Amazon
+
+ebay/Aliexpress stuff, e.g. 
+
+* Broadcom 57810S RJ45 10G
+* Inspur X540-T2 10G
+** Perhaps not great in windows
+** Might need active fan
