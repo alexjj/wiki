@@ -1,5 +1,7 @@
 created: 20221028075742905
-modified: 20221028075836320
+creator: alex
+modified: 20240209223253076
+modifier: alex
 tags: Python DataScience Programming
 title: Quarto
 type: text/vnd.tiddlywiki
@@ -16,3 +18,7 @@ Quarto is an open-source scientific and technical publishing system built on Pan
 * Author documents as plain text markdown or Jupyter notebooks.
 * Publish high-quality articles, reports, presentations, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more.
 * Author with scientific markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more.
+
+
+* Good blog reference: [[github|https://github.com/jthomasmock/themockup-blog/tree/master]], [[site|https://themockup.blog/]].
+* [[Another|https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/]]
