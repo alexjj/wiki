@@ -1,6 +1,6 @@
 created: 20221028075742905
 creator: alex
-modified: 20240209223253076
+modified: 20240210210126928
 modifier: alex
 tags: Python DataScience Programming
 title: Quarto
@@ -22,3 +22,6 @@ Quarto is an open-source scientific and technical publishing system built on Pan
 
 * Good blog reference: [[github|https://github.com/jthomasmock/themockup-blog/tree/master]], [[site|https://themockup.blog/]].
 * [[Another|https://blog.djnavarro.net/posts/2022-04-20_porting-to-quarto/]]
+
+
+[[Awesome Quarto|https://github.com/mcanouil/awesome-quarto]] 🕶️
