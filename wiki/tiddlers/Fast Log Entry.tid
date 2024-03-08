@@ -1,0 +1,26 @@
+created: 20240308201517241
+creator: alex
+modified: 20240308202049117
+modifier: alex
+tags: Radio
+title: Fast Log Entry
+type: text/vnd.tiddlywiki
+
+A nice plain text, fast entry method for logging. As the name would suggest.
+
+e.g.
+
+```
+2024-03-08
+1023 7.115 g3abc 57 59
+1026 m0xyz 55 58
+1030 dk1mi dl/al-093     ## SOTA reference
+```
+
+It carries forward information, so in the first log I put the frequency of 7.115 MHz and my RST sent is 57 and RST recieved is 59. My next QSO at 10:26 with M0XYZ is on the same frequenxcy and I gave them 55 and recieved 58. Just need to add.
+
+Cloudlog has integration for it. 
+
+Full documentation and a dedicated app: https://df3cb.com/fle/documentation/
+
+refered to as FLE (reminds me of Leica floating lens element 😅)
