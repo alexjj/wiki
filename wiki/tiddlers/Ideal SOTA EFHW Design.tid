@@ -1,0 +1,22 @@
+created: 20240310221049201
+creator: alex
+modified: 20240310223919398
+modifier: alex
+tags: Radio SOTA
+title: Ideal SOTA EFHW Design
+type: text/vnd.tiddlywiki
+
+https://www.youtube.com/watch?v=fNqv0rUlMPU
+
+[[Torriod|https://www.mouser.co.uk/ProductDetail/Fair-Rite/2643625002?qs=MLldULe7zY2ZDvtexqlGbA%3D%3D]]
+
+* 21 turns total
+* 1 metre of 22 guage magnet wire
+** Leave tail of 1 inch
+* Leave a tap after 3rd turn with inch
+* 18 more turns
+* 110 pF capacitor 
+
+Testing with 2.2 kOhm resistor to ground of BNC and banana
+
+21/ 3 = 7^2 = 49 therefore 49: 1
