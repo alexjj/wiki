@@ -1,6 +1,6 @@
 created: 20240310221049201
 creator: alex
-modified: 20240310223919398
+modified: 20240310230706818
 modifier: alex
 tags: Radio SOTA
 title: Ideal SOTA EFHW Design
@@ -19,4 +19,11 @@ https://www.youtube.com/watch?v=fNqv0rUlMPU
 
 Testing with 2.2 kOhm resistor to ground of BNC and banana
 
-21/ 3 = 7^2 = 49 therefore 49: 1
+Big test of options: 
+
+* [[spreadsheet|https://docs.google.com/spreadsheets/d/13kImt_tkezngocXQ5tOBDkTscp5F-RFD/edit#gid=2134716366]]
+* [[youtube|https://www.youtube.com/watch?v=nZ-G4hJCTSM]]
+* Uses the 64:1 QRP as his choice (<1.5:1 on inverted L)
+* case
+** hammond enclosure
+** antanol BNC connector
