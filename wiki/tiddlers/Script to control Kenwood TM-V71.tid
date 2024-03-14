@@ -1,0 +1,69 @@
+created: 20240314110345005
+creator: alex
+modified: 20240314110545645
+modifier: alex
+tags: Radio
+title: Script to control Kenwood TM-V71
+type: text/vnd.tiddlywiki
+
+[[From here.|https://groups.google.com/g/nwwdigi/c/wA8t_98qv4M?pli=1]]
+
+A few people have asked me about a script I wrote that’ll run in Linux (tested on the Raspberry Pi running Stretch and Buster) to control various functions of these 2 radios from a Terminal command line.
+
+The script and related info is at: https://github.com/AG7GN/kenwood
+
+If you are using a recent and *UPDATED* version of the Hampi image for the DigiLink/Nexus DR-X systems, it will be in the Updater app (Raspberry > Hamradio > Update Pi and Ham Apps) so you can just select and install it. The very latest Hampi image (released yesterday) comes with the script already installed.
+
+If you are not using the Hampi image for the DigiLink/Nexus DR-X systems, the hamlib (which provides rigctl) and bc packages must be installed in order for the script to work.
+
+Your radio’s programming cable must be connected between the Pi and the radio for the script to work.
+
+This is the script’s help screen output so you can see what it can control:
+
+pi@hampi:~ $ 710.sh help
+
+Version 4.3
+
+CAT control script for Kenwood TM-D710G/TM-V71A.
+Set radio's PC port speed to 57600 or change SPEED setting in
+this script to match radio's setting.
+
+Usage:
+
+```
+710.sh get apo Prints Auto Power Off setting
+710.sh get data Prints the side configured for external data
+710.sh get info Prints some radio settings
+710.sh get memory <channel> Prints memory channel configuration
+710.sh get menu Prints raw menu contents output (diagnostic command)
+710.sh get mode Prints mode (modulation) settings
+710.sh get power Prints power settings
+710.sh get pttctrl Prints PTT and CTRL settings
+710.sh get speed Prints external data speed (1200|9600)
+710.sh get sqc Prints SQC source
+710.sh get a|b squelch Prints squelch settings for side A or B
+710.sh get timeout Prints TX timeout setting
+
+710.sh set apo off|30|60|90|120|180 Sets Automatic Power Off (minutes)
+710.sh set a|b ctrl Sets CTRL to side A or B
+710.sh set a|b data Sets external data to side A or B
+710.sh set a|b freq <MHz> Sets side A or B to VFO and sets frequency to <MHz>
+710.sh set a|b memory <memory>
+Sets side A or B to memory mode and assigns
+<memory> location to it
+710.sh set a|b mode vfo|memory|call|wx
+Sets side A or B mode
+710.sh set a|b power l|m|h Sets side A or B to Low, Medium or High power
+710.sh set a|b ptt Sets PTT to side A or B
+710.sh set a|b pttctrl Sets PTT and CTRL to side A or B
+710.sh set speed 1200|9600 Sets external data speed to 1200 or 9600
+710.sh set a|b squelch <0-31> Sets squelch level for side A or B
+710.sh set timeout 3|5|10 Sets transmit timeout (minutes)
+
+710.sh help Prints this help screen
+
+```
+
+73,
+
+Steve/AG7GN 

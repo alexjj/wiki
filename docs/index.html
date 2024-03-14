@@ -1027,6 +1027,8 @@ Error message and password prompt
 
 <li>SatNOGs</li>
 
+<li>Script to control Kenwood TM-V71</li>
+
 <li>SDR Console</li>
 
 <li>SDRPlay RSP1A</li>
@@ -1146,6 +1148,8 @@ Error message and password prompt
 <li>ThinkPad T490</li>
 
 <li>Tiny Habits</li>
+
+<li>TM-71E CAT Control notes</li>
 
 <li>To Read</li>
 
@@ -2156,6 +2160,8 @@ Error message and password prompt
 ,
 {"title":"SatNOGs","created":"20230423194642929","modified":"20230423194720079","tags":"Radio Satellite","type":"text/vnd.tiddlywiki","text":"Antenna option: https://www.nevadaradio.co.uk/product/diamond-dp-ke137/","revision":"0","bag":"default"}
 ,
+{"title":"Script to control Kenwood TM-V71","created":"20240314110345005","creator":"alex","modified":"20240314110545645","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"[[From here.|https://groups.google.com/g/nwwdigi/c/wA8t_98qv4M?pli=1]]\n\nA few people have asked me about a script I wrote that’ll run in Linux (tested on the Raspberry Pi running Stretch and Buster) to control various functions of these 2 radios from a Terminal command line.\n\nThe script and related info is at: https://github.com/AG7GN/kenwood\n\nIf you are using a recent and *UPDATED* version of the Hampi image for the DigiLink/Nexus DR-X systems, it will be in the Updater app (Raspberry > Hamradio > Update Pi and Ham Apps) so you can just select and install it. The very latest Hampi image (released yesterday) comes with the script already installed.\n\nIf you are not using the Hampi image for the DigiLink/Nexus DR-X systems, the hamlib (which provides rigctl) and bc packages must be installed in order for the script to work.\n\nYour radio’s programming cable must be connected between the Pi and the radio for the script to work.\n\nThis is the script’s help screen output so you can see what it can control:\n\npi@hampi:~ $ 710.sh help\n\nVersion 4.3\n\nCAT control script for Kenwood TM-D710G/TM-V71A.\nSet radio's PC port speed to 57600 or change SPEED setting in\nthis script to match radio's setting.\n\nUsage:\n\n```\n710.sh get apo Prints Auto Power Off setting\n710.sh get data Prints the side configured for external data\n710.sh get info Prints some radio settings\n710.sh get memory \u003Cchannel> Prints memory channel configuration\n710.sh get menu Prints raw menu contents output (diagnostic command)\n710.sh get mode Prints mode (modulation) settings\n710.sh get power Prints power settings\n710.sh get pttctrl Prints PTT and CTRL settings\n710.sh get speed Prints external data speed (1200|9600)\n710.sh get sqc Prints SQC source\n710.sh get a|b squelch Prints squelch settings for side A or B\n710.sh get timeout Prints TX timeout setting\n\n710.sh set apo off|30|60|90|120|180 Sets Automatic Power Off (minutes)\n710.sh set a|b ctrl Sets CTRL to side A or B\n710.sh set a|b data Sets external data to side A or B\n710.sh set a|b freq \u003CMHz> Sets side A or B to VFO and sets frequency to \u003CMHz>\n710.sh set a|b memory \u003Cmemory>\nSets side A or B to memory mode and assigns\n\u003Cmemory> location to it\n710.sh set a|b mode vfo|memory|call|wx\nSets side A or B mode\n710.sh set a|b power l|m|h Sets side A or B to Low, Medium or High power\n710.sh set a|b ptt Sets PTT to side A or B\n710.sh set a|b pttctrl Sets PTT and CTRL to side A or B\n710.sh set speed 1200|9600 Sets external data speed to 1200 or 9600\n710.sh set a|b squelch \u003C0-31> Sets squelch level for side A or B\n710.sh set timeout 3|5|10 Sets transmit timeout (minutes)\n\n710.sh help Prints this help screen\n\n```\n\n73,\n\nSteve/AG7GN \n","revision":"0","bag":"default"}
+,
 {"title":"SDR Console","created":"20230826212314649","creator":"alex","modified":"20230826212400683","modifier":"alex","tags":"Radio Software","type":"text/vnd.tiddlywiki","text":"[[Setting up virtual com port and logger with SDR Console|https://www.youtube.com/watch?v=bxDTGFFy9Uw]]","revision":"0","bag":"default"}
 ,
 {"title":"SDRPlay RSP1A","created":"20230327210939181","creator":"alex","modified":"20230327211011167","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"https://www.sdrplay.com/\n\n","revision":"0","bag":"default"}
@@ -2275,6 +2281,8 @@ Error message and password prompt
 {"title":"ThinkPad T490","created":"20220415111237560","creator":"alexjj","modified":"20220415111507048","modifier":"alexjj","tags":"Hardware","type":"text/vnd.tiddlywiki","text":"Purchased from eBay [[Friday, 15th April, 2022]] for £280. \n\n* i5-8265U\n* 8 GB RAM\n* 256 GB SSD (assume nvme?, doesn't really matter.)\n* 14” 1080p screen \n\nprobably get another 8GB stick of RAM and maybe larger drive? It’s not going to have big files like photos or games so 256 is probably fine. \n\n","revision":"0","bag":"default"}
 ,
 {"title":"Tiny Habits","created":"20220521120242013","creator":"alexjj","modified":"20220521120320731","modifier":"alexjj","tags":"Life","type":"text/vnd.tiddlywiki","text":"https://tinyhabits.com/start-tiny/\n\nJust write one sentence. That's how you start a book. ","revision":"0","bag":"default"}
+,
+{"title":"TM-71E CAT Control notes","created":"20240314105825296","creator":"alex","modified":"20240314110533772","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"* [[Script to issue commands|https://github.com/AG7GN/kenwood]]\n** [[Script to control Kenwood TM-V71]]\n** Might already be part of flrig now?\n* [[Digirig cables|https://digirig.net/product-tag/kenwood-tm-v71e/]]","revision":"0","bag":"default"}
 ,
 {"title":"To Read","created":"20230106205309334","creator":"alex","modified":"20230106205310012","modifier":"alex","tags":"Books","type":"text/vnd.tiddlywiki","revision":"0","bag":"default"}
 ,

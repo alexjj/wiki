@@ -1,0 +1,12 @@
+created: 20240314105825296
+creator: alex
+modified: 20240314110533772
+modifier: alex
+tags: Radio
+title: TM-71E CAT Control notes
+type: text/vnd.tiddlywiki
+
+* [[Script to issue commands|https://github.com/AG7GN/kenwood]]
+** [[Script to control Kenwood TM-V71]]
+** Might already be part of flrig now?
+* [[Digirig cables|https://digirig.net/product-tag/kenwood-tm-v71e/]]
