@@ -1,6 +1,6 @@
 created: 20240310221049201
 creator: alex
-modified: 20240310230706818
+modified: 20240314100145205
 modifier: alex
 tags: Radio SOTA
 title: Ideal SOTA EFHW Design
@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 
 https://www.youtube.com/watch?v=fNqv0rUlMPU
 
-[[Torriod|https://www.mouser.co.uk/ProductDetail/Fair-Rite/2643625002?qs=MLldULe7zY2ZDvtexqlGbA%3D%3D]]
+[[Torriod|https://www.sotabeams.co.uk/toroid-2643625002/]]
 
 * 21 turns total
 * 1 metre of 22 guage magnet wire
@@ -16,6 +16,7 @@ https://www.youtube.com/watch?v=fNqv0rUlMPU
 * Leave a tap after 3rd turn with inch
 * 18 more turns
 * 110 pF capacitor 
+* [[3D design|https://www.thingiverse.com/thing:6518727]]
 
 Testing with 2.2 kOhm resistor to ground of BNC and banana
 
