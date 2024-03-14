@@ -1,12 +1,21 @@
 created: 20240314105825296
 creator: alex
-modified: 20240314110533772
+modified: 20240314115613107
 modifier: alex
 tags: Radio
 title: TM-71E CAT Control notes
 type: text/vnd.tiddlywiki
 
+Objective is to have the computer control the frequency for satellites to automatically adjust for doppler.
+
+!! Software
+ 
 * [[Script to issue commands|https://github.com/AG7GN/kenwood]]
 ** [[Script to control Kenwood TM-V71]]
-** Might already be part of flrig now?
+* [[Hamlib|https://github.com/Hamlib/Hamlib]] support TM-V71
+
+!!! Hardware
+
 * [[Digirig cables|https://digirig.net/product-tag/kenwood-tm-v71e/]]
+* Serial cable into PC port
+** [[FTDI drivers|http://www.ftdichip.com/Documents/InstallGuides.htm]]
