@@ -1,6 +1,6 @@
 created: 20230725213835418
 creator: alex
-modified: 20230725214044801
+modified: 20240317151222676
 modifier: alex
 tags: Radio
 title: IC-705
@@ -10,3 +10,8 @@ type: text/vnd.tiddlywiki
 * SDR control [[iOS app|https://roskosch.de/sdr-control-ios/]]
 * ICOM RC28 the wheel/buttons remote control for computer
 * Simplex
+
+Other uses:
+
+* [[Setup for 23cm (1.2GHz)|https://3fs.net.au/ic-705/1296-on-the-ic-705/]]
+* [[Setup for 3cm (10GHz)|https://3fs.net.au/10-ghz-amateur-radio-3cm/]]
