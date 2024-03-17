@@ -1,0 +1,18 @@
+created: 20240317083823704
+creator: alex
+modified: 20240317084002199
+modifier: alex
+tags: Radio
+title: QLog
+type: text/vnd.tiddlywiki
+
+
+<<<
+QLog is an Amateur Radio logging application for Linux, Windows and Mac OS. It is based on the Qt framework and uses SQLite as database backend.
+
+QLogs aims to be as simple as possible, but to provide everything the operator expects from the log to be. This log is not currently focused on contests.
+
+<<<
+
+
+https://github.com/foldynl/QLog
