@@ -1,6 +1,6 @@
 created: 20240310221049201
 creator: alex
-modified: 20240314100145205
+modified: 20240317214143833
 modifier: alex
 tags: Radio SOTA
 title: Ideal SOTA EFHW Design
@@ -26,5 +26,6 @@ Big test of options:
 * [[youtube|https://www.youtube.com/watch?v=nZ-G4hJCTSM]]
 * Uses the 64:1 QRP as his choice (<1.5:1 on inverted L)
 * case
-** hammond enclosure
+** [[hammond enclosure|https://www.hammfg.com/electronics/small-case/plastic/1551]]
+*** 1551GFLGY 50 mm x 35 mm x 20 mm, with mounting flanges
 ** antanol BNC connector
