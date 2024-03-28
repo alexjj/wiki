@@ -1,0 +1,33 @@
+created: 20240328082907061
+creator: alex
+modified: 20240328084305507
+modifier: alex
+tags: Antenna
+title: Build a Hex Beam
+type: text/vnd.tiddlywiki
+
+* http://www.hex-beam.com/
+* https://www.youtube.com/watch?v=xUe25Z-sn3s
+
+Notes from video
+
+* 11mm tent poles - 5 packets maybe
+** drilled hole through the end, with stainless steel key rig, to attach the ropes and 20m element to it
+* Centre hub, 200mm diameter, 4mm thick (ebay)
+* drilled hydaluic clamps RAPR 112. Class 1 clamp. had to bore to accept 1/2" tube (13mm)
+* 12 clamps, inside is a sleeve, 12.7mm (1/2") wt 0.8 mm, with bolt end stop
+* 304 stainless steel for everything
+* Shaft support, 20mm diameter, for centre mast
+* centre mast 20mm diameter tube. 
+** with clamps RAPR302
+** Coax jumps
+** RG8X
+* PVC encap with M6 eyebolt
+* Ropes, 6 centre, and 6 outer,  webtex paracord 3mm (cheap)
+** will use mastrant P 2mm for final build
+** ends of rope stainless steel S hooks
+* Elements
+** Stainless steel wire, 1mm diameter. Copper ferrules to create loops, use wing nut and loop to attach to centre post
+** Clamp with plastic clip on clamps, for tent poles
+* Mast
+** Wimo 11m mast (65/20)
