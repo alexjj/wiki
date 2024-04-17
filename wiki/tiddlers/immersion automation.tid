@@ -1,0 +1,11 @@
+created: 20240417105431120
+creator: alex
+modified: 20240417105547603
+modifier: alex
+tags: [[Smart Home]]
+title: immersion automation
+type: text/vnd.tiddlywiki
+
+* https://community.home-assistant.io/t/smart-immersion-heating-for-domestic-hot-water/536281
+* https://sonoff.tech/product-review/how-sonoff-works-with-home-assistant/
+* https://github.com/AlexxIT/SonoffLAN
