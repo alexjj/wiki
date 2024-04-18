@@ -1,6 +1,6 @@
 created: 20240416192136660
 creator: alex
-modified: 20240417220739949
+modified: 20240418075111068
 modifier: alex
 tags: [[Smart Home]]
 title: Home battery solution
@@ -35,3 +35,5 @@ Combined inverter plus battery
 * Renogy 2kW inverter
 * Penology smart LiFePO4 battery
 * Charge controller, 
+
+[[Cable sizing|http://assets.bluesea.com/files/resources/newsletter/images/DC_wire_selection_chartlg.jpg]]
