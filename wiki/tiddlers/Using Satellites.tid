@@ -1,6 +1,6 @@
 created: 20221220224312364
 creator: alex
-modified: 20231015200835325
+modified: 20240419190351892
 modifier: alex
 tags: Radio
 title: Using Satellites
@@ -19,6 +19,10 @@ Good full duplex transceivers:
 * Kenwood TH-D72A
 * ICOM IC-9700
 * ICOM ID-5100A
+
+!!! LEO packs
+
+* https://antennas-amplifiers.com/product-category/leo-pack/
 
 !!! Antenna rotators
 
