@@ -1,6 +1,6 @@
 created: 20240421134023415
 creator: alex
-modified: 20240421134315383
+modified: 20240421182425751
 modifier: alex
 tags: Lego
 title: Motorise Lego train switch points
@@ -10,3 +10,8 @@ type: text/vnd.tiddlywiki
 * https://thetechnicgear.com/2014/10/howto-create-lego-motorized-train-points-track/
 
 Use servo and move 40 degrees.
+
+Alternatives:
+
+* https://brickshelf.com/cgi-bin/gallery.cgi?f=488878
+** Power Functions
