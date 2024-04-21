@@ -1,10 +1,31 @@
 created: 20240421134023415
 creator: alex
-modified: 20240421182425751
+modified: 20240421193012599
 modifier: alex
 tags: Lego
 title: Motorise Lego train switch points
 type: text/vnd.tiddlywiki
+
+[[Looks to be the best solution|https://rebrickable.com/mocs/MOC-147294/BatteryPoweredBricks/low-profile-switching-machine-mod/]], either PU or PF motors.
+
+* PowerUp L size
+* PF L and M
+
+Having said that, if I can find angular motors, [[this one is also good.|https://rebrickable.com/mocs/MOC-176935/TobyMac/motorized-train-switch/]]
+
+!! Power Function (older) or newer PowerUP?
+
+Power up is more expensive, but can use rpi or [[Brick Automation Project]], plus annoying batteries and short cables. 
+
+PowerFunction is better:
+
+* stack cables - control two or more switches as a group
+* extension wires (official and custom)
+* Can join 9V and PF with custom cables
+** Using the 9V train regulator and cable means it could run from mains power the IR controller
+* Can use one remote to change 4x2 (8) switches from one hand switch
+* Also Dacta serial interface
+* 
 
 * This [[video|https://www.youtube.com/watch?v=5NE8KHv9FF0]]
 * https://thetechnicgear.com/2014/10/howto-create-lego-motorized-train-points-track/
