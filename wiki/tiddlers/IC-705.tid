@@ -1,6 +1,6 @@
 created: 20230725213835418
 creator: alex
-modified: 20240317151222676
+modified: 20240509203036836
 modifier: alex
 tags: Radio
 title: IC-705
@@ -15,3 +15,11 @@ Other uses:
 
 * [[Setup for 23cm (1.2GHz)|https://3fs.net.au/ic-705/1296-on-the-ic-705/]]
 * [[Setup for 3cm (10GHz)|https://3fs.net.au/10-ghz-amateur-radio-3cm/]]
+
+
+Amp options:
+
+* [[Juma PA 100d|https://rowaves.com/juma-pa-100d-100w-hf-linear-pa/]] - no ATU though
+* Xiegu XPA125B
+* Hardrock 50
+* RM Italy options
