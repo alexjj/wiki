@@ -1,0 +1,15 @@
+created: 20240517195912047
+creator: alex
+modified: 20240517200121475
+modifier: alex
+tags: Radio Software
+title: Update Cloudlog
+type: text/vnd.tiddlywiki
+
+Look up latest release tag, then:
+
+`git pull origin <tag>`
+
+If a file complains, e.g. install.php, can just do `git checkout install/install.php` with the file name.
+
+Then reset permissions with the file in `/var/www/` and restart `php8.2-fpm` and `nginx`.
