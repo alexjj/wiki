@@ -1,6 +1,6 @@
 created: 20240517135438190
 creator: alex
-modified: 20240517135622039
+modified: 20240517141655152
 modifier: alex
 tags: Satellite Radio SOTA
 title: QO-100 SOTA setup
@@ -9,3 +9,14 @@ type: text/vnd.tiddlywiki
 * http://www.hybridpretender.nl/
 * [[Uk seller|https://jgtech.com/qo100-items/qo100-sat-rover]]
 * [[Youtube explainer|https://www.youtube.com/watch?v=JQNoFGzKpuw]]
+
+His story for finding sat:
+
+* For Rx: Set to 144.5, FM, turn off squelch, wait for noise to go away
+** This is lower beacon of sat. Switch to SSB to hear the lower beacon
+* For Tx: (Using FM moves frequency faster). Look for own echo.
+** Power to 1.5W, mic gain to 0, use FM to send carrier. When stop can see the white dot. 
+** Use RIT control to see if the white dot aligns
+* Can also use BATC mobile webSDR to check
+
+With 60cm dish, 4-5 W output isn't very strong but enough to make QSOs.
