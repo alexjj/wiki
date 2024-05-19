@@ -1,6 +1,6 @@
 created: 20240304130656217
 creator: alex
-modified: 20240304130737660
+modified: 20240519194842430
 modifier: alex
 tags: Radio LoRA
 title: Meshtastic
@@ -12,3 +12,12 @@ type: text/vnd.tiddlywiki
 ** https://meshmap.net/
 
 Recommended model: Heltec ESP32 v3 
+
+Techminds build, from this [[video|https://www.youtube.com/watch?v=dU8F1Z0Ne0E]]
+
+* RAKWireless
+* McGillmicrowave 9dBi antenna
+* rpi 4
+* poe hat
+
+[img[meshtastic-base-node.png]]
