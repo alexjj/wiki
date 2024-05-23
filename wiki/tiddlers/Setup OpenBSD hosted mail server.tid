@@ -1,0 +1,9 @@
+created: 20240523205424461
+creator: alex
+modified: 20240523205457612
+modifier: alex
+tags: OpenBSD Software
+title: Setup OpenBSD hosted mail server
+type: text/vnd.tiddlywiki
+
+https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/
