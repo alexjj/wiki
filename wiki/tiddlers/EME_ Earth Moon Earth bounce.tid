@@ -1,12 +1,12 @@
 created: 20230624082016791
 creator: alex
-modified: 20231015053441235
+modified: 20240526200404806
 modifier: alex
 tags: Radio
 title: EME: Earth Moon Earth bounce
 type: text/vnd.tiddlywiki
 
-!!! Links:
+!!! Reference:
 
 * [[3 part series|https://www.hamradio.me/operating-tips/eme-on-a-budget-part-1.html]]
 * https://mmmonvhf.de/eme.php
@@ -19,6 +19,11 @@ type: text/vnd.tiddlywiki
 * TS-2000 etc.
 * 2m amp 400W
 * rotator
+
+!!! Tools
+
+* [[Moonsked|http://www.gm4jjj.co.uk/MoonSked/moonsked.htm]]
+
 
 !!! Reference material on Archive.org
 
