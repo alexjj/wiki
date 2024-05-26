@@ -1,6 +1,6 @@
 created: 20230820211432308
 creator: alex
-modified: 20231028065313267
+modified: 20240526213540638
 modifier: alex
 tags: Radio Satellite
 title: Kenwood TH-D72
@@ -46,3 +46,4 @@ Get a SMC-34 mic which has three programmable buttons and volume knob. Can set t
 * [[RIG control commands for the Kenwood TH-D72 |https://github.com/LA3QMA/TH-D72-]]Kenwood
 
 * [[Nice Quick start for satellites|https://www.work-sat.com/ewExternalFiles/WorkSat-01062023.pdf]]
+* [[APRS2SOTA]]
