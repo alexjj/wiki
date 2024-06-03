@@ -1,6 +1,6 @@
 created: 20230327185315554
 creator: alex
-modified: 20230328213051620
+modified: 20240603222239350
 modifier: alex
 tags: Radio
 title: DMR Radio
@@ -11,6 +11,11 @@ Handset options
 * MD380uv or MD9700
 ** check out other firmware
 * Anytone handheld
+* FT-70DR - fusion
+* Retevis RT3S
+* Anytone AT-D878UVII
+
+With openspot 4 pro.
 
 References
 
