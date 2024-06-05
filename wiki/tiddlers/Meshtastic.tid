@@ -1,6 +1,6 @@
 created: 20240304130656217
 creator: alex
-modified: 20240519194842430
+modified: 20240605203928990
 modifier: alex
 tags: Radio LoRA
 title: Meshtastic
@@ -10,6 +10,8 @@ type: text/vnd.tiddlywiki
 * Maps
 ** https://map.technicallyrural.com/
 ** https://meshmap.net/
+
+* [[Cheap solar node|https://www.youtube.com/watch?v=mgS1011nALk]]
 
 Recommended model: Heltec ESP32 v3 
 
