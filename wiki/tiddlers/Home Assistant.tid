@@ -1,5 +1,7 @@
 created: 20220708104717118
-modified: 20220708104739326
+creator: alex
+modified: 20240606202304764
+modifier: alex
 tags: [[Smart Home]]
 title: Home Assistant
 type: text/vnd.tiddlywiki
@@ -7,3 +9,11 @@ type: text/vnd.tiddlywiki
 https://www.home-assistant.io/
 
 Probably the best option. 
+
+!! Add ons/ extensions
+
+* [[Better power flow graphic|https://github.com/flixlix/power-flow-card-plus]]
+
+!! Dashboard layout ideas
+
+* [[Givenergy and predbat (and solis inverter)|https://www.youtube.com/watch?v=yC9eyVswQ9s]]
