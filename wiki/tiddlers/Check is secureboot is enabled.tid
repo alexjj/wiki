@@ -1,0 +1,12 @@
+created: 20240607124411886
+creator: alex
+modified: 20240607124435960
+modifier: alex
+tags: Linux
+title: Check is secureboot is enabled
+type: text/vnd.tiddlywiki
+
+
+```
+sudo mokutil --sb-state 
+```
