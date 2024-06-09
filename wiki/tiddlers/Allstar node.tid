@@ -1,6 +1,6 @@
 created: 20230703060047793
 creator: alex
-modified: 20240608140159725
+modified: 20240609220103814
 modifier: alex
 tags: Radio
 title: Allstar node
@@ -17,5 +17,12 @@ type: text/vnd.tiddlywiki
 !! Groups:
 
 * hubnet
+* [[DV Scotland|https://dvsph.net/tg23556-dv-scotland-phoenix-multimode]]
 
 HT - https://g1lro.uk/?p=676
+
+Linking digital modes:
+
+* https://dvswitch.groups.io/g/allstarlink
+* https://kv4s.com/2018/05/23/hosting-an-allstar-node-and-an-allstardmr-bridge-in-the-cloud/
+* [[Allstar to DMR|https://docs.google.com/document/d/1eN50Csr29eAprBu7eKA0Bfa2XUcsXw5iktY1Ey-Qjkg/edit]]
