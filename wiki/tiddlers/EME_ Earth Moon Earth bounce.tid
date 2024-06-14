@@ -1,6 +1,6 @@
 created: 20230624082016791
 creator: alex
-modified: 20240526200404806
+modified: 20240614145058051
 modifier: alex
 tags: Radio
 title: EME: Earth Moon Earth bounce
@@ -19,6 +19,10 @@ type: text/vnd.tiddlywiki
 * TS-2000 etc.
 * 2m amp 400W
 * rotator
+
+!!! 1.296 GHz Build
+
+* [[Transverter|https://www.sg-lab.com/TR1300/tr1300.html]] from 144MHz
 
 !!! Tools
 
