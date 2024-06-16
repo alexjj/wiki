@@ -1,0 +1,11 @@
+created: 20240616120508244
+creator: alex
+modified: 20240616121058794
+modifier: alex
+tags: [[Smart Home]]
+title: Cisco SPA525G
+type: text/vnd.tiddlywiki
+
+To reset to factory defaults, press speaker button repeatedly when it boots up once the Cisco logo appears. Supposedly only needs to be pressed 3 times after the Cisco logo has disappeared but unclear when exactly. Repeatedly pressing worked for me.
+
+Default user name and password?
