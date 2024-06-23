@@ -1,0 +1,18 @@
+created: 20240623082756910
+creator: alex
+modified: 20240623082815319
+modifier: alex
+tags: Hardware
+title: Modern Intel CPUs
+type: text/vnd.tiddlywiki
+
+* 12400-12600 non-K: 6 P-Cores & 0 E-Cores (die: H0). Memory: 4800.
+* 12600K: 6 P-Cores and 4 E-Cores (die: C0). Memory: 4800.
+* 13400-13600 non-K: 1.25MB per P-Core, 2MB per E-Core cluster (die: C0). Memory: 4800.
+* 13600K: 2MB per P-Core, 4MB per E-Core cluster (die: B0). Memory: 5600.
+* 14400-14500 non-K: 1.25MB per P-Core, 2MB per E-Core cluster (die: C0). Memory: 4800.
+* 14600 non-K: 2MB per P-Core, 4MB per E-Core cluster (die: B0). Memory: 5600.
+* 14600K: 2MB per P-Core, 4MB per E-Core cluster (die: B0). Memory: 5600.
+
+
+So confusing.
