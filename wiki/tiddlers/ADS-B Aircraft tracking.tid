@@ -1,12 +1,19 @@
 created: 20230328210328931
 creator: alex
-modified: 20230329200745608
+modified: 20240623215247731
 modifier: alex
 tags: Radio
 title: ADS-B Aircraft tracking
 type: text/vnd.tiddlywiki
 
 * Web interface: https://github.com/wiedehopf/tar1090
+** [[Autoinstaller|https://github.com/wiedehopf/adsb-scripts/wiki/Automatic-installation-for-readsb]]
+* Graphs1090
 * https://opensky-network.org/
 * https://www.adsbexchange.com/
 * [[setup blog guide|https://www.atco2.org/news/how-to-setup-your-sdr-for-clean-atc-audio]]
+
+Hardware
+
+* NooElec Flycatcher pi hat
+** [[Video|https://www.youtube.com/watch?v=ov3JOIDLN90]]
