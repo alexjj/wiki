@@ -1,6 +1,6 @@
 created: 20221220224312364
 creator: alex
-modified: 20240419190351892
+modified: 20240702213355530
 modifier: alex
 tags: Radio
 title: Using Satellites
@@ -10,6 +10,10 @@ Can use satellites that have built in FM repeaters.
 
 * [[Find Satellites here|http://amsat.org.ar/pass.htm#]]
 * [[Guide|https://amsat-uk.org/beginners/how-to-work-fm-satellites/]]
+
+For 70cm
+
+* Start at +2 (+10Hz), then step it down over the pass
 
 Good full duplex transceivers:
 
