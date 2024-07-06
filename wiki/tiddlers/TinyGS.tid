@@ -1,0 +1,13 @@
+created: 20240706123040122
+creator: alex
+modified: 20240706123213043
+modifier: alex
+tags: Satellite
+title: TinyGS
+type: text/vnd.tiddlywiki
+
+Tiny Ground station. Listen to lora satellite transmission and be part of a global community.
+
+* [[Main site|https://tinygs.com/]]
+* [[Github|https://github.com/G4lile0/tinyGS/wiki]]
+* [[Video on making a grafana dashboard|https://www.youtube.com/watch?v=jwsSpdWuTwk]] with the data from your ground station
