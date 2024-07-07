@@ -1,0 +1,14 @@
+created: 20230721102720715
+creator: alex
+modified: 20240707213357082
+modifier: alex
+tags: Radio LoRA APRS
+title: LoRa APRS
+type: text/vnd.tiddlywiki
+
+* DollaTek LoRa32 V2.1 433 MHz is a nice i-gate
+* for a tracker you need to buy e.g. a  TT-Go T-Beam
+
+* [[SOTA Thread|https://reflector.sota.org.uk/t/lora-aprs-tracker-part-1/31589]] (Part 1)
+* [[Good 433 antenna for tracker|https://cpc.farnell.com/rf-solutions/flexi-sma-433/antenna-flexi-sma-433mhz/dp/RF00343]]
+* [[Tracker github|https://github.com/richonguzman/LoRa_APRS_Tracker/wiki/]] or alternative [[github|https://github.com/lora-aprs/LoRa_APRS_Tracker]] - not sure which is best?

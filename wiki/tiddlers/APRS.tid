@@ -1,6 +1,6 @@
 created: 20230719154926570
 creator: alex
-modified: 20230721195729511
+modified: 20240707213131097
 modifier: alex
 tags: Radio
 title: APRS
@@ -10,3 +10,5 @@ type: text/vnd.tiddlywiki
 * aprs.fi
 * [[Introduction to aprs|https://n2rac.com/introduction-to-aprs-ddd4097a0dba]]
 * [[Generate passcode|https://aprs.do3sww.de/]]
+* Windows client - http://aprsisce.wikidot.com/
+* [[APRS 2 SOTA|APRS2SOTA]] - https://www.sotaspots.co.uk/
