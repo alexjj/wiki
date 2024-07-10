@@ -373,6 +373,8 @@ Error message and password prompt
 
 <li>Arrow antenna hacks</li>
 
+<li>Aurora static gen</li>
+
 <li>Automad</li>
 
 <li>Backup GitHub repos</li>
@@ -428,6 +430,8 @@ Error message and password prompt
 <li>Caddy notes</li>
 
 <li>Camera I'd like to get or try</li>
+
+<li>capjamesg</li>
 
 <li>Casio Watches</li>
 
@@ -1638,6 +1642,8 @@ Error message and password prompt
 ,
 {"title":"Arrow antenna hacks","created":"20231005142003985","creator":"alex","modified":"20231005142243275","modifier":"alex","tags":"Antenna Satellite","type":"text/vnd.tiddlywiki","text":"* [[Nice PTT button|https://twitter.com/flo_0_/status/1583848372825653248?s=20]]\n* [[Building own headset adapter|https://www.florian-wolters.de/posts/thd7_bm17ic_adapter/]]\n* [[Heli headset. HTH-K for kenwood|https://heilhamradio.com/product/handie-talkie-headset-hth-2/]]\n* Duplexer options\n** [[ebay US|https://www.ebay.co.uk/itm/225458086913]] (Nano AMSAT Duplexer)\n** [[Design|https://kw4fb.com/micro-diplexer/]]","revision":"0","bag":"default"}
 ,
+{"title":"Aurora static gen","created":"20240710115454982","creator":"alex","modified":"20240710115553571","modifier":"alex","tags":"[[web dev]]","type":"text/vnd.tiddlywiki","text":"Made by [[capjamesg]]\n\n* https://github.com/capjamesg/aurora\n* https://aurora.jamesg.blog/","revision":"0","bag":"default"}
+,
 {"title":"Automad","created":"20220105084530855","creator":"alexjj","modified":"20220105084725060","modifier":"alexjj","tags":"Software","type":"text/vnd.tiddlywiki","text":"https://automad.org/\n\nUses [[editor.js]]. Flat file CMS tool. ","revision":"0","bag":"default"}
 ,
 {"title":"Backup GitHub repos","created":"20210829073242147","creator":"alexjj","language":"python","modified":"20210914192456079","modifier":"alexjj","tags":"Software","type":"text/vnd.tiddlywiki","text":"This clones all repos. Not sure if clone will pull updates or if needs adjustment to pull instead. \n\n```python\n#!/bin/env python\n\nimport requests\nfrom subprocess import getoutput\nimport shutil\n\ngithub_user = \"alexjj\"\ngithub_token = \"__personal_access_token\"\ngithub_org = \"your_org\"\ntarget = \".\"\n\nres = requests.get(\"https://api.github.com/orgs/{}/repos\".format(github_org), auth=(github_user, github_token))\n\nfor repo in res.json():\n\tprint(repo['name'])\n\ttry:\n\t    shutil.rmtree(\"{}/{}\".format(target, repo[\"name\"]))\n\texcept OSError as e:\n\t    print(e)\n\n\tprint(getoutput(\"git clone {} {}/{}\".format(\n\t\trepo[\"clone_url\"].replace(\"https://\", \"https://{}@\".format(\n\t\t\tgithub_token\n\t\t)),\n\t\ttarget,\n\t\trepo[\"name\"]\n\t)))\n\n```\n\nAnother option in bash:\n\n```bash\n\nfunction doBackup {\n    URL=$1\n    REPO=$(echo $URL | sed -e 's#^.*/##g' -e 's#.git$##')\n\n    if [ -d $TARGET_REPOS/$REPO ]; then\n        cd $TARGET_REPOS/$REPO\n        git pull --all >/dev/null\n    else\n        echo \"cloning $REPO\"\n        cd $TARGET_REPOS\n        git clone $URL >/dev/null\n    fi\n}\ncurl -s 'https://api.github.com/users/alexjj/repos?type=owner&per_page=500' \\\n    | grep -Eo '\"git_url\": \"[^\"]+\"' \\\n    | sed -e 's#\"git_url\": ##' -e 's#\"##g' \\\n    | while read url; do doBackup $url; done\n```","revision":"0","bag":"default"}
@@ -1693,6 +1699,8 @@ Error message and password prompt
 {"title":"Caddy notes","created":"20221106223725559","modified":"20221106223745176","tags":"Software Websites","type":"text/vnd.tiddlywiki","text":"[[Lots of useful examples|https://caddy.community/t/reverse-proxy-help-w-homeassistant/16806]]","revision":"0","bag":"default"}
 ,
 {"title":"Camera I'd like to get or try","created":"20220925203248735","modified":"20220925203321928","tags":"Photography","type":"text/vnd.tiddlywiki","text":"* Nikon FE\n* Nikon F100\n* Nikon D700","revision":"0","bag":"default"}
+,
+{"title":"capjamesg","created":"20240710115604991","creator":"alex","modified":"20240710115619027","modifier":"alex","tags":"Person","type":"text/vnd.tiddlywiki","text":"https://jamesg.blog/\n\nLike his blog design and content","revision":"0","bag":"default"}
 ,
 {"title":"Casio Watches","created":"20221128220707870","creator":"alex","modified":"20230121170446325","modifier":"alex","tags":"Hardware","type":"text/vnd.tiddlywiki","text":"* A700. Nice backlight and bracelet\n* A500 - world clock\n* F-91W - the classic one.\n* W-86, improved F-91W\n* Edifice EFV-110D - classic analogue watch\n* LCW-M100TSE - solar powered and multiband using world time. titanium. \n* EFR-S108D - robust and nice spec.\n* MTS-110 - minimalist look and nice dial\n* Gold AQ-230 - Grandad's watch.\n\nG-Shock series\n\n* GA-2100 1A - Jack bought one. Looks quite slim","revision":"0","bag":"default"}
 ,
