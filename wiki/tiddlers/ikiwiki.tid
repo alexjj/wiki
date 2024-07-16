@@ -1,6 +1,6 @@
 created: 20210823200509336
 creator: alexjj
-modified: 20240716180837956
+modified: 20240716181749622
 modifier: alex
 tags: Software
 title: ikiwiki
@@ -17,6 +17,8 @@ A flexible static site generator with some dynamic features.
 * [[Good ikiwiki build in docker|https://github.com/jmtd/opinionated-ikiwiki/]]
 * [[ikiwiki users]]
 * [[import from Wordpress|https://github.com/lamby/ikiwiki-wordpress-import]] 
+* [[bug report|https://bugs.debian.org/cgi-bin/%3Ca%20href=%22bugreport.cgi?bug=658708%22%3E658708%3C/a%3E]] with improved code and pre CSS for action tabs 
+** the [[guy's ikiwiki repo and css|https://github.com/rbrito/rbrito/blob/master/local.css]]. 
 
 !! Installation Process
 
