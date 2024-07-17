@@ -1,0 +1,19 @@
+created: 20240717052347837
+creator: alex
+modified: 20240717052611524
+modifier: alex
+tags: Software
+title: LTSpice - circuit simulator
+type: text/vnd.tiddlywiki
+
+
+<<<
+LTspice® is a high performance SPICE simulation software, schematic capture and waveform viewer with enhancements and models for easing the simulation of analog circuits.
+<<<
+
+
+
+https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator/ltspice-recommended-reading-list.html
+
+also a book: LTSpice essentials, published by Elektor,
+ISBN978-3-89576-622-0
