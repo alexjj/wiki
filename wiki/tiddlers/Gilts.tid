@@ -1,12 +1,21 @@
 created: 20240722095326028
 creator: alex
-modified: 20240722095547989
+modified: 20240723220257306
 modifier: alex
 tags: Money
 title: Gilts
 type: text/vnd.tiddlywiki
 
-Gilt ladder 
+!! Gilt ladder 
 
 * https://www.reddit.com/r/FIREUK/s/cpflzsbTJF
 ** https://lategenxer.streamlit.app/Gilt_Ladder
+* https://monevator.com/index-linked-gilt-ladder/
+
+No CGT on gilts. Can hold in GIA on HL for zero cost.
+
+Check out Helford pirate on [[lemon fool for a spreadsheet|https://www.lemonfool.co.uk/viewtopic.php?f=52&t=41004&sid=31a7e87df09fa7bd68c16537243a9642]]. With [[tradeweb|https://reports.tradeweb.com/closing-prices/gilts/]] or [[yieldgimp|https://www.yieldgimp.com/index-linked-gilt-yields]]...
+
+Comments you need to quote the number of gilts by x100 to HL. Sheet says 62 but quote 6200. [[Old thread on linker spreads|https://www.lemonfool.co.uk/viewtopic.php?t=5479]]. Try to avoid offer price, put in a limit order a few basis points though mid-yield. AJ Bell accepts limit order on linkers.
+
+Four Pillars book by Bernstein ?
