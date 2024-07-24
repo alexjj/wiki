@@ -1,9 +1,11 @@
 created: 20240710190947638
 creator: alex
-modified: 20240710193851719
+modified: 20240724105632977
 modifier: alex
 tags: Books
 title: Open Calibre sites directory
 type: text/vnd.tiddlywiki
 
-http://85.10.194.198:5001/index/summary
+* http://85.10.194.198:5001/index/summary
+* https://github.com/dwilliamhouston/Calishot-2.0
+** https://www.reddit.com/r/opencalibre/s/fb24KL7agE
