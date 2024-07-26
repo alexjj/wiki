@@ -1,0 +1,20 @@
+created: 20240726120458902
+creator: alex
+modified: 20240726123758064
+modifier: alex
+tags: Radio
+title: Radcom Summary - Aug 2024
+type: text/vnd.tiddlywiki
+
+Thought I'd write out a few notes from reading this month's edition.
+
+* After 50 years as RSGB member you get a discount, and after 60 it's free!
+* Nice article on antennas and some cheaper options
+** Can use 75 ohm feeder, e.g. RG-6 (losses like RG213, thickness of RG58 and 1kW rating) look up on youtube how to fit a PL-259 to these cables.
+** Fine for receiving if never want to transmit on it.
+** For wire, can use 2mm aluminium electric-fence wire
+* Hints and kinks book for radio amateur looks interesting. £25.49 for RSGB member.
+* FNIRSI DPOX180H handheld oscilloscope - £80 from aliexpress etc.
+** Fine for up to 50 MHz, probably not the greatest.
+* Decent, older 2m radios: IC-275, IC-271, FT-221 or FT-225
+* [[Minos |https://minos.sourceforge.net/]]logging software for VHF

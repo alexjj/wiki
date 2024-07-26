@@ -1,6 +1,6 @@
 created: 20210823200509336
 creator: alexjj
-modified: 20240716181749622
+modified: 20240726125639980
 modifier: alex
 tags: Software
 title: ikiwiki
@@ -32,9 +32,6 @@ On Debian:
 
 `sudo addgroup --system ikiwiki`
 
-`sudo adduser ikiwiki --system --ingroup ikiwiki --shell /bin/bash`
-
-OR
 `sudo adduser --gecos "ikiwiki user" --disabled-password ikiwiki`
 
 and then log in using ikiwiki user:
