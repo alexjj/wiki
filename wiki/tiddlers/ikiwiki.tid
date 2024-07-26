@@ -1,6 +1,6 @@
 created: 20210823200509336
 creator: alexjj
-modified: 20240726125639980
+modified: 20240726181038384
 modifier: alex
 tags: Software
 title: ikiwiki
@@ -77,6 +77,10 @@ and run the setup again:
 and exit the ikiwiki user, because we don't need it anymore
 
 `exit`
+
+Fix the permissions
+
+`chmod 6775 -R /home/ikiwiki`
 
 2. Let's Encrypt
 2.1 install certbot
