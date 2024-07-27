@@ -1,15 +1,16 @@
 created: 20230725213835418
 creator: alex
-modified: 20240707161903701
+modified: 20240727154125398
 modifier: alex
 tags: Radio
 title: IC-705
 type: text/vnd.tiddlywiki
 
 * Alternative ATU: LDG Z100Plus
+* ATU-10 ([[groups.io|https://groups.io/g/ATU100]])
 * SDR control [[iOS app|https://roskosch.de/sdr-control-ios/]]
 * ICOM RC28 the wheel/buttons remote control for computer
-* Simplex
+* [[wfview|https://wfview.org/]] - open source remote control 
 
 Other uses:
 
