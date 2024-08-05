@@ -203,6 +203,8 @@ Error message and password prompt
 
 <li>$:/DefaultTiddlers</li>
 
+<li>$:/discoverfeed</li>
+
 <li>$:/favicon.ico</li>
 
 <li>$:/Import</li>
@@ -322,6 +324,8 @@ Error message and password prompt
 <li>Achievement</li>
 
 <li>Action and Satisfaction</li>
+
+<li>Add RSS to TW</li>
 
 <li>ADS-B Aircraft tracking</li>
 
@@ -1167,6 +1171,8 @@ Error message and password prompt
 
 <li>Royal Road Test</li>
 
+<li>RSS Feed</li>
+
 <li>Rsync</li>
 
 <li>RustScan</li>
@@ -1518,6 +1524,8 @@ Error message and password prompt
 ,
 {"title":"$:/DefaultTiddlers","created":"20221228144234726","creator":"alex","modified":"20230106212137104","modifier":"alex","type":"text/vnd.tiddlywiki","text":"[[Welcome]] [[Less]]","revision":"0","bag":"default"}
 ,
+{"title":"$:/discoverfeed","created":"20240805170217247","creator":"alex","modified":"20240805170515721","modifier":"alex","rssfile":"https://wiki.alexjj.com/rss.xml","serverdomain":"https://wiki.alexjj.com","type":"text/vnd.tiddlywiki","revision":"0","bag":"default"}
+,
 {"title":"$:/favicon.ico","type":"image/x-icon","created":"20230105204244057","creator":"alex","modified":"20230105204248539","modifier":"alex","_canonical_uri":"./images/%2524%253A%252Ffavicon.ico","revision":"2","bag":"default"}
 ,
 {"title":"$:/Import","status":"complete","type":"text/vnd.tiddlywiki","text":"The following tiddlers were imported:\n\n# [[Main Tax-Free Allowances for an Adult in the UK]]","revision":"0","bag":"default"}
@@ -1637,6 +1645,8 @@ Error message and password prompt
 {"title":"Achievement","created":"20230221193313257","creator":"alex","modified":"20230221193351880","modifier":"alex","tags":"Quotations","type":"text/vnd.tiddlywiki","text":"\u003C\u003C\u003C.tc-big-quote\nNever mistake activity for achievement.\n\u003C\u003C\u003CJohn Wooden","revision":"0","bag":"default"}
 ,
 {"title":"Action and Satisfaction","created":"20220624072735897","modified":"20220926081619072","tags":"Quotations","type":"text/vnd.tiddlywiki","text":"\n\u003C\u003C\u003C.tc-big-quote\nLook at a day when you are supremely satisfied at the end. It's not a day when you lounge around doing nothing; it's a day you've had everything to do and you've done it.\n\u003C\u003C\u003CMargaret Thatcher: [[Book.|https://www.goodreads.com/book/show/3738214-as-i-said-to-dennis]]\n","revision":"0","bag":"default"}
+,
+{"title":"Add RSS to TW","created":"20240805165412076","creator":"alex","modified":"20240805170111142","modifier":"alex","tags":"Meta","type":"text/vnd.tiddlywiki","text":"[[From here.|https://radar231.com/posts/rss-feed-for-tiddlywiki-ssg-website/]]\n\nAdd a step to render a RSS feed file in the script:\n\n```\ntiddlywiki --load index.html --render \"[[RSS Feed]]\" \"rss.xml\" text/plain\n```\n\nIt takes the [[RSS Feed]] tiddler and generates a rss.xml file Also a [[$:/discoverfeed]] settings page.","revision":"0","bag":"default"}
 ,
 {"title":"ADS-B Aircraft tracking","created":"20230328210328931","creator":"alex","modified":"20240623215247731","modifier":"alex","tags":"Radio","type":"text/vnd.tiddlywiki","text":"* Web interface: https://github.com/wiedehopf/tar1090\n** [[Autoinstaller|https://github.com/wiedehopf/adsb-scripts/wiki/Automatic-installation-for-readsb]]\n* Graphs1090\n* https://opensky-network.org/\n* https://www.adsbexchange.com/\n* [[setup blog guide|https://www.atco2.org/news/how-to-setup-your-sdr-for-clean-atc-audio]]\n\nHardware\n\n* NooElec Flycatcher pi hat\n** [[Video|https://www.youtube.com/watch?v=ov3JOIDLN90]]\n","revision":"0","bag":"default"}
 ,
@@ -2481,6 +2491,8 @@ Error message and password prompt
 {"title":"Rotators","created":"20230613205523257","creator":"alex","modified":"20231026205732804","modifier":"alex","tags":"Antenna","type":"text/vnd.tiddlywiki","text":"* [[Home build rotator for 70cm/2m|https://www.youtube.com/watch?v=QvWvsNbghxM]]\n* Expensive: [[Yaesu G-5500]] rotator\n* hygain ar 500 rotator £200\n\n!! Software\n\n* https://gitlab.com/librespacefoundation/satnogs/g5500-ardushield\n* http://www.igatemini.com/sat","revision":"0","bag":"default"}
 ,
 {"title":"Royal Road Test","created":"20211209140236814","creator":"alexjj","modified":"20211209140405787","modifier":"alexjj","tags":"Quotations","type":"text/vnd.tiddlywiki","text":"\n\u003C\u003C\u003C.tc-big-quote\nIt was too directly bound to its own anguish to be anything other than a cry of negation; carrying within itself, the seeds of its own destruction.\n\u003C\u003C\u003CEd Ruscha, 1967\n","revision":"0","bag":"default"}
+,
+{"title":"RSS Feed","created":"20240805165630087","creator":"alex","modified":"20240805170004616","modifier":"alex","type":"text/vnd.tiddlywiki","text":"\\define MyFilter(MyTag,domain)\n[tag[$(MyTag)$]!sort[created]limit[10]]\n\\end\n\n&#60;?xml version=\"1.0\" encoding=\"UTF-8\" ?&#62;\u003Cbr />\n&#60;rss version=\"2.0\"&#62;\u003Cbr />\n&#60;channel&#62;\u003Cbr />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;title&#62;\n{{$:/SiteTitle}}\n&#60;/title&#62;\u003Cbr />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;link&#62;{{$:/discoverfeed!!serverdomain}}&#60;/link&#62;\u003Cbr />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;description&#62;\n{{$:/SiteSubtitle}}\n&#60;/description&#62;\u003Cbr />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;lastBuildDate&#62;\u003C$list filter=\"[!is[system]get[modified]!prefix[NaN]!sort[]limit[1]]\" variable=modified>\u003C$list filter=\"[!is[system]modified\u003Cmodified>]\">\u003C$view field=\"modified\" format=date template=\"[UTC]ddd, 0DD mmm YYYY 0hh:0mm:0ss GMT\"/>\u003C/$list>\u003C/$list>&#60;/lastBuildDate&#62;\u003Cbr />\n\u003C$set name=\"MyTag\" value=Feed>\n\u003C$set name=\"domain\" value={{$:/discoverfeed!!serverdomain}}>\n\u003C$list filter=\u003C\u003CMyFilter>>>\n&#60;item&#62;\u003Cbr />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;title&#62;\n\u003C$view field=\"title\"/>\n&#60;/title&#62;\u003Cbr />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;link&#62;\u003C\u003Cdomain>>#\u003C$view field=\"title\" format=\"urlencoded\"/>&#60;/link&#62;\u003Cbr />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;guid&#62;\u003C\u003Cdomain>>#\u003C$view field=\"title\" format=\"urlencoded\"/>&#60;/guid&#62;\u003Cbr />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;pubDate&#62;\u003C$view field=\"modified\" format=date template=\"[UTC]ddd, 0DD mmm YYYY 0hh:0mm:0ss GMT\"/>&#60;/pubDate&#62;\u003Cbr />\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;description&#62;&#60;![CDATA[\u003C$view field=\"text\" format=htmlwikified/>]]&#62;\u003Cbr />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#60;/description&#62;\u003Cbr />&#60;/item&#62;\u003Cbr />\n\u003C/$list>\u003C/$set>\u003C/$set>\n&#60;/channel&#62;\u003Cbr />&#60;/rss&#62;\u003Cbr />","revision":"0","bag":"default"}
 ,
 {"title":"Rsync","created":"20211128235915376","creator":"alexjj","modified":"20211128235933344","modifier":"alexjj","tags":"Software","type":"text/vnd.tiddlywiki","text":"fast copy:\n\n`rsync -aHAXxvP`","revision":"0","bag":"default"}
 ,

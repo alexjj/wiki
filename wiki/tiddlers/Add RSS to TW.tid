@@ -1,0 +1,17 @@
+created: 20240805165412076
+creator: alex
+modified: 20240805170111142
+modifier: alex
+tags: Meta
+title: Add RSS to TW
+type: text/vnd.tiddlywiki
+
+[[From here.|https://radar231.com/posts/rss-feed-for-tiddlywiki-ssg-website/]]
+
+Add a step to render a RSS feed file in the script:
+
+```
+tiddlywiki --load index.html --render "[[RSS Feed]]" "rss.xml" text/plain
+```
+
+It takes the [[RSS Feed]] tiddler and generates a rss.xml file Also a [[$:/discoverfeed]] settings page.
