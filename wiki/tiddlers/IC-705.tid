@@ -1,6 +1,6 @@
 created: 20230725213835418
 creator: alex
-modified: 20240809170656871
+modified: 20240809173412880
 modifier: alex
 tags: Radio
 title: IC-705
@@ -12,19 +12,26 @@ type: text/vnd.tiddlywiki
 * ICOM RC28 the wheel/buttons remote control for computer
 * [[wfview|https://wfview.org/]] - open source remote control 
 * [[Doozy|https://www.pa7lim.nl/doozy/]] - access DStar via windows puter
+* Bluetooth - Icom VS3 but likely others
 
-Other uses:
+!!! Other uses:
 
 * [[Setup for 23cm (1.2GHz)|https://3fs.net.au/ic-705/1296-on-the-ic-705/]]
 * [[Setup for 3cm (10GHz)|https://3fs.net.au/10-ghz-amateur-radio-3cm/]]
 
-Nice case: "Marshall Middleton Bluetooth Speaker" from Amazon
+!!! Cases etc.
 
-Bluetooth - Icom VS3 but likely others
+* Nice case: "Marshall Middleton Bluetooth Speaker" from Amazon
+* Windcamp ARK cage 
+* Alternative set:
+** [[Cage|https://peovi.com/products/ic705-tatical-cage]], [[cover|https://peovi.com/products/tc705-cover?pr_prod_strat=jac&pr_rec_id=6a7b9e40b&pr_rec_pid=7071077925047&pr_ref_pid=6182146539703&pr_seq=uniform]] and the [[maxpedition bottle holder|https://www.maxpedition.com/products/12-x-5-bottle-holder?variant=27894164305]]
 
-Amp options:
+
+!!! Amp options:
 
 * [[Juma PA 100d|https://rowaves.com/juma-pa-100d-100w-hf-linear-pa/]] - no ATU though
 * Xiegu XPA125B
 * Hardrock 50
 * RM Italy options
+
+[[RBI-1 (or 2)|https://radiodan.com/amplifier-relay-buffer-interfaces/]] for protection against amps. Maybe not needed with the USB-C upgrade
