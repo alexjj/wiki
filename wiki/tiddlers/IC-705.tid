@@ -1,6 +1,6 @@
 created: 20230725213835418
 creator: alex
-modified: 20240727154125398
+modified: 20240809170656871
 modifier: alex
 tags: Radio
 title: IC-705
@@ -11,6 +11,7 @@ type: text/vnd.tiddlywiki
 * SDR control [[iOS app|https://roskosch.de/sdr-control-ios/]]
 * ICOM RC28 the wheel/buttons remote control for computer
 * [[wfview|https://wfview.org/]] - open source remote control 
+* [[Doozy|https://www.pa7lim.nl/doozy/]] - access DStar via windows puter
 
 Other uses:
 
