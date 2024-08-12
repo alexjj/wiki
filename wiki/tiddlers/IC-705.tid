@@ -1,6 +1,6 @@
 created: 20230725213835418
 creator: alex
-modified: 20240809173412880
+modified: 20240812205848613
 modifier: alex
 tags: Radio
 title: IC-705
@@ -33,5 +33,6 @@ type: text/vnd.tiddlywiki
 * Xiegu XPA125B
 * Hardrock 50
 * RM Italy options
+* [[60dbm.com|https://www.60dbm.com/product/100-watt-hf-6m-power-amplifier-for-yaesu-ft-817-icom-ic-703-705-elecraft-kx3-automatic-band-switching/]] amps
 
 [[RBI-1 (or 2)|https://radiodan.com/amplifier-relay-buffer-interfaces/]] for protection against amps. Maybe not needed with the USB-C upgrade
