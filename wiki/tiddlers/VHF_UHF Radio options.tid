@@ -1,8 +1,8 @@
 created: 20230621111301288
 creator: alex
-modified: 20230818213105426
+modified: 20240824102740015
 modifier: alex
-tags: Radio
+tags: Radio SOTA
 title: VHF/UHF Radio options
 type: text/vnd.tiddlywiki
 
@@ -17,3 +17,12 @@ Handhelds:
 
 * Yaesu VX-8DE (also does 6m)
 * Talkpod A36+
+
+
+Handhelds for SOTA:
+
+* Icom V80 (2m)
+* Kenwood TH-79 (2/70)
+* Yaesu VX150/VX170 (2m)
+* Yaesu FT-270R (2m)
+* Yaesu FT-60 (2/70)
