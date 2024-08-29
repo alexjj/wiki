@@ -1,6 +1,6 @@
 created: 20240820205026411
 creator: alex
-modified: 20240827203003713
+modified: 20240829211729106
 modifier: alex
 tags: SOTA
 title: 2m Yagi
@@ -19,3 +19,5 @@ DK7ZB Designs
 * [[nuxcom_construction-manual_lightweight-yagis.pdf]]
 
 [[100g design|https://www.iz2uuf.net/wp/index.php/2013/04/06/100g-yagi/]]
+
+[[3 element design|https://www.thingiverse.com/thing:3464671]] 3D printed for use with 22mm pole. looks nice, likely get adapted to 4 element or more. Not sure how the new feedpoint works.
