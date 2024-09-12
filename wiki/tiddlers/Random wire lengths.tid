@@ -1,6 +1,6 @@
 created: 20230725084823679
 creator: alex
-modified: 20230807220949124
+modified: 20240912203159245
 modifier: alex
 tags: Antenna
 title: Random wire lengths
@@ -23,6 +23,15 @@ Next best:
 always make it a bit longer then measure VSWR. 
 
 Several people recommend 84' (25.6m) plus 17' (5.2m) radial. 
+
+!!! Portable options
+
+* 41' and 17' (12.5m and 5.18m)
+* 57' and 17' (17.4) - KX2 should internally tune
+* 9.2m and 5.1 radial (with 10m sotabeams travel mast)
+** Great, as long as radial on ground, else get poor SWR. Works all except 60m
+* [[This one.|https://hb9sota.ch/wp-content/uploads/2021/05/All-band-antenna-for-the-KX2-KXAT2.pdf]]
+** 
 
 !!! Counterpoise
 
