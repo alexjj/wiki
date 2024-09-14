@@ -1,0 +1,11 @@
+created: 20240914210221766
+creator: alex
+modified: 20240914210259078
+modifier: alex
+tags: SOTA
+title: SOTA DX Cluster
+type: text/vnd.tiddlywiki
+
+`nc cluster.sota.org.uk 7300` with netcat, or use raw with putty.
+
+`sh/users` shows users logged in
