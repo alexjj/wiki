@@ -1,0 +1,19 @@
+created: 20240914213353324
+creator: alex
+modified: 20240914220900036
+modifier: alex
+tags: Radio
+title: KX2 Notes
+type: text/vnd.tiddlywiki
+
+Alternative bags:
+
+* hama Ancona 130
+** Fits KX2, 2S batery, 41' and 17' wire on winder, 3 guy ropes, guy ring, alloy pegs, mic
+
+Fixs frequency jump:
+
+
+<<<
+Does the displayed frequency change during use? If so and you are using the microphone, make sure you disable the Up/Down buttons in the menu. There’s a software bug that the radio can misread the buttons and it bumps the frequency up or down. Until there’s a fix, in the menu “MIC BTN” switch it to just PTT.
+<<<
