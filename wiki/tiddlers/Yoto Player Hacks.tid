@@ -1,0 +1,20 @@
+created: 20241116143135236
+creator: alex
+modified: 20241116144905443
+modifier: alex
+tags: Audiobooks
+title: Yoto Player Hacks
+type: text/vnd.tiddlywiki
+
+Yoto player is a neat device for kids that's essentially a smart speaker which plays things triggered by NFC. However, it's less invasive than Google/amazon smart devices (hopefully...) there's no mic or audio commands you use the cards (NFC) to play things.
+
+It allows you to make your own cards from RSS, or uploading mp3s, and associate them with NFC cards.
+
+[[Previous sales tracking|https://www.reddit.com/r/YotoPlayer/comments/18qxf13/comment/lej1qq1/]]
+
+Seen people hacking together systems using home streaming, RSS, and cards to get it to play their own stuff, or even music (think an album but via NFC card).
+
+Here are some links that are somewhat relevant:
+
+* Setup [[audiobookshelf|https://www.audiobookshelf.org/]] via docker Setup an RSS Found my iSP ip address Put in a limited port forward rule through my firewall to allow: 18.160.41.0/24 in on port 13378 to my ABS server From there I was able to add a podcast through my Yoto pointing back to my RSS feed
+* [[Audio Vault]] to make playlists of tv shows, e.g. Bluey, for kids to listen to
