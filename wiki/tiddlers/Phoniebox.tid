@@ -1,0 +1,13 @@
+created: 20241208222133550
+creator: alex
+modified: 20241208222201751
+modifier: alex
+tags: Hardware raspberrypi
+title: Phoniebox
+type: text/vnd.tiddlywiki
+
+https://github.com/MiczFlor/RPi-Jukebox-RFID
+
+A Raspberry Pi jukebox, playing local music, podcasts, web radio and streams triggered by RFID cards, web app or home automation. All plug and play via USB. GPIO scripts available. 
+
+http://phoniebox.de/
