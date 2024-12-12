@@ -1,0 +1,12 @@
+created: 20241212220651966
+creator: alex
+modified: 20241212220742623
+modifier: alex
+tags: blogging Software
+title: Jekyll blog notes
+type: text/vnd.tiddlywiki
+
+Plugins used:
+
+* [[Jekyll Picture Tag]]
+* https://github.com/nhoizey/jekyll-postfiles
