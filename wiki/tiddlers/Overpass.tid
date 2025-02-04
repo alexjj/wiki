@@ -1,6 +1,6 @@
 created: 20250204141247585
 creator: alex
-modified: 20250204141628141
+modified: 20250204152227791
 modifier: alex
 tags: OSM
 title: Overpass
@@ -13,3 +13,5 @@ type: text/vnd.tiddlywiki
 * [[Intro video|https://www.youtube.com/watch?v=q9QI4AfwHoM&t=3s]]
 * [[Rate limiting status|https://overpass-api.de/api/status]]
 * [[Overpass tutorial|https://osm-queries.ldodds.com/tutorial/index.html]]
+* [[Bulk editor|https://level0.osmz.ru/]]
+* [[Nice python library to use all OSM things|https://github.com/mocnik-science/osm-python-tools]]
