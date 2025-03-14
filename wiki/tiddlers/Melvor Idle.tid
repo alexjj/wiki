@@ -1,6 +1,6 @@
 created: 20250314213815415
 creator: alex
-modified: 20250314215834922
+modified: 20250314221426348
 modifier: alex
 tags: Games
 title: Melvor Idle
@@ -34,3 +34,14 @@ type: text/vnd.tiddlywiki
 * Storehouses
 ** Be aware of overnight, perhaps build in bulk
 * Resources and production
+
+First build:
+
+* 5x Woodcutters
+* 5x Carpenters
+* 5x Miner's pits
+
+Next Steps:
+
+* More miners
+* basic shelters
