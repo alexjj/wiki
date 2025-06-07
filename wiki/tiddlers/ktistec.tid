@@ -1,0 +1,14 @@
+created: 20250607193324605
+creator: alex
+modified: 20250607193410872
+modifier: alex
+tags: Websites Software
+title: ktistec
+type: text/vnd.tiddlywiki
+
+https://github.com/toddsundsted/ktistec
+
+
+<<<
+Ktistec is an ActivityPub server. It is intended for individual users, not communities of users, although support for additional users will be added in the future. It is designed to have few runtime dependencies -- for example, it uses SQLite as its database, instead of PostgreSQL + Redis + etc. It is licensed under the AGPLv3.
+<<<
