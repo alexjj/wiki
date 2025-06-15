@@ -1,0 +1,60 @@
+created: 20250615164236488
+creator: alex
+modified: 20250615164254029
+modifier: alex
+tags: [[web dev]]
+title: Micro.blog sumos theme css tweaks
+type: text/vnd.tiddlywiki
+
+```css
+:root {
+  --page-background: #FAF9F8;
+  --main-text: #2E2E2E;
+  --main-link: #D26878;
+  --main-link-hover: #B95666;
+  --main-link-border: #E6E4E1;
+  --main-link-border-hover: #D26878;
+  --profile-border: #E6E4E1;
+  --navigation-button-border: #E6E4E1;
+  --navigation-button-background: #FFFFFF;
+  --navigation-button-border-hover: #B95666;
+  --navigation-button-background-hover: #F7EDEE;
+  --navigation-text: #6B6B6B;
+  --navigation-text-hover: #2E2E2E;
+  --heading-color: #2E2E2E;
+  --button-border: #E6E4E1;
+  --button-background: #FFFFFF;
+  --button-border-hover: #D26878;
+  --button-background-hover: #F8E3E6;
+  --button-text: #2E2E2E;
+  --button-text-hover: #2E2E2E;
+  --hr: #E6E4E1;
+  --blockquote-border: #D26878;
+  --blockquote-background: #F8E3E6;
+  --blockquote-text: #2E2E2E;
+  --code-border: #E6E4E1;
+  --code-background: #F3F1EF;
+  --pre-border: #E6E4E1;
+  --pre-background: #F3F1EF;
+  --note: #FFF5C4;
+  --alert: #FAD4D6;
+  --aside: #F5F5F5;
+  --callout: #F4E7F0;
+  --conversation-background: #FAF9F8;
+  --comment-border: #E6E4E1;
+  --footnotes: #6B6B6B;
+  --footnote-super: #B95666;
+  --page-fold: #F5F5F5;
+  --video-placeholder: #F3F1EF;
+  --comment-form-background-color: #FFFFFF;
+  --comment-form-border-color: #E6E4E1;
+  --shared-note: #FFF5C4;
+  --red-text: #D26878;
+  --highlight: #FFFF99;
+}
+
+
+p.attribution.custom_footer {
+  display: none;
+}
+```
