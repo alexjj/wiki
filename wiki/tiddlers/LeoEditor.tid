@@ -1,14 +1,16 @@
 created: 20211014120931867
 creator: alexjj
-modified: 20211014121007847
-modifier: alexjj
+modified: 20250625074844252
+modifier: alex
 tags: Software
 title: LeoEditor
 type: text/vnd.tiddlywiki
 
-http://leoeditor.com/
+https://leo-editor.github.io/leo-editor/
 
 
 <<<
 Leo is a PIM, IDE and outliner that accelerates the work flow of programmers, authors and web designers. Outline nodes may appear in more than one place, allowing multiple organizations of data within a single outline.
 <<<
+
+[[Also VS Code implementation.|https://github.com/boltex/leojs]]
